@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Conciencia Libre",
+  "version": "1.0.0",
+  "description": "Descubre alternativas de software libre mientras navegas.",
+  "author": "Antonio José Requena Baena",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
