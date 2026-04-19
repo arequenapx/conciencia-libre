@@ -1,13 +1,40 @@
 {
   "manifest_version": 3,
   "name": "Conciencia Libre",
-  "version": "1.0.0",
-  "description": "Descubre alternativas de software libre mientras navegas.",
+  "version": "2.5.0",
+  "description": "Fomenta la soberanía tecnológica. Descubre alternativas de Software Libre éticas, gratuitas y seguras mientras navegas.",
   "author": "Antonio José Requena Baena",
+  "homepage_url": "https://github.com/tu-usuario/conciencia-libre",
+  "license": "GPL-3.0-or-later",
+  "permissions": ["storage"],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "js": ["src/content/content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "src/data/alternativas.json",
+        "src/data/logos/*",
+        "icons/*"
+      ],
+      "matches": ["<all_urls>"]
     }
   ]
 }

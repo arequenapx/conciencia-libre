@@ -1,29 +1,15 @@
 # 🐧 Conciencia Libre
 
-Una extensión de navegador (Manifest V3) que detecta cuando visitas la web de un programa privativo y te sugiere una alternativa de Software Libre mediante un banner no intrusivo.
+**Conciencia Libre** es una extensión de navegador de código abierto diseñada para fomentar la soberanía tecnológica y educar a los usuarios sobre las alternativas del Software Libre (FLOSS).
 
 ## 🎯 Objetivo
-Promover el uso de herramientas de código abierto frente a los monopolios del software privativo (ej. sugerir GIMP cuando el usuario visita la página de descarga de Photoshop).
+Romper la inercia del monopolio tecnológico. Cuando un usuario visita la página de descarga o compra de un software privativo (como Microsoft Office o Adobe Photoshop), la extensión interviene de forma educada y no intrusiva, mostrando un aviso con alternativas de código abierto, sus ventajas éticas, licencias y enlaces de descarga oficiales.
 
 ## ⚖️ Licencia
-Este proyecto está licenciado bajo la **GNU GPLv3**. Eres libre de usar, estudiar, compartir y modificar el código.
+Este proyecto se distribuye bajo la licencia **GNU GPLv3**. Eres libre de usar, estudiar, compartir y modificar el código, siempre y cuando las versiones derivadas mantengan esta misma libertad.
 
-
-
-
-graph TD
-    A[Navegador Web] -->|Instala la extension| B(manifest.json)
-    
-    B -->|Define permisos e inyecta| C(content.js : El Agente)
-    B -->|Registra interfaz| D(popup.html / popup.js)
-    
-    C -->|Paso 1: Lee la URL| E{Es URL privativa?}
-    
-    F[(alternativas.json)] -.->|Provee base de datos| E
-    
-    E -->|Si hay coincidencia| G[Paso 3: Crea nodo HTML]
-    E -->|No hay coincidencia| H[Modo silencioso]
-    
-    G -->|Inyecta en document.body| I[Muestra Banner Libre]
-    
-    D -.->|Activa o Desactiva| C
+## 🛠️ Tecnologías
+- JavaScript Vanilla (Sin frameworks, máxima ligereza)
+- Manifest V3 (Estándar moderno y seguro)
+- Shadow DOM (Aislamiento CSS contra bloqueos web)
+- Privacy by Design (Base de datos local, sin rastreo)

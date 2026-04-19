@@ -1,0 +1,12 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradienteHacker" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+
+  <rect width="256" height="256" rx="40" fill="#121826" />
+  
+  <path d="M128,40 C80,40 50,80 50,140 C50,200 80,220 128,220 C176,220 206,180 206,140 C206,100 176,40 128,40 Z M100,80 A12,12 0 1,1 100,104 A12,12 0 1,1 100,80 Z M90,120 C120,120 140,140 140,170 C140,190 110,200 90,200 C70,200 65,180 65,160 C65,130 75,120 90,120 Z" fill="url(#gradienteHacker)" />
+</svg>

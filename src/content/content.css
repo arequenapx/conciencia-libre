@@ -1,0 +1,85 @@
+/* Contenedor del Modal (Capa superior) */
+#cl-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cl-modal-card {
+    background: #121826;
+    width: 450px;
+    border-radius: 12px;
+    overflow: hidden;
+    color: white;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+/* Cabecera */
+.cl-header {
+    background: #10b981;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cl-header h2 { margin: 0; font-size: 18px; }
+.cl-close { cursor: pointer; font-size: 20px; opacity: 0.8; }
+
+/* Alerta Naranja */
+.cl-alert-box {
+    background: #f97316;
+    margin: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+}
+
+/* Tarjeta de Alternativa */
+.cl-alt-card {
+    background: #1f2937;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #374151;
+}
+
+.cl-alt-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cl-tag-licencia {
+    background: #065f46;
+    color: #34d399;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.cl-btn-visitar {
+    display: block;
+    width: 100%;
+    background: #10b981;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.cl-btn-visitar:hover { background: #059669; }
