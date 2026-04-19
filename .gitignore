@@ -1,0 +1,11 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Entornos virtuales de Python (por si en el futuro los usas)
+venv/
+env/
+__pycache__/
+
+# Archivos de empaquetado de producción
+*.zip

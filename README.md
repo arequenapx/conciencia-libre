@@ -1,4 +1,4 @@
-# 🐧 Conciencia Libre
+# Conciencia Libre
 
 **Conciencia Libre** es una extensión de navegador de código abierto diseñada para fomentar la soberanía tecnológica y educar a los usuarios sobre las alternativas del Software Libre (FLOSS).
 
