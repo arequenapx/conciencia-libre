@@ -1,133 +1,37 @@
 #!/bin/bash
 
-echo "🔧 [Conciencia Libre] Aplicando parche UI (Textos y Logos en alternativas)..."
+echo "📝 [Conciencia Libre] Generando documentación extendida..."
 
-# 1. Reescribimos content.js con la lógica de imágenes corregida y el texto exacto
-cat << 'EOF' > src/content/content.js
-async function inyectarInterfaz(datos) {
-    const host = document.createElement('div');
-    host.id = '__conciencia_libre_v1_root__';
-    document.body.appendChild(host);
-    const shadow = host.attachShadow({ mode: 'open' });
+cat << 'EOF' > README.md
+# 🐧 Conciencia Libre
 
-    // Cargar la ruta del logo proporcionado por el usuario
-    const logoUrl = chrome.runtime.getURL('icons/logo.svg');
+> **"Tu libertad termina donde empieza el código que no puedes auditar."**
 
-    const estilo = document.createElement('style');
-    estilo.textContent = `
-        * { box-sizing: border-box; }
-        #cl-micro-banner {
-            position: fixed; top: 20px; right: 20px; z-index: 2147483647;
-            background: #1e293b; color: white; padding: 12px 18px;
-            border-radius: 12px; font-family: 'Segoe UI', sans-serif;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-            display: flex; align-items: center; gap: 15px; transition: 0.3s;
-            border: 1px solid #334155;
-        }
-        .cl-brand-logo { width: 28px; height: 28px; }
-        #cl-modal-overlay {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(15, 23, 42, 0.9); display: none;
-            justify-content: center; align-items: center; z-index: 2147483647;
-            font-family: 'Segoe UI', sans-serif;
-        }
-        #cl-modal-card {
-            background: #1e293b; width: 500px; border-radius: 16px;
-            color: white; overflow: hidden; box-shadow: 0 25px 50px rgba(0,0,0,0.5);
-            border: 1px solid #334155;
-        }
-        .cl-card-alt {
-            background: #0f172a; padding: 18px; border-radius: 12px;
-            margin-bottom: 15px; border: 1px solid #334155;
-        }
-        .cl-badge { background: #064e3b; color: #34d399; padding: 3px 8px; border-radius: 6px; font-size: 11px; font-weight: bold; }
-        .cl-check-list { list-style: none; padding: 0; margin: 12px 0; font-size: 13px; color: #cbd5e1; }
-        .cl-check-list li { margin-bottom: 6px; }
-        .cl-btn-primario { background: #10b981; color: white; border: none; padding: 12px; border-radius: 8px; cursor: pointer; font-weight: bold; text-decoration: none; display: block; text-align: center; width: 100%; transition: 0.2s; }
-        .cl-btn-primario:hover { background: #059669; }
-    `;
-    shadow.appendChild(estilo);
+## 🎯 Objetivo de la Práctica
+Este proyecto nace en la **UCO (Universidad de Córdoba)** como una iniciativa práctica de **Divulgación y Promoción del Software Libre**. 
 
-    const ui = document.createElement('div');
-    ui.innerHTML = `
-        <div id="cl-micro-banner">
-            <img src="${logoUrl}" class="cl-brand-logo" alt="Conciencia Libre">
-            <div style="font-size: 13px; line-height: 1.4;">
-                <span style="color:#f97316; font-weight:bold;">Software PRIVATIVO encontrado:</span><br>
-                ${datos.privativo}
-            </div>
-            <button id="btn-abrir" style="background:#10b981; color:white; border:none; padding:6px 12px; border-radius:6px; cursor:pointer; font-weight:bold; font-size:11px;">Alternativas</button>
-            <span id="btn-cerrar-b" style="cursor:pointer; opacity:0.5; font-size:16px;">✕</span>
-        </div>
+El objetivo fundamental es combatir el monopolio tecnológico y la inercia de los usuarios al consumir software privativo. En lugar de ser un simple repositorio o wiki pasiva, **Conciencia Libre actúa proactivamente en el momento de la decisión**: cuando un usuario navega por las páginas oficiales de programas propietarios (como Adobe, Microsoft o Autodesk), la extensión interviene de forma educada para mostrar alternativas de Código Abierto (FLOSS) viables, éticas y gratuitas.
 
-        <div id="cl-modal-overlay">
-            <div id="cl-modal-card">
-                <div style="background:#0f172a; padding:20px; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #334155;">
-                    <div style="display:flex; align-items:center; gap:10px;">
-                        <img src="${logoUrl}" style="width:24px; height:24px;">
-                        <strong style="font-size:16px;">Alternativas a ${datos.privativo}</strong>
-                    </div>
-                    <span id="btn-cerrar-m" style="cursor:pointer; font-size:20px; color:#94a3b8;">✕</span>
-                </div>
-                <div style="padding:20px; max-height: 80vh; overflow-y: auto;">
-                    ${datos.alternativas.map(alt => {
-                        // Aquí está la MAGIA restaurada para inyectar el logo
-                        const imgSrc = alt.icono ? chrome.runtime.getURL(alt.icono) : '';
-                        const imgHtml = alt.icono ? `<img src="${imgSrc}" style="width: 36px; height: 36px; border-radius: 8px; object-fit: contain; background: white; padding: 3px; margin-right: 12px;" alt="${alt.nombre} logo" onerror="this.style.display='none'">` : '';
-                        
-                        return `
-                        <div class="cl-card-alt">
-                            <div style="display:flex; justify-content:space-between; align-items:center;">
-                                <div style="display:flex; align-items:center;">
-                                    ${imgHtml}
-                                    <strong style="font-size:18px; color:#f8fafc;">${alt.nombre}</strong>
-                                </div>
-                                <span class="cl-badge">${alt.licencia}</span>
-                            </div>
-                            <div style="font-size:12px; color:#94a3b8; margin-top: 8px;">⭐ ${alt.estrellas} | 💻 ${alt.plataformas.join(', ')}</div>
-                            <p style="font-size:14px; color:#cbd5e1; margin-top: 12px; line-height: 1.4;">${alt.descripcion}</p>
-                            <ul class="cl-check-list">
-                                ${alt.por_que.map(p => `<li>✓ ${p}</li>`).join('')}
-                            </ul>
-                            <a href="${alt.url}" target="_blank" class="cl-btn-primario">Visitar Web Oficial</a>
-                        </div>
-                        `;
-                    }).join('')}
-                </div>
-            </div>
-        </div>
-    `;
-    shadow.appendChild(ui);
+## 🚀 Cómo Funciona (El Motor)
+La extensión opera bajo un estricto enfoque de **"Privacidad por Diseño" (Privacy by Design)**:
+1. **Detección Local:** Escucha la URL actual del navegador sin enviar tu historial a ningún servidor externo.
+2. **Inyección de Shadow DOM:** Si detecta la presencia de software privativo, inyecta una interfaz visual completamente aislada de la página anfitriona, garantizando que el diseño y CSS de la extensión nunca sea bloqueado ni corrompido por la web.
+3. **Base de Conocimiento Local:** Carga una base de datos pre-empaquetada y optimizada con las mejores alternativas libres, detallando sus licencias, plataformas compatibles y argumentos persuasivos de soberanía tecnológica.
 
-    shadow.getElementById('btn-abrir').onclick = () => {
-        shadow.getElementById('cl-micro-banner').style.display = 'none';
-        shadow.getElementById('cl-modal-overlay').style.display = 'flex';
-    };
-    shadow.getElementById('btn-cerrar-b').onclick = () => host.remove();
-    shadow.getElementById('btn-cerrar-m').onclick = () => host.remove();
-}
+## 🛠️ Tecnologías Utilizadas
+Para mantener la coherencia con la filosofía del software libre, se ha evitado el uso de frameworks pesados o tecnologías propietarias:
+- **JavaScript Vanilla (ES6+):** Lógica rápida y ligera, cero dependencias.
+- **Manifest V3:** El estándar más moderno y seguro para extensiones de navegador.
+- **Shadow DOM API:** Aislamiento absoluto de componentes web.
+- **Python 3 (Bot Generador de Base de Datos):** Un script independiente de automatización que gestiona la base de conocimiento, extrae resoluciones, consume APIs de Favicons (Clearbit/Google) y descarga los logos para que la extensión funcione 100% offline.
+- **Bash Scripting:** Automatización integral del despliegue local y control de versiones.
 
-async function motor() {
-    const state = await chrome.storage.local.get('enabled');
-    if (state.enabled === false) return;
+## ⚖️ Licencia
+Este proyecto se distribuye bajo la licencia **GNU GPLv3**. 
+Eres libre de usar, estudiar, modificar y compartir este código. Cualquier trabajo derivado debe heredar esta misma libertad y mantenerse abierto.
 
-    try {
-        const url = chrome.runtime.getURL('src/data/alternativas.json');
-        const res = await fetch(url);
-        const db = await res.json();
-        
-        const currentUrl = window.location.href.toLowerCase();
-        
-        for (const key in db) {
-            if (currentUrl.includes(key)) {
-                inyectarInterfaz(db[key]);
-                break;
-            }
-        }
-    } catch (e) { console.error("CL Error:", e); }
-}
-motor();
+## 🤝 Contribuir
+La base de conocimiento puede expandirse. Si conoces más software privativo y quieres aportar alternativas libres, eres bienvenido a modificar el archivo `scripts/generar_bd.py` y proponer un _Pull Request_ a este repositorio.
 EOF
 
-echo "✅ Script de inyección corregido."
-echo "🔄 Entra en 'brave://extensions', dale a RECARGAR a la extensión y pruébala en 'adobe.com/products/photoshop' o 'notion.so'."
+echo "✅ README.md generado de forma profesional."
