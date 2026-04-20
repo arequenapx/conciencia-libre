@@ -1,0 +1,15 @@
+TÍTULO: Proyecto Conciencia Libre - Arquitectura Frontend y Extensiones
+AUTOR: Antonio José Requena Baena
+
+1. STACK TECNOLÓGICO: LA FILOSOFÍA KISS (Keep It Simple, Stupid)
+Para ser coherentes con la filosofía del proyecto, se evitó el uso de frameworks pesados (React, Angular) o librerías corporativas. La lógica está programada íntegramente en JavaScript Vanilla (ES6+).
+
+2. ESTÁNDAR MANIFEST V3
+El núcleo de la extensión utiliza Manifest V3, el estándar actual impuesto por Google Chrome y Mozilla Firefox. Esto garantiza un menor consumo de memoria y políticas de seguridad estrictas (Content Security Policy).
+
+3. EL RETO DEL DISEÑO: SHADOW DOM API
+Uno de los mayores retos técnicos fue inyectar la interfaz de la extensión en sitios web de terceros sin que el CSS nativo de dichas webs (ej. los estilos globales de la web de Microsoft o Figma) "rompiera" el diseño de nuestra tarjeta de alternativas.
+La solución fue implementar la API de "Shadow DOM". Esto crea un árbol DOM encapsulado y aislado del resto de la página. Los estilos de la web privativa no pueden entrar en nuestro modal, y los nuestros no pueden afectar a la web original, logrando una inyección quirúrgica e indestructible.
+
+4. SEGURIDAD Y VALIDACIÓN EN MOZILLA (AMO)
+Durante la auditoría de seguridad para publicar en Firefox, el linter detectó el uso de `innerHTML` como una vulnerabilidad XSS (Cross-Site Scripting). Para solucionarlo y lograr el aprobado de los revisores, se refactorizó el código implementando la API `DOMParser`, que sanitiza la cadena HTML antes de inyectarla en el Shadow DOM de forma totalmente segura.

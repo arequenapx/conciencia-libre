@@ -1,0 +1,16 @@
+TÍTULO: Proyecto Conciencia Libre - Bot de Automatización y Base de Conocimiento
+AUTOR: Antonio José Requena Baena
+
+1. LA BASE DE CONOCIMIENTO (alternativas.json)
+La extensión opera con una base de datos estática masiva de más de 100 URLs categorizadas en: Diseño Gráfico, Ofimática, 3D/CAD, Vídeo, Comunicación, Desarrollo y Seguridad. Cubre desde Adobe y Microsoft hasta herramientas de Inteligencia Artificial privativas.
+
+2. AUTOMATIZACIÓN CON PYTHON 3
+Mantener los logos e iconos de tantas alternativas libres a mano era inviable. Por ello, el repositorio cuenta con un Bot de automatización escrito en Python (`generar_bd.py`).
+Este bot recorre la lista de software privativo y realiza las siguientes acciones de forma automática:
+- Extrae el dominio de la alternativa libre (ej. gimp.org).
+- Realiza peticiones a la API de Clearbit Logo y, como sistema de respaldo (fallback), a la API de Google Favicons.
+- Descarga el icono en alta calidad y lo guarda en la carpeta local `/src/data/logos`.
+- Genera el archivo final `alternativas.json` vinculando cada ruta local.
+
+3. CONSTRUCCIÓN PARA PRODUCCIÓN (BASH SCRIPTING)
+El proyecto incluye scripts en Bash (`empaquetar.sh`) que separan el entorno de desarrollo del de producción. El script empaqueta únicamente los archivos necesarios (HTML, CSS, JS, JSON y PNGs limpios), excluyendo los scripts de Python y los archivos basura (.gitignore), generando un archivo .zip listo para su distribución oficial en la Chrome Web Store y Mozilla Firefox Add-ons.

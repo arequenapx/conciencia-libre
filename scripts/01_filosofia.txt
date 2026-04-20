@@ -1,0 +1,12 @@
+TÍTULO: Proyecto Conciencia Libre - Documento de Visión y Problema
+AUTOR: Antonio José Requena Baena
+
+1. EL PROBLEMA: LA INERCIA PRIVATIVA
+En el ámbito académico y profesional existe un monopolio de facto de las herramientas de software privativo (Microsoft Office, Adobe Creative Cloud, Autodesk, Zoom). Los usuarios consumen estas herramientas por pura inercia, desconocimiento de alternativas libres, o miedo a la curva de aprendizaje. Los repositorios de software libre (FLOSS) existen, pero son pasivos: esperan a que el usuario tenga la iniciativa de buscar.
+
+2. LA SOLUCIÓN: INTERVENCIÓN PROACTIVA
+"Conciencia Libre" nace como un proyecto de Divulgación y Promoción del Software Libre en la UCO. Es una extensión de navegador (Chrome/Firefox) que cambia el paradigma: de pasivo a proactivo. 
+La extensión monitoriza la navegación web del usuario de forma 100% local. Cuando el usuario entra en la página oficial de un software privativo (por ejemplo, adobe.com/products/photoshop), la extensión inyecta una interfaz visual elegante que le advierte sobre el software propietario y le sugiere alternativas libres de alta calidad (como GIMP o Krita), detallando sus ventajas éticas, licencias y enlaces directos.
+
+3. PRIVACIDAD POR DISEÑO (PRIVACY BY DESIGN)
+La extensión no envía el historial de navegación a ningún servidor. Todo el cruce de datos entre la URL visitada y la base de conocimiento se realiza en el ordenador del usuario utilizando un archivo JSON local. No hay rastreadores ni analíticas, garantizando la privacidad absoluta.

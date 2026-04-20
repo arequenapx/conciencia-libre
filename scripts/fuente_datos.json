@@ -1,0 +1,9 @@
+{
+  "adobe.com/products/photoshop": {
+    "privativo": "Adobe Photoshop",
+    "alternativas": [
+      {"nombre": "GIMP", "url": "https://www.gimp.org/", "descripcion": "Editor profesional de imágenes."},
+      {"nombre": "Krita", "url": "https://krita.org/", "descripcion": "Especializado en pintura digital."}
+    ]
+  }
+}
