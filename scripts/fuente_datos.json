@@ -2,8 +2,446 @@
   "adobe.com/products/photoshop": {
     "privativo": "Adobe Photoshop",
     "alternativas": [
-      {"nombre": "GIMP", "url": "https://www.gimp.org/", "descripcion": "Editor profesional de imágenes."},
-      {"nombre": "Krita", "url": "https://krita.org/", "descripcion": "Especializado en pintura digital."}
+      {
+        "nombre": "GIMP",
+        "url": "https://www.gimp.org/",
+        "descripcion": "Editor profesional de imágenes."
+      },
+      {
+        "nombre": "Krita",
+        "url": "https://krita.org/",
+        "descripcion": "Especializado en pintura digital."
+      }
+    ]
+  },
+  "adobe.com/products/indesign": {
+    "privativo": "Adobe InDesign",
+    "alternativas": [
+      {
+        "nombre": "Scribus",
+        "licencia": "GPLv2+",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Maquetación y autoedición profesional.",
+        "por_que": [
+          "Salida CMYK profesional.",
+          "Soporte ICC.",
+          "Totalmente libre."
+        ],
+        "url": "https://www.scribus.net/"
+      }
+    ]
+  },
+  "adobe.com/products/photoshop-lightroom": {
+    "privativo": "Adobe Lightroom",
+    "alternativas": [
+      {
+        "nombre": "Darktable",
+        "licencia": "GPLv3+",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Revelado fotográfico RAW y flujo de trabajo.",
+        "por_que": [
+          "Edición no destructiva.",
+          "Gestión profesional de color."
+        ],
+        "url": "https://www.darktable.org/"
+      }
+    ]
+  },
+  "adobe.com/products/aftereffects": {
+    "privativo": "Adobe After Effects",
+    "alternativas": [
+      {
+        "nombre": "Natron",
+        "licencia": "GPLv2",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Composición digital y efectos visuales node-based.",
+        "por_que": [
+          "Arquitectura basada en nodos.",
+          "Soporte para plugins OpenFX."
+        ],
+        "url": "https://natrongithub.github.io/"
+      }
+    ]
+  },
+  "adobe.com/products/audition": {
+    "privativo": "Adobe Audition",
+    "alternativas": [
+      {
+        "nombre": "Audacity",
+        "licencia": "GPLv2+",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Editor y grabador de audio multipista.",
+        "por_que": [
+          "Ligero y potente.",
+          "Infinidad de efectos y filtros."
+        ],
+        "url": "https://www.audacityteam.org/"
+      }
+    ]
+  },
+  "autodesk.com/products/maya": {
+    "privativo": "Autodesk Maya",
+    "alternativas": [
+      {
+        "nombre": "Blender",
+        "licencia": "GPLv2+",
+        "estrellas": "5.0",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Suite completa de creación 3D (Modelado, Animación, Render).",
+        "por_que": [
+          "Motor de render Cycles.",
+          "Todo en uno (3D, Video, Esculpido)."
+        ],
+        "url": "https://www.blender.org/"
+      }
+    ]
+  },
+  "sketchup.com": {
+    "privativo": "SketchUp",
+    "alternativas": [
+      {
+        "nombre": "Sweet Home 3D",
+        "licencia": "GPLv2+",
+        "estrellas": "4.3",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Diseño de interiores y modelado arquitectónico sencillo.",
+        "por_que": [
+          "Muy fácil de usar.",
+          "Gran catálogo de muebles libres."
+        ],
+        "url": "http://www.sweethome3d.com/"
+      }
+    ]
+  },
+  "win-rar.com": {
+    "privativo": "WinRAR",
+    "alternativas": [
+      {
+        "nombre": "7-Zip",
+        "licencia": "LGPLv2",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Linux"
+        ],
+        "descripcion": "Compresor de archivos con alta tasa de compresión.",
+        "por_que": [
+          "Formato 7z superior.",
+          "Cifrado AES-256.",
+          "Sin anuncios."
+        ],
+        "url": "https://www.7-zip.org/"
+      }
+    ]
+  },
+  "teamviewer.com": {
+    "privativo": "TeamViewer",
+    "alternativas": [
+      {
+        "nombre": "RustDesk",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Android"
+        ],
+        "descripcion": "Escritorio remoto auto-alojado.",
+        "por_que": [
+          "Control total de tu servidor.",
+          "Seguridad de extremo a extremo."
+        ],
+        "url": "https://rustdesk.com/"
+      }
+    ]
+  },
+  "spotify.com": {
+    "privativo": "Spotify",
+    "alternativas": [
+      {
+        "nombre": "Nuclear",
+        "licencia": "AGPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Reproductor de música por streaming desde fuentes libres.",
+        "por_que": [
+          "Streaming desde YouTube/Soundcloud.",
+          "Sin anuncios."
+        ],
+        "url": "https://nuclear.js.org/"
+      }
+    ]
+  },
+  "microsoft.com/en-us/windows": {
+    "privativo": "Windows 11",
+    "alternativas": [
+      {
+        "nombre": "Linux Mint",
+        "licencia": "GPL",
+        "estrellas": "4.8",
+        "plataformas": [
+          "PC"
+        ],
+        "descripcion": "Sistema operativo moderno, elegante y cómodo.",
+        "por_que": [
+          "Ideal para principiantes.",
+          "Estable y seguro."
+        ],
+        "url": "https://linuxmint.com/"
+      }
+    ]
+  },
+  "google.com/chrome": {
+    "privativo": "Google Chrome",
+    "alternativas": [
+      {
+        "nombre": "Firefox",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Navegador que prioriza la privacidad y los estándares abiertos.",
+        "por_que": [
+          "Motor independiente (Gecko).",
+          "Protección contra rastreo."
+        ],
+        "url": "https://www.mozilla.org/firefox/"
+      },
+      {
+        "nombre": "LibreWolf",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Versión de Firefox enfocada 100% en seguridad y privacidad.",
+        "por_que": [
+          "Sin telemetría.",
+          "Bloqueador de anuncios integrado."
+        ],
+        "url": "https://librewolf.net/"
+      }
+    ]
+  },
+  "vmware.com": {
+    "privativo": "VMware Workstation",
+    "alternativas": [
+      {
+        "nombre": "VirtualBox",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Virtualización potente para uso profesional y doméstico.",
+        "por_que": [
+          "Multiplataforma.",
+          "Gran soporte de hardware virtual."
+        ],
+        "url": "https://www.virtualbox.org/"
+      }
+    ]
+  },
+  "sublimetext.com": {
+    "privativo": "Sublime Text",
+    "alternativas": [
+      {
+        "nombre": "VSCodium",
+        "licencia": "MIT",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Binarios libres de VS Code sin telemetría de Microsoft.",
+        "por_que": [
+          "Mismas extensiones que VS Code.",
+          "Privacidad total."
+        ],
+        "url": "https://vscodium.com/"
+      }
+    ]
+  },
+  "coreldraw.com": {
+    "privativo": "CorelDRAW",
+    "alternativas": [
+      {
+        "nombre": "Karbon",
+        "licencia": "LGPL",
+        "estrellas": "4.0",
+        "plataformas": [
+          "Linux",
+          "Mac",
+          "Win"
+        ],
+        "descripcion": "Aplicación de dibujo vectorial parte de Calligra Suite.",
+        "por_que": [
+          "Extensible.",
+          "Interfaz limpia."
+        ],
+        "url": "https://calligra.org/karbon/"
+      }
+    ]
+  },
+  "matlab.mathworks.com": {
+    "privativo": "MATLAB",
+    "alternativas": [
+      {
+        "nombre": "GNU Octave",
+        "licencia": "GPLv3+",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Lenguaje de alto nivel para computación numérica.",
+        "por_que": [
+          "Compatible con scripts de Matlab.",
+          "Gráficos potentes."
+        ],
+        "url": "https://www.gnu.org/software/octave/"
+      }
+    ]
+  },
+  "trello.com": {
+    "privativo": "Trello",
+    "alternativas": [
+      {
+        "nombre": "Taiga",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Gestión de proyectos ágiles para equipos multidisciplinares.",
+        "por_que": [
+          "Tableros Kanban y Scrum.",
+          "Interfaz muy estética."
+        ],
+        "url": "https://taiga.io/"
+      }
+    ]
+  },
+  "microsoft.com/en-us/microsoft-365/powerpoint": {
+    "privativo": "Microsoft PowerPoint",
+    "alternativas": [
+      {
+        "nombre": "LibreOffice Impress",
+        "licencia": "LGPLv3",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Herramienta de presentaciones multimedia.",
+        "por_que": [
+          "Modo presentaciones 3D.",
+          "Compatible con .pptx."
+        ],
+        "url": "https://es.libreoffice.org/"
+      }
+    ]
+  },
+  "adobe.com/products/acrobat": {
+    "privativo": "Adobe Acrobat Pro",
+    "alternativas": [
+      {
+        "nombre": "PDFarranger",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Linux"
+        ],
+        "descripcion": "Herramienta pequeña para dividir, rotar y mezclar PDFs.",
+        "por_que": [
+          "Simple y rápido.",
+          "Sin funciones innecesarias."
+        ],
+        "url": "https://github.com/pdfarranger/pdfarranger"
+      }
+    ]
+  },
+  "evernote.com": {
+    "privativo": "Evernote",
+    "alternativas": [
+      {
+        "nombre": "Joplin",
+        "licencia": "GPLv2",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Aplicación de notas y tareas con soporte Markdown.",
+        "por_que": [
+          "Cifrado E2EE.",
+          "Sincronización en la nube propia."
+        ],
+        "url": "https://joplinapp.org/"
+      }
+    ]
+  },
+  "discord.com": {
+    "privativo": "Discord",
+    "alternativas": [
+      {
+        "nombre": "Revolt",
+        "licencia": "AGPLv3",
+        "estrellas": "4.3",
+        "plataformas": [
+          "Web",
+          "Win",
+          "Linux"
+        ],
+        "descripcion": "Plataforma de chat para comunidades inspirada en Discord.",
+        "por_que": [
+          "Privacidad por diseño.",
+          "Código abierto."
+        ],
+        "url": "https://revolt.chat/"
+      }
     ]
   }
 }
