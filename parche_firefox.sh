@@ -1,3 +1,63 @@
+#!/bin/bash
+
+echo "🦊 [Conciencia Libre] Aplicando parche quirúrgico para Mozilla Firefox..."
+
+# 1. Parche en Manifest.json (Añadimos el bloque 'browser_specific_settings' exclusivo para Firefox)
+cat << 'EOF' > manifest.json
+{
+  "manifest_version": 3,
+  "name": "Conciencia Libre",
+  "version": "2.5.1",
+  "description": "Fomenta la soberanía tecnológica. Descubre alternativas de Software Libre éticas, gratuitas y seguras mientras navegas.",
+  "author": "Antonio José Requena Baena",
+  "homepage_url": "https://github.com/tu-usuario/conciencia-libre",
+  "license": "GPL-3.0-or-later",
+  "permissions": ["storage"],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "conciencialibre@tu-universidad.edu",
+      "strict_min_version": "109.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "src/data/alternativas.json",
+        "src/data/logos/*",
+        "icons/*"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
+EOF
+echo "✅ Manifest.json actualizado para AMO."
+
+# 2. Parche en content.js (Sustituimos innerHTML por DOMParser para pasar la auditoría de seguridad de Mozilla)
+cat << 'EOF' > src/content/content.js
 async function inyectarInterfaz(datos) {
     const host = document.createElement('div');
     host.id = '__conciencia_libre_v1_root__';
@@ -101,3 +161,11 @@ async function motor() {
     } catch (e) { console.error("CL Error:", e); }
 }
 motor();
+EOF
+echo "✅ content.js saneado."
+
+# 3. Regenerar el ZIP de Producción automáticamente
+NOMBRE_ZIP="conciencia_libre_v2.5.1_produccion.zip"
+rm -f *.zip
+zip -r $NOMBRE_ZIP manifest.json src/ icons/ README.md LICENSE -q
+echo "📦 Nuevo archivo generado: $NOMBRE_ZIP"
