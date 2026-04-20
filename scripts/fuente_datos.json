@@ -443,5 +443,826 @@
         "url": "https://revolt.chat/"
       }
     ]
+  },
+  "postman.com": {
+    "privativo": "Postman",
+    "alternativas": [
+      {
+        "nombre": "Hoppscotch",
+        "licencia": "MIT",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Ecosistema de desarrollo de APIs ligero y rápido.",
+        "por_que": [
+          "Código abierto puro.",
+          "Interfaz moderna y rápida.",
+          "Soporte para WebSocket y GraphQL."
+        ],
+        "url": "https://hoppscotch.io/"
+      }
+    ]
+  },
+  "oracle.com/database": {
+    "privativo": "Oracle Database",
+    "alternativas": [
+      {
+        "nombre": "PostgreSQL",
+        "licencia": "PostgreSQL License",
+        "estrellas": "5.0",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "La base de datos relacional de código abierto más avanzada.",
+        "por_que": [
+          "Extremadamente robusta.",
+          "Soporte de JSONB y GIS.",
+          "Estándar en la industria libre."
+        ],
+        "url": "https://www.postgresql.org/"
+      }
+    ]
+  },
+  "microsoft.com/sql-server": {
+    "privativo": "Microsoft SQL Server",
+    "alternativas": [
+      {
+        "nombre": "MariaDB",
+        "licencia": "GPLv2",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Base de datos relacional creada por los fundadores de MySQL.",
+        "por_que": [
+          "Alta compatibilidad con SQL.",
+          "Rendimiento optimizado.",
+          "Garantía de libertad permanente."
+        ],
+        "url": "https://mariadb.org/"
+      }
+    ]
+  },
+  "github.com": {
+    "privativo": "GitHub (Enterprise)",
+    "alternativas": [
+      {
+        "nombre": "Forgejo",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Forja de software ligera y autogestionada (fork de Gitea).",
+        "por_que": [
+          "Bajo consumo de recursos.",
+          "Soberanía total de tu código.",
+          "Interfaz muy familiar."
+        ],
+        "url": "https://forgejo.org/"
+      }
+    ]
+  },
+  "lastpass.com": {
+    "privativo": "LastPass",
+    "alternativas": [
+      {
+        "nombre": "Bitwarden",
+        "licencia": "GPLv3 / AGPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Gestor de contraseñas de código abierto para individuos y empresas.",
+        "por_que": [
+          "Cifrado de extremo a extremo.",
+          "Auditable públicamente.",
+          "Sincronización gratuita."
+        ],
+        "url": "https://bitwarden.com/"
+      }
+    ]
+  },
+  "nordvpn.com": {
+    "privativo": "NordVPN",
+    "alternativas": [
+      {
+        "nombre": "WireGuard",
+        "licencia": "GPLv2",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Protocolo VPN extremadamente simple, rápido y moderno.",
+        "por_que": [
+          "Mucho más rápido que OpenVPN.",
+          "Menos líneas de código (fácil de auditar)."
+        ],
+        "url": "https://www.wireguard.com/"
+      }
+    ]
+  },
+  "cisco.com/packet-tracer": {
+    "privativo": "Cisco Packet Tracer",
+    "alternativas": [
+      {
+        "nombre": "GNS3",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Simulador de redes real que utiliza imágenes de IOS auténticas.",
+        "por_que": [
+          "Simulación real, no solo visual.",
+          "Utilizado para certificaciones profesionales."
+        ],
+        "url": "https://www.gns3.com/"
+      }
+    ]
+  },
+  "tenable.com/products/nessus": {
+    "privativo": "Nessus",
+    "alternativas": [
+      {
+        "nombre": "OpenVAS",
+        "licencia": "GPL",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Linux"
+        ],
+        "descripcion": "Escáner de vulnerabilidades de red completo y profesional.",
+        "por_que": [
+          "Base de datos de vulnerabilidades actualizada.",
+          "Herramienta clave en auditorías de seguridad."
+        ],
+        "url": "https://www.openvas.org/"
+      }
+    ]
+  },
+  "salesforce.com": {
+    "privativo": "Salesforce CRM",
+    "alternativas": [
+      {
+        "nombre": "Odoo",
+        "licencia": "LGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Servidor"
+        ],
+        "descripcion": "Suite de aplicaciones de negocio que incluye CRM, Ventas y ERP.",
+        "por_que": [
+          "Modular y escalable.",
+          "Gran ecosistema de aplicaciones."
+        ],
+        "url": "https://www.odoo.com/"
+      }
+    ]
+  },
+  "airtable.com": {
+    "privativo": "Airtable",
+    "alternativas": [
+      {
+        "nombre": "NocoDB",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Convierte cualquier base de datos en una hoja de cálculo inteligente.",
+        "por_que": [
+          "Tus datos en tu propia infraestructura.",
+          "API generada automáticamente."
+        ],
+        "url": "https://nocodb.com/"
+      }
+    ]
+  },
+  "lucidchart.com": {
+    "privativo": "Lucidchart",
+    "alternativas": [
+      {
+        "nombre": "diagrams.net",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Software de diagramación profesional (anteriormente draw.io).",
+        "por_que": [
+          "No requiere registro.",
+          "Integración con Drive y GitHub.",
+          "Potente editor offline."
+        ],
+        "url": "https://app.diagrams.net/"
+      }
+    ]
+  },
+  "google.com/analytics": {
+    "privativo": "Google Analytics",
+    "alternativas": [
+      {
+        "nombre": "Matomo",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Analítica web que respeta la privacidad y cumple con RGPD.",
+        "por_que": [
+          "Tú eres el dueño de tus datos.",
+          "Sin muestreo de datos.",
+          "Privacidad 100%."
+        ],
+        "url": "https://matomo.org/"
+      }
+    ]
+  },
+  "surveymonkey.com": {
+    "privativo": "SurveyMonkey",
+    "alternativas": [
+      {
+        "nombre": "LimeSurvey",
+        "licencia": "GPLv2",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "La herramienta líder para encuestas online profesionales.",
+        "por_que": [
+          "Sin límites de preguntas o respuestas.",
+          "Control total de la privacidad."
+        ],
+        "url": "https://www.limesurvey.org/"
+      }
+    ]
+  },
+  "asana.com": {
+    "privativo": "Asana",
+    "alternativas": [
+      {
+        "nombre": "Vikunja",
+        "licencia": "AGPLv3",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Gestor de tareas para organizar tu vida y tu equipo.",
+        "por_que": [
+          "Vistas de lista, kanban y gantt.",
+          "Código abierto y auto-alojable."
+        ],
+        "url": "https://vikunja.io/"
+      }
+    ]
+  },
+  "tableau.com": {
+    "privativo": "Tableau",
+    "alternativas": [
+      {
+        "nombre": "Metabase",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "La forma más rápida y fácil de compartir datos y analítica.",
+        "por_que": [
+          "Visualización intuitiva.",
+          "Permite hacer consultas sin saber SQL."
+        ],
+        "url": "https://www.metabase.com/"
+      }
+    ]
+  },
+  "bitbucket.org": {
+    "privativo": "Bitbucket",
+    "alternativas": [
+      {
+        "nombre": "Gitea",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Servicio de Git auto-alojado sin complicaciones.",
+        "por_que": [
+          "Consumo mínimo de recursos.",
+          "Muy fácil de instalar y mantener."
+        ],
+        "url": "https://gitea.io/"
+      }
+    ]
+  },
+  "jetbrains.com/idea": {
+    "privativo": "IntelliJ IDEA",
+    "alternativas": [
+      {
+        "nombre": "Eclipse IDE",
+        "licencia": "EPL",
+        "estrellas": "4.3",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Entorno de desarrollo integrado para Java y otros lenguajes.",
+        "por_que": [
+          "Ecosistema de plugins gigantesco.",
+          "Estándar histórico en desarrollo Java."
+        ],
+        "url": "https://www.eclipse.org/ide/"
+      }
+    ]
+  },
+  "firebase.google.com": {
+    "privativo": "Google Firebase",
+    "alternativas": [
+      {
+        "nombre": "Supabase",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Cloud / Docker"
+        ],
+        "descripcion": "La alternativa de código abierto a Firebase basada en PostgreSQL.",
+        "por_que": [
+          "Base de datos real (no NoSQL propietaria).",
+          "Autenticación y almacenamiento integrados."
+        ],
+        "url": "https://supabase.com/"
+      }
+    ]
+  },
+  "unity.com": {
+    "privativo": "Unity",
+    "alternativas": [
+      {
+        "nombre": "Godot Engine",
+        "licencia": "MIT",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Motor de juegos 2D y 3D potente y ligero.",
+        "por_que": [
+          "Totalmente gratuito y libre.",
+          "Nodo-basado.",
+          "Lenguaje GDScript intuitivo."
+        ],
+        "url": "https://godotengine.org/"
+      }
+    ]
+  },
+  "unrealengine.com": {
+    "privativo": "Unreal Engine",
+    "alternativas": [
+      {
+        "nombre": "O3DE",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.2",
+        "plataformas": [
+          "Win",
+          "Linux"
+        ],
+        "descripcion": "Open 3D Engine: motor de juegos AAA de código abierto.",
+        "por_que": [
+          "Tecnología de nivel cinematográfico.",
+          "Heredero de Amazon Lumberyard."
+        ],
+        "url": "https://o3de.org/"
+      }
+    ]
+  },
+  "wolfram.com/mathematica": {
+    "privativo": "Wolfram Mathematica",
+    "alternativas": [
+      {
+        "nombre": "SageMath",
+        "licencia": "GPLv3+",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Sistema de software matemático basado en Python.",
+        "por_que": [
+          "Cubre álgebra, combinatoria, análisis numérico.",
+          "Combina el poder de muchas librerías existentes."
+        ],
+        "url": "https://www.sagemath.org/"
+      }
+    ]
+  },
+  "maplesoft.com/products/maple": {
+    "privativo": "Maple",
+    "alternativas": [
+      {
+        "nombre": "Scilab",
+        "licencia": "GPL compatible",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Software para computación numérica y simulación.",
+        "por_que": [
+          "Alternativa potente para ingeniería y ciencias.",
+          "Incluye Xcos para modelado de sistemas."
+        ],
+        "url": "https://www.scilab.org/"
+      }
+    ]
+  },
+  "ibm.com/spss-statistics": {
+    "privativo": "IBM SPSS Statistics",
+    "alternativas": [
+      {
+        "nombre": "Jamovi",
+        "licencia": "GPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Software estadístico moderno, gratuito y abierto.",
+        "por_que": [
+          "Interfaz muy intuitiva y visual.",
+          "Hecho por y para la comunidad científica."
+        ],
+        "url": "https://www.jamovi.org/"
+      },
+      {
+        "nombre": "PSPP",
+        "licencia": "GPLv3",
+        "estrellas": "4.2",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Alternativa libre que replica fielmente la interfaz de SPSS.",
+        "por_que": [
+          "Compatible con archivos de datos de SPSS.",
+          "Sin límites de casos o variables."
+        ],
+        "url": "https://www.gnu.org/software/pspp/"
+      }
+    ]
+  },
+  "solidworks.com": {
+    "privativo": "SolidWorks",
+    "alternativas": [
+      {
+        "nombre": "SolveSpace",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Modelador CAD 2D/3D paramétrico ligero.",
+        "por_que": [
+          "Extremadamente rápido y ligero.",
+          "Ideal para diseño mecánico y piezas 3D."
+        ],
+        "url": "https://solvespace.com/"
+      }
+    ]
+  },
+  "autodesk.com/fusion-360": {
+    "privativo": "Autodesk Fusion 360",
+    "alternativas": [
+      {
+        "nombre": "OpenSCAD",
+        "licencia": "GPLv2",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "El CAD para programadores: modelado mediante código.",
+        "por_que": [
+          "Control total mediante scripts.",
+          "Perfecto para impresión 3D paramétrica."
+        ],
+        "url": "https://openscad.org/"
+      }
+    ]
+  },
+  "altium.com": {
+    "privativo": "Altium Designer",
+    "alternativas": [
+      {
+        "nombre": "KiCad",
+        "licencia": "GPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Suite profesional para el diseño de esquemáticos y placas (PCB).",
+        "por_que": [
+          "Estándar de la industria libre.",
+          "Soporte para proyectos complejos multicapa."
+        ],
+        "url": "https://www.kicad.org/"
+      }
+    ]
+  },
+  "esri.com/arcgis": {
+    "privativo": "ArcGIS",
+    "alternativas": [
+      {
+        "nombre": "QGIS",
+        "licencia": "GPLv2",
+        "estrellas": "5.0",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Android"
+        ],
+        "descripcion": "Sistema de Información Geográfica (SIG) líder en el mundo libre.",
+        "por_que": [
+          "Soporta casi todos los formatos vectoriales y ráster.",
+          "Ecosistema de plugins inmenso."
+        ],
+        "url": "https://www.qgis.org/"
+      }
+    ]
+  },
+  "blackboard.com": {
+    "privativo": "Blackboard",
+    "alternativas": [
+      {
+        "nombre": "Moodle",
+        "licencia": "GPLv3+",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor",
+          "Web"
+        ],
+        "descripcion": "La plataforma de aprendizaje (LMS) más usada del mundo.",
+        "por_que": [
+          "Soberanía sobre el contenido educativo.",
+          "Altamente personalizable.",
+          "Uso oficial en la UCO."
+        ],
+        "url": "https://moodle.org/"
+      }
+    ]
+  },
+  "duolingo.com": {
+    "privativo": "Duolingo",
+    "alternativas": [
+      {
+        "nombre": "Anki",
+        "licencia": "AGPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Tarjetas de memoria inteligentes basadas en repetición espaciada.",
+        "por_que": [
+          "Aprendizaje eficiente de cualquier tema.",
+          "Control total de tus mazos de datos."
+        ],
+        "url": "https://apps.ankiweb.net/"
+      }
+    ]
+  },
+  "twitch.tv": {
+    "privativo": "Twitch",
+    "alternativas": [
+      {
+        "nombre": "Owncast",
+        "licencia": "MIT",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Plataforma de streaming de video en directo autogestionada.",
+        "por_que": [
+          "Tú eres el dueño del canal y de los datos.",
+          "Sin censura ni publicidad externa."
+        ],
+        "url": "https://owncast.online/"
+      }
+    ]
+  },
+  "youtube.com": {
+    "privativo": "YouTube",
+    "alternativas": [
+      {
+        "nombre": "PeerTube",
+        "licencia": "AGPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Web",
+          "Federada"
+        ],
+        "descripcion": "Plataforma de video descentralizada basada en P2P.",
+        "por_que": [
+          "Resistente a la censura.",
+          "No depende de una sola gran corporación."
+        ],
+        "url": "https://joinpeertube.org/"
+      }
+    ]
+  },
+  "techsmith.com/camtasia": {
+    "privativo": "Camtasia",
+    "alternativas": [
+      {
+        "nombre": "OBS Studio",
+        "licencia": "GPLv2",
+        "estrellas": "5.0",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Software libre para grabación de video y transmisión en vivo.",
+        "por_que": [
+          "Potencia profesional.",
+          "Múltiples escenas y fuentes.",
+          "Sin marcas de agua."
+        ],
+        "url": "https://obsproject.com/"
+      }
+    ]
+  },
+  "microsoft.com/active-directory": {
+    "privativo": "Microsoft Active Directory",
+    "alternativas": [
+      {
+        "nombre": "FreeIPA",
+        "licencia": "GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Linux"
+        ],
+        "descripcion": "Gestión de identidad, política y auditoría para entornos Linux.",
+        "por_que": [
+          "Centraliza usuarios, DNS y autenticación.",
+          "Seguridad nativa basada en Kerberos."
+        ],
+        "url": "https://www.freeipa.org/"
+      }
+    ]
+  },
+  "splunk.com": {
+    "privativo": "Splunk",
+    "alternativas": [
+      {
+        "nombre": "ELK Stack",
+        "licencia": "Elastic License / SSPL",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Elasticsearch, Logstash y Kibana para búsqueda y análisis de logs.",
+        "por_que": [
+          "Escalabilidad masiva.",
+          "Visualización de datos en tiempo real."
+        ],
+        "url": "https://www.elastic.co/what-is/elk-stack"
+      }
+    ]
+  },
+  "docker.com/products/docker-desktop": {
+    "privativo": "Docker Desktop",
+    "alternativas": [
+      {
+        "nombre": "Podman",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Linux",
+          "Mac",
+          "Win"
+        ],
+        "descripcion": "Motor de contenedores sin demonio y más seguro.",
+        "por_que": [
+          "No requiere privilegios de root.",
+          "Compatible con comandos de Docker."
+        ],
+        "url": "https://podman.io/"
+      }
+    ]
+  },
+  "ngrok.com": {
+    "privativo": "Ngrok",
+    "alternativas": [
+      {
+        "nombre": "frp",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Un proxy inverso rápido para exponer servidores locales a internet.",
+        "por_que": [
+          "Altamente configurable.",
+          "Soporta múltiples protocolos."
+        ],
+        "url": "https://github.com/fatedier/frp"
+      }
+    ]
+  },
+  "atlassian.com/software/jira": {
+    "privativo": "Jira",
+    "alternativas": [
+      {
+        "nombre": "OpenProject",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Software de gestión de proyectos para equipos ágiles y clásicos.",
+        "por_que": [
+          "Diagramas de Gantt, gestión de costes.",
+          "Seguridad de datos alemana."
+        ],
+        "url": "https://www.openproject.org/"
+      }
+    ]
+  },
+  "google.com/drive": {
+    "privativo": "Google Drive / OneDrive",
+    "alternativas": [
+      {
+        "nombre": "Nextcloud",
+        "licencia": "AGPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Plataforma de colaboración y almacenamiento en la nube propia.",
+        "por_que": [
+          "Tú controlas tus archivos físicamente.",
+          "Incluye calendario, contactos y oficina."
+        ],
+        "url": "https://nextcloud.com/"
+      }
+    ]
+  },
+  "wetransfer.com": {
+    "privativo": "WeTransfer",
+    "alternativas": [
+      {
+        "nombre": "Wormhole",
+        "licencia": "Prop / Open Source (client)",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "Envío de archivos simple con cifrado de extremo a extremo.",
+        "por_que": [
+          "Cifrado en el navegador.",
+          "Enlaces que expiran.",
+          "Más rápido que WeTransfer."
+        ],
+        "url": "https://wormhole.app/"
+      }
+    ]
+  },
+  "grammarly.com": {
+    "privativo": "Grammarly",
+    "alternativas": [
+      {
+        "nombre": "LanguageTool",
+        "licencia": "LGPLv2.1+",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Corrector de estilo, gramática y ortografía multilingüe.",
+        "por_que": [
+          "Funciona en más de 20 idiomas.",
+          "Privacidad superior.",
+          "Extensión libre disponible."
+        ],
+        "url": "https://languagetool.org/"
+      }
+    ]
   }
 }
