@@ -1264,5 +1264,425 @@
         "url": "https://languagetool.org/"
       }
     ]
+  },
+  "adobe.com/products/character-animator": {
+    "privativo": "Adobe Character Animator",
+    "alternativas": [
+      {
+        "nombre": "OpenToonz",
+        "licencia": "BSD",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Software de producción de animación 2D profesional.",
+        "por_que": [
+          "Utilizado por Studio Ghibli.",
+          "Potentes herramientas de escaneo y dibujo.",
+          "Efectos especiales integrados."
+        ],
+        "url": "https://opentoonz.github.io/e/"
+      }
+    ]
+  },
+  "apple.com/logic-pro": {
+    "privativo": "Logic Pro / Ableton Live",
+    "alternativas": [
+      {
+        "nombre": "Ardour",
+        "licencia": "GPLv2",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Estación de trabajo de audio digital (DAW) profesional.",
+        "por_que": [
+          "Grabación y edición multipista ilimitada.",
+          "Soporte para cientos de plugins.",
+          "Control total sobre la señal de audio."
+        ],
+        "url": "https://ardour.org/"
+      }
+    ]
+  },
+  "native-instruments.com/traktor": {
+    "privativo": "Traktor / VirtualDJ",
+    "alternativas": [
+      {
+        "nombre": "Mixxx",
+        "licencia": "GPLv2",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Software de mezcla para DJs profesional y completo.",
+        "por_que": [
+          "Integración con hardware MIDI.",
+          "Soporte para vinilos de código de tiempo.",
+          "Detección de BPM y clave musical."
+        ],
+        "url": "https://mixxx.org/"
+      }
+    ]
+  },
+  "microsoft.com/en-us/microsoft-365/visio": {
+    "privativo": "Microsoft Visio",
+    "alternativas": [
+      {
+        "nombre": "Dia",
+        "licencia": "GPLv2",
+        "estrellas": "4.1",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Programa para la creación de diagramas técnicos.",
+        "por_que": [
+          "Ligero y rápido.",
+          "Soporte para diagramas de red, UML y circuitos.",
+          "Exportación a múltiples formatos vectoriales."
+        ],
+        "url": "http://dia-installer.de/"
+      }
+    ]
+  },
+  "apple.com/final-cut-pro": {
+    "privativo": "Final Cut Pro",
+    "alternativas": [
+      {
+        "nombre": "Shotcut",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Editor de video gratuito, de código abierto y multiplataforma.",
+        "por_que": [
+          "Soporte para resolución 4K nativa.",
+          "No requiere importar archivos (edición directa).",
+          "Interfaz modular."
+        ],
+        "url": "https://shotcut.org/"
+      }
+    ]
+  },
+  "osirix-viewer.com": {
+    "privativo": "OsiriX / Horos",
+    "alternativas": [
+      {
+        "nombre": "Ginkgo CADx",
+        "licencia": "GPLv3",
+        "estrellas": "4.3",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Visualizador DICOM profesional para diagnóstico médico.",
+        "por_que": [
+          "Soberanía sobre datos médicos.",
+          "Herramientas de medición clínica.",
+          "Integración con servidores PACS."
+        ],
+        "url": "https://ginkgo-cadx.com/"
+      }
+    ]
+  },
+  "fitbit.com": {
+    "privativo": "Fitbit / Apple Health",
+    "alternativas": [
+      {
+        "nombre": "Gadgetbridge",
+        "licencia": "GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Android (F-Droid)"
+        ],
+        "descripcion": "Usa tus dispositivos wearables sin enviar datos a la nube.",
+        "por_que": [
+          "Privacidad absoluta de tus datos de salud.",
+          "Soporte para Pebble, Mi Band, Amazfit.",
+          "Sin cuentas externas."
+        ],
+        "url": "https://www.gadgetbridge.org/"
+      }
+    ]
+  },
+  "dropbox.com": {
+    "privativo": "Dropbox",
+    "alternativas": [
+      {
+        "nombre": "Seafile",
+        "licencia": "GPLv2",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Sistema de sincronización de archivos con foco en el rendimiento.",
+        "por_que": [
+          "Sincronización extremadamente rápida de archivos pequeños.",
+          "Cifrado del lado del cliente.",
+          "Historial de versiones eficiente."
+        ],
+        "url": "https://www.seafile.com/"
+      }
+    ]
+  },
+  "mailchimp.com": {
+    "privativo": "Mailchimp",
+    "alternativas": [
+      {
+        "nombre": "Listmonk",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Newsletter y gestor de listas de correo masivo de alto rendimiento.",
+        "por_que": [
+          "Tú eres el dueño de tu lista de contactos.",
+          "Capaz de enviar millones de correos rápido.",
+          "Métricas de privacidad."
+        ],
+        "url": "https://listmonk.app/"
+      }
+    ]
+  },
+  "zapier.com": {
+    "privativo": "Zapier",
+    "alternativas": [
+      {
+        "nombre": "Huginn",
+        "licencia": "MIT",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Sistema para crear agentes que realizan tareas automáticas en la web.",
+        "por_que": [
+          "Tus credenciales y datos no pasan por terceros.",
+          "Lógica de automatización compleja.",
+          "Lee la web y actúa por ti."
+        ],
+        "url": "https://github.com/huginn/huginn"
+      }
+    ]
+  },
+  "twitter.com": {
+    "privativo": "X (Twitter)",
+    "alternativas": [
+      {
+        "nombre": "Mastodon",
+        "licencia": "AGPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web",
+          "Móvil"
+        ],
+        "descripcion": "Red social descentralizada y federada.",
+        "por_que": [
+          "Sin algoritmos de manipulación.",
+          "Propiedad comunitaria.",
+          "Resistente a la compra por corporaciones."
+        ],
+        "url": "https://joinmastodon.org/"
+      }
+    ]
+  },
+  "facebook.com": {
+    "privativo": "Facebook",
+    "alternativas": [
+      {
+        "nombre": "Friendica",
+        "licencia": "AGPLv3",
+        "estrellas": "4.2",
+        "plataformas": [
+          "Web",
+          "Federada"
+        ],
+        "descripcion": "Red social que prioriza la interoperabilidad y privacidad.",
+        "por_que": [
+          "Se conecta con Mastodon y otras redes.",
+          "Tú eliges quién ve tus datos.",
+          "Sin publicidad dirigida."
+        ],
+        "url": "https://friendi.ca/"
+      }
+    ]
+  },
+  "1password.com": {
+    "privativo": "1Password",
+    "alternativas": [
+      {
+        "nombre": "KeePassXC",
+        "licencia": "GPLv2 / GPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Gestor de contraseñas offline extremadamente seguro.",
+        "por_que": [
+          "Tus contraseñas nunca tocan la nube (opcional).",
+          "Base de datos cifrada localmente.",
+          "Multiplataforma y auditable."
+        ],
+        "url": "https://keepassxc.org/"
+      }
+    ]
+  },
+  "anydesk.com": {
+    "privativo": "AnyDesk",
+    "alternativas": [
+      {
+        "nombre": "MeshCentral",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web / Self-hosted"
+        ],
+        "descripcion": "Gestión y control remoto total de dispositivos vía web.",
+        "por_que": [
+          "No requiere clientes pesados.",
+          "Control total de tu propio servidor de soporte.",
+          "Soporta Intel AMT."
+        ],
+        "url": "https://www.meshcommander.com/meshcentral2"
+      }
+    ]
+  },
+  "cpanel.net": {
+    "privativo": "cPanel / Plesk",
+    "alternativas": [
+      {
+        "nombre": "HestiaCP",
+        "licencia": "GPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Linux Server"
+        ],
+        "descripcion": "Panel de control de hosting ligero y potente.",
+        "por_que": [
+          "Limpio y rápido.",
+          "Instalación de certificados SSL con un clic.",
+          "Sin cuotas de licencia mensuales."
+        ],
+        "url": "https://hestiacp.com/"
+      }
+    ]
+  },
+  "insomnia.rest": {
+    "privativo": "Insomnia",
+    "alternativas": [
+      {
+        "nombre": "Bruno",
+        "licencia": "MIT",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Cliente de APIs Git-friendly y local-first.",
+        "por_que": [
+          "Tus colecciones de API viven en tu carpeta de Git.",
+          "Privacidad total.",
+          "Muy rápido."
+        ],
+        "url": "https://www.usebruno.com/"
+      }
+    ]
+  },
+  "shopify.com": {
+    "privativo": "Shopify",
+    "alternativas": [
+      {
+        "nombre": "PrestaShop",
+        "licencia": "OSL v3.0",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Plataforma de comercio electrónico líder y modular.",
+        "por_que": [
+          "Tú eres el dueño de tu tienda y datos de clientes.",
+          "Miles de módulos disponibles.",
+          "Gran comunidad española."
+        ],
+        "url": "https://www.prestashop.com/"
+      }
+    ]
+  },
+  "zendesk.com": {
+    "privativo": "Zendesk",
+    "alternativas": [
+      {
+        "nombre": "Zammad",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Sistema de helpdesk y soporte técnico moderno.",
+        "por_que": [
+          "Integración con correo, chat y teléfono.",
+          "Interfaz de usuario muy rápida.",
+          "Métricas de soporte transparentes."
+        ],
+        "url": "https://zammad.org/"
+      }
+    ]
+  },
+  "portswigger.net/burp": {
+    "privativo": "Burp Suite",
+    "alternativas": [
+      {
+        "nombre": "OWASP ZAP",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "La herramienta de seguridad web gratuita más popular del mundo.",
+        "por_que": [
+          "Estandard en auditorías de seguridad.",
+          "Automatizable en pipelines de CI/CD.",
+          "Comunidad activa de OWASP."
+        ],
+        "url": "https://www.zaproxy.org/"
+      }
+    ]
+  },
+  "webex.com": {
+    "privativo": "Cisco Webex",
+    "alternativas": [
+      {
+        "nombre": "BigBlueButton",
+        "licencia": "LGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Sistema de conferencias web diseñado para el aprendizaje en línea.",
+        "por_que": [
+          "Pizarras compartidas.",
+          "Encuestas en tiempo real.",
+          "Integración nativa con Moodle."
+        ],
+        "url": "https://bigbluebutton.org/"
+      }
+    ]
   }
 }
