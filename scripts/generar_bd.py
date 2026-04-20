@@ -1,8 +1,4 @@
-import json
-import os
-import urllib.request
-import urllib.parse
-import ssl
+import json, os, urllib.request, urllib.parse, ssl
 
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
@@ -15,16 +11,10 @@ ruta_json_final = os.path.join(dir_actual, "../src/data/alternativas.json")
 
 os.makedirs(ruta_logos, exist_ok=True)
 
-print("📖 Leyendo fuente de datos remota/local...")
-try:
-    with open(ruta_fuente, 'r', encoding='utf-8') as f:
-        datos = json.load(f)
-except FileNotFoundError:
-    print("❌ Error: No se encuentra fuente_datos.json")
-    exit(1)
+with open(ruta_fuente, 'r', encoding='utf-8') as f:
+    datos = json.load(f)
 
 headers = {'User-Agent': 'Mozilla/5.0'}
-
 for web, info in datos.items():
     for alt in info["alternativas"]:
         nombre_logo = f"{alt['nombre'].lower().replace(' ', '_').replace('+', '')}.png"
@@ -33,15 +23,12 @@ for web, info in datos.items():
         
         if not os.path.exists(ruta_local_logo):
             dominio = urllib.parse.urlparse(alt["url"]).netloc
-            url_logo = f"https://logo.clearbit.com/{dominio}"
             try:
-                req = urllib.request.Request(url_logo, headers=headers)
+                req = urllib.request.Request(f"https://logo.clearbit.com/{dominio}", headers=headers)
                 with urllib.request.urlopen(req, context=ctx, timeout=5) as r, open(ruta_local_logo, 'wb') as f:
                     f.write(r.read())
-            except:
-                pass # Si falla, el fallback HTML lo solucionará en vivo
+            except: pass
 
 with open(ruta_json_final, 'w', encoding='utf-8') as f:
     json.dump(datos, f, indent=2, ensure_ascii=False)
-
-print("✅ Base de datos unificada generada con éxito.")
+print("✅ Base de datos unificada generada.")
