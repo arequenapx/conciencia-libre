@@ -11,6 +11,22 @@
         "nombre": "Krita",
         "url": "https://krita.org/",
         "descripcion": "Especializado en pintura digital."
+      },
+      {
+        "nombre": "PhotoFlow",
+        "licencia": "GPLv3",
+        "estrellas": "4.2",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Editor de fotos no destructivo con capas de ajuste en tiempo real.",
+        "por_que": [
+          "Flujo de trabajo totalmente no destructivo.",
+          "Ideal para retoque fotográfico técnico."
+        ],
+        "url": "https://aferrero2707.github.io/PhotoFlow/"
       }
     ]
   },
@@ -221,6 +237,36 @@
           "Estable y seguro."
         ],
         "url": "https://linuxmint.com/"
+      },
+      {
+        "nombre": "Ubuntu",
+        "licencia": "GPL",
+        "estrellas": "4.9",
+        "plataformas": [
+          "PC"
+        ],
+        "descripcion": "El sistema operativo Linux más popular y con mayor soporte.",
+        "por_que": [
+          "Enorme comunidad de ayuda.",
+          "Fácil instalación de software.",
+          "Estabilidad profesional."
+        ],
+        "url": "https://ubuntu.com/"
+      },
+      {
+        "nombre": "Debian",
+        "licencia": "GPL",
+        "estrellas": "5.0",
+        "plataformas": [
+          "PC",
+          "Servidor"
+        ],
+        "descripcion": "El sistema operativo universal, conocido por su estabilidad legendaria.",
+        "por_que": [
+          "100% software libre por compromiso.",
+          "Roca sólida para trabajo crítico."
+        ],
+        "url": "https://www.debian.org/"
       }
     ]
   },
@@ -256,6 +302,20 @@
           "Bloqueador de anuncios integrado."
         ],
         "url": "https://librewolf.net/"
+      },
+      {
+        "nombre": "Chromium",
+        "licencia": "BSD",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "El proyecto de código abierto base de Chrome, pero sin añadidos de Google.",
+        "por_que": [
+          "Experiencia pura y abierta.",
+          "Compatible con todas las extensiones de Chrome."
+        ],
+        "url": "https://www.chromium.org/"
       }
     ]
   },
@@ -1682,6 +1742,80 @@
           "Integración nativa con Moodle."
         ],
         "url": "https://bigbluebutton.org/"
+      }
+    ]
+  },
+  "microsoft.com/en-us/microsoft-365/word": [
+    {
+      "nombre": "OnlyOffice",
+      "licencia": "AGPLv3",
+      "estrellas": "4.7",
+      "plataformas": [
+        "Todas"
+      ],
+      "descripcion": "Suite ofimática con la mayor compatibilidad nativa con formatos de Microsoft.",
+      "por_que": [
+        "Interfaz casi idéntica a Word.",
+        "Colaboración en tiempo real excelente."
+      ],
+      "url": "https://www.onlyoffice.com/"
+    }
+  ],
+  "autodesk.com/products/autocad": [
+    {
+      "nombre": "LibreCAD",
+      "licencia": "GPLv2",
+      "estrellas": "4.3",
+      "plataformas": [
+        "Win",
+        "Mac",
+        "Linux"
+      ],
+      "descripcion": "Aplicación CAD 2D completa y ligera.",
+      "por_que": [
+        "Especializado en dibujo técnico 2D.",
+        "Muy ligero para ordenadores antiguos."
+      ],
+      "url": "https://librecad.org/"
+    }
+  ],
+  "slack.com": {
+    "privativo": "Slack",
+    "alternativas": [
+      {
+        "nombre": "Element",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Comunicación segura y descentralizada basada en el protocolo Matrix.",
+        "por_que": [
+          "Cifrado de extremo a extremo por defecto.",
+          "Tú eliges tu servidor.",
+          "Sin control corporativo central."
+        ],
+        "url": "https://element.io/"
+      }
+    ]
+  },
+  "matterport.com": {
+    "privativo": "Matterport",
+    "alternativas": [
+      {
+        "nombre": "Meshroom",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Linux"
+        ],
+        "descripcion": "Software de fotogrametría 3D basado en el framework AliceVision.",
+        "por_que": [
+          "Crea modelos 3D a partir de fotos simples.",
+          "Potente procesamiento de mallas."
+        ],
+        "url": "https://alicevision.org/#meshroom"
       }
     ]
   }
