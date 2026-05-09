@@ -12,7 +12,8 @@
           "Win",
           "Mac",
           "Linux"
-        ]
+        ],
+        "icono": "src/data/logos/gimp.png"
       },
       {
         "nombre": "Krita",
@@ -24,7 +25,8 @@
           "Win",
           "Mac",
           "Linux"
-        ]
+        ],
+        "icono": "src/data/logos/krita.png"
       },
       {
         "nombre": "PhotoFlow",
@@ -78,7 +80,8 @@
           "Soporte ICC.",
           "Totalmente libre."
         ],
-        "url": "https://www.scribus.net/"
+        "url": "https://www.scribus.net/",
+        "icono": "src/data/logos/scribus.png"
       },
       {
         "nombre": "LibreOffice Draw",
@@ -115,7 +118,8 @@
           "Edición no destructiva.",
           "Gestión profesional de color."
         ],
-        "url": "https://www.darktable.org/"
+        "url": "https://www.darktable.org/",
+        "icono": "src/data/logos/darktable.png"
       },
       {
         "nombre": "RawTherapee",
@@ -152,7 +156,8 @@
           "Arquitectura basada en nodos.",
           "Soporte para plugins OpenFX."
         ],
-        "url": "https://natrongithub.github.io/"
+        "url": "https://natrongithub.github.io/",
+        "icono": "src/data/logos/natron.png"
       },
       {
         "nombre": "Synfig Studio",
@@ -168,7 +173,8 @@
           "Animación basada en huesos.",
           "Ideal para motion graphics."
         ],
-        "url": "https://www.synfig.org/"
+        "url": "https://www.synfig.org/",
+        "icono": "src/data/logos/synfig_studio.png"
       }
     ]
   },
@@ -189,7 +195,8 @@
           "Ligero y potente.",
           "Infinidad de efectos y filtros."
         ],
-        "url": "https://www.audacityteam.org/"
+        "url": "https://www.audacityteam.org/",
+        "icono": "src/data/logos/audacity.png"
       },
       {
         "nombre": "Ocenaudio",
@@ -226,7 +233,8 @@
           "Motor de render Cycles.",
           "Todo en uno (3D, Video, Esculpido)."
         ],
-        "url": "https://www.blender.org/"
+        "url": "https://www.blender.org/",
+        "icono": "src/data/logos/blender.png"
       },
       {
         "nombre": "Bforartists",
@@ -263,7 +271,8 @@
           "Muy fácil de usar.",
           "Gran catálogo de muebles libres."
         ],
-        "url": "http://www.sweethome3d.com/"
+        "url": "http://www.sweethome3d.com/",
+        "icono": "src/data/logos/sweet_home_3d.png"
       },
       {
         "nombre": "FreeCAD (Arch)",
@@ -315,7 +324,8 @@
           "Interfaz moderna.",
           "Seguridad avanzada con gestor de contraseñas."
         ],
-        "url": "https://peazip.github.io/"
+        "url": "https://peazip.github.io/",
+        "icono": "src/data/logos/peazip.png"
       }
     ]
   },
@@ -337,7 +347,8 @@
           "Control total de tu servidor.",
           "Seguridad de extremo a extremo."
         ],
-        "url": "https://rustdesk.com/"
+        "url": "https://rustdesk.com/",
+        "icono": "src/data/logos/rustdesk.png"
       },
       {
         "nombre": "Remmina",
@@ -514,7 +525,8 @@
           "Motor independiente (Gecko).",
           "Protección contra rastreo."
         ],
-        "url": "https://www.mozilla.org/firefox/"
+        "url": "https://www.mozilla.org/firefox/",
+        "icono": "src/data/logos/firefox.png"
       },
       {
         "nombre": "LibreWolf",
@@ -611,7 +623,8 @@
           "Multiplataforma.",
           "Gran soporte de hardware virtual."
         ],
-        "url": "https://www.virtualbox.org/"
+        "url": "https://www.virtualbox.org/",
+        "icono": "src/data/logos/virtualbox.png"
       },
       {
         "nombre": "QEMU",
@@ -648,7 +661,8 @@
           "Mismas extensiones que VS Code.",
           "Privacidad total."
         ],
-        "url": "https://vscodium.com/"
+        "url": "https://vscodium.com/",
+        "icono": "src/data/logos/vscodium.png"
       },
       {
         "nombre": "Notepad++",
@@ -700,7 +714,8 @@
           "Formato nativo SVG.",
           "Totalmente gratuito frente a las licencias de Corel."
         ],
-        "url": "https://inkscape.org/"
+        "url": "https://inkscape.org/",
+        "icono": "src/data/logos/inkscape.png"
       }
     ]
   },
@@ -721,7 +736,8 @@
           "Compatible con scripts de Matlab.",
           "Gráficos potentes."
         ],
-        "url": "https://www.gnu.org/software/octave/"
+        "url": "https://www.gnu.org/software/octave/",
+        "icono": "src/data/logos/gnu_octave.png"
       },
       {
         "nombre": "Julia",
@@ -758,7 +774,8 @@
           "Tableros Kanban y Scrum.",
           "Interfaz muy estética."
         ],
-        "url": "https://taiga.io/"
+        "url": "https://taiga.io/",
+        "icono": "src/data/logos/taiga.png"
       },
       {
         "nombre": "Wekan",
@@ -775,7 +792,8 @@
           "Interfaz casi idéntica a Trello.",
           "Puedes alojarlo en tu propia Raspberry Pi o servidor."
         ],
-        "url": "https://wekan.github.io/"
+        "url": "https://wekan.github.io/",
+        "icono": "src/data/logos/wekan.png"
       }
     ]
   },
@@ -796,7 +814,8 @@
           "Modo presentaciones 3D.",
           "Compatible con .pptx."
         ],
-        "url": "https://es.libreoffice.org/"
+        "url": "https://es.libreoffice.org/",
+        "icono": "src/data/logos/libreoffice_impress.png"
       },
       {
         "nombre": "Reveal.js",
@@ -865,7 +884,8 @@
           "Cifrado E2EE.",
           "Sincronización en la nube propia."
         ],
-        "url": "https://joplinapp.org/"
+        "url": "https://joplinapp.org/",
+        "icono": "src/data/logos/joplin.png"
       },
       {
         "nombre": "Standard Notes",
@@ -900,7 +920,8 @@
           "Privacidad por diseño.",
           "Código abierto."
         ],
-        "url": "https://revolt.chat/"
+        "url": "https://revolt.chat/",
+        "icono": "src/data/logos/revolt.png"
       },
       {
         "nombre": "Mumble",
@@ -917,7 +938,8 @@
           "Cifrado nativo.",
           "Latencia ridículamente baja para juegos o trabajo en equipo."
         ],
-        "url": "https://www.mumble.info/"
+        "url": "https://www.mumble.info/",
+        "icono": "src/data/logos/mumble.png"
       }
     ]
   },
@@ -940,7 +962,8 @@
           "Interfaz moderna y rápida.",
           "Soporte para WebSocket y GraphQL."
         ],
-        "url": "https://hoppscotch.io/"
+        "url": "https://hoppscotch.io/",
+        "icono": "src/data/logos/hoppscotch.png"
       },
       {
         "nombre": "Bruno",
@@ -956,7 +979,8 @@
           "Almacena las colecciones en texto plano en tu repositorio.",
           "Sin cuentas obligatorias en la nube."
         ],
-        "url": "https://www.usebruno.com/"
+        "url": "https://www.usebruno.com/",
+        "icono": "src/data/logos/bruno.png"
       }
     ]
   },
@@ -976,7 +1000,8 @@
           "Soporte de JSONB y GIS.",
           "Estándar en la industria libre."
         ],
-        "url": "https://www.postgresql.org/"
+        "url": "https://www.postgresql.org/",
+        "icono": "src/data/logos/postgresql.png"
       },
       {
         "nombre": "Firebird",
@@ -1010,7 +1035,8 @@
           "Rendimiento optimizado.",
           "Garantía de libertad permanente."
         ],
-        "url": "https://mariadb.org/"
+        "url": "https://mariadb.org/",
+        "icono": "src/data/logos/mariadb.png"
       },
       {
         "nombre": "PostgreSQL",
@@ -1024,7 +1050,8 @@
           "Soporta cargas de trabajo masivas empresariales.",
           "Extensible (PostGIS para geolocalización)."
         ],
-        "url": "https://www.postgresql.org/"
+        "url": "https://www.postgresql.org/",
+        "icono": "src/data/logos/postgresql.png"
       }
     ]
   },
@@ -1044,7 +1071,8 @@
           "Soberanía total de tu código.",
           "Interfaz muy familiar."
         ],
-        "url": "https://forgejo.org/"
+        "url": "https://forgejo.org/",
+        "icono": "src/data/logos/forgejo.png"
       },
       {
         "nombre": "GitLab CE",
@@ -1109,7 +1137,8 @@
           "Auditable públicamente.",
           "Sincronización gratuita."
         ],
-        "url": "https://bitwarden.com/"
+        "url": "https://bitwarden.com/",
+        "icono": "src/data/logos/bitwarden.png"
       },
       {
         "nombre": "KeePassXC",
@@ -1125,7 +1154,8 @@
           "Tu bóveda se guarda en local.",
           "Integración excelente con navegadores (vía extensión)."
         ],
-        "url": "https://keepassxc.org/"
+        "url": "https://keepassxc.org/",
+        "icono": "src/data/logos/keepassxc.png"
       }
     ]
   },
@@ -1248,7 +1278,8 @@
           "Modular y escalable.",
           "Gran ecosistema de aplicaciones."
         ],
-        "url": "https://www.odoo.com/"
+        "url": "https://www.odoo.com/",
+        "icono": "src/data/logos/odoo.png"
       },
       {
         "nombre": "SuiteCRM",
@@ -1263,7 +1294,8 @@
           "Sin límites de usuarios.",
           "Automatización avanzada de flujos de trabajo de ventas."
         ],
-        "url": "https://suitecrm.com/"
+        "url": "https://suitecrm.com/",
+        "icono": "src/data/logos/suitecrm.png"
       }
     ]
   },
@@ -1352,7 +1384,8 @@
           "Sin muestreo de datos.",
           "Privacidad 100%."
         ],
-        "url": "https://matomo.org/"
+        "url": "https://matomo.org/",
+        "icono": "src/data/logos/matomo.png"
       },
       {
         "nombre": "Plausible Analytics",
@@ -1420,7 +1453,8 @@
           "Vistas de lista, kanban y gantt.",
           "Código abierto y auto-alojable."
         ],
-        "url": "https://vikunja.io/"
+        "url": "https://vikunja.io/",
+        "icono": "src/data/logos/vikunja.png"
       },
       {
         "nombre": "Focalboard",
@@ -1527,7 +1561,8 @@
           "Ecosistema de plugins gigantesco.",
           "Estándar histórico en desarrollo Java."
         ],
-        "url": "https://www.eclipse.org/ide/"
+        "url": "https://www.eclipse.org/ide/",
+        "icono": "src/data/logos/eclipse_ide.png"
       },
       {
         "nombre": "Apache NetBeans",
@@ -1599,7 +1634,8 @@
           "Nodo-basado.",
           "Lenguaje GDScript intuitivo."
         ],
-        "url": "https://godotengine.org/"
+        "url": "https://godotengine.org/",
+        "icono": "src/data/logos/godot_engine.png"
       },
       {
         "nombre": "Stride",
@@ -1633,7 +1669,8 @@
           "Tecnología de nivel cinematográfico.",
           "Heredero de Amazon Lumberyard."
         ],
-        "url": "https://o3de.org/"
+        "url": "https://o3de.org/",
+        "icono": "src/data/logos/o3de.png"
       },
       {
         "nombre": "Godot Engine (3D)",
@@ -1670,7 +1707,8 @@
           "Cubre álgebra, combinatoria, análisis numérico.",
           "Combina el poder de muchas librerías existentes."
         ],
-        "url": "https://www.sagemath.org/"
+        "url": "https://www.sagemath.org/",
+        "icono": "src/data/logos/sagemath.png"
       },
       {
         "nombre": "Maxima",
@@ -1707,7 +1745,8 @@
           "Alternativa potente para ingeniería y ciencias.",
           "Incluye Xcos para modelado de sistemas."
         ],
-        "url": "https://www.scilab.org/"
+        "url": "https://www.scilab.org/",
+        "icono": "src/data/logos/scilab.png"
       },
       {
         "nombre": "GNU Octave",
@@ -1723,7 +1762,8 @@
           "Gráficos 2D/3D integrados para visualización de datos.",
           "Excelente para matrices."
         ],
-        "url": "https://octave.org/"
+        "url": "https://octave.org/",
+        "icono": "src/data/logos/gnu_octave.png"
       }
     ]
   },
@@ -1744,7 +1784,8 @@
           "Interfaz muy intuitiva y visual.",
           "Hecho por y para la comunidad científica."
         ],
-        "url": "https://www.jamovi.org/"
+        "url": "https://www.jamovi.org/",
+        "icono": "src/data/logos/jamovi.png"
       },
       {
         "nombre": "PSPP",
@@ -1797,7 +1838,8 @@
           "Historial de operaciones modificable.",
           "Formatos libres y sin bloqueos de versión."
         ],
-        "url": "https://www.freecad.org/"
+        "url": "https://www.freecad.org/",
+        "icono": "src/data/logos/freecad.png"
       }
     ]
   },
@@ -1929,7 +1971,8 @@
           "Altamente personalizable.",
           "Uso oficial en la UCO."
         ],
-        "url": "https://moodle.org/"
+        "url": "https://moodle.org/",
+        "icono": "src/data/logos/moodle.png"
       },
       {
         "nombre": "Chamilo",
@@ -1963,7 +2006,8 @@
           "Aprendizaje eficiente de cualquier tema.",
           "Control total de tus mazos de datos."
         ],
-        "url": "https://apps.ankiweb.net/"
+        "url": "https://apps.ankiweb.net/",
+        "icono": "src/data/logos/anki.png"
       },
       {
         "nombre": "LibreLingo",
@@ -2099,7 +2143,8 @@
           "Múltiples escenas y fuentes.",
           "Sin marcas de agua."
         ],
-        "url": "https://obsproject.com/"
+        "url": "https://obsproject.com/",
+        "icono": "src/data/logos/obs_studio.png"
       },
       {
         "nombre": "VokoscreenNG",
@@ -2268,7 +2313,8 @@
           "Diagramas de Gantt, gestión de costes.",
           "Seguridad de datos alemana."
         ],
-        "url": "https://www.openproject.org/"
+        "url": "https://www.openproject.org/",
+        "icono": "src/data/logos/openproject.png"
       },
       {
         "nombre": "Redmine",
@@ -2303,7 +2349,8 @@
           "Tú controlas tus archivos físicamente.",
           "Incluye calendario, contactos y oficina."
         ],
-        "url": "https://nextcloud.com/"
+        "url": "https://nextcloud.com/",
+        "icono": "src/data/logos/nextcloud.png"
       },
       {
         "nombre": "Syncthing",
@@ -2320,7 +2367,8 @@
           "Tus datos no pasan por ningún servidor central.",
           "Mucho más rápido en red local."
         ],
-        "url": "https://syncthing.net/"
+        "url": "https://syncthing.net/",
+        "icono": "src/data/logos/syncthing.png"
       }
     ]
   },
@@ -2375,7 +2423,8 @@
           "Privacidad superior.",
           "Extensión libre disponible."
         ],
-        "url": "https://languagetool.org/"
+        "url": "https://languagetool.org/",
+        "icono": "src/data/logos/languagetool.png"
       },
       {
         "nombre": "Vale",
@@ -2452,7 +2501,8 @@
           "Soporte para cientos de plugins.",
           "Control total sobre la señal de audio."
         ],
-        "url": "https://ardour.org/"
+        "url": "https://ardour.org/",
+        "icono": "src/data/logos/ardour.png"
       },
       {
         "nombre": "LMMS",
@@ -2468,7 +2518,8 @@
           "Soporte de plugins VST e instrumentos MIDI.",
           "Comunidad de músicos muy activa."
         ],
-        "url": "https://lmms.io/"
+        "url": "https://lmms.io/",
+        "icono": "src/data/logos/lmms.png"
       }
     ]
   },
@@ -2564,7 +2615,8 @@
           "No requiere importar archivos (edición directa).",
           "Interfaz modular."
         ],
-        "url": "https://shotcut.org/"
+        "url": "https://shotcut.org/",
+        "icono": "src/data/logos/shotcut.png"
       },
       {
         "nombre": "Kdenlive",
@@ -2580,7 +2632,8 @@
           "Edición proxy para vídeos 4K pesados.",
           "Renderizado súper rápido."
         ],
-        "url": "https://kdenlive.org/"
+        "url": "https://kdenlive.org/",
+        "icono": "src/data/logos/kdenlive.png"
       }
     ]
   },
@@ -2675,7 +2728,8 @@
           "Cifrado del lado del cliente.",
           "Historial de versiones eficiente."
         ],
-        "url": "https://www.seafile.com/"
+        "url": "https://www.seafile.com/",
+        "icono": "src/data/logos/seafile.png"
       },
       {
         "nombre": "Syncthing",
@@ -2691,7 +2745,8 @@
         "por_que": [
           "Mueve archivos directamente entre tus dispositivos sin pasar por una nube de terceros."
         ],
-        "url": "https://syncthing.net/"
+        "url": "https://syncthing.net/",
+        "icono": "src/data/logos/syncthing.png"
       }
     ]
   },
@@ -2711,7 +2766,8 @@
           "Capaz de enviar millones de correos rápido.",
           "Métricas de privacidad."
         ],
-        "url": "https://listmonk.app/"
+        "url": "https://listmonk.app/",
+        "icono": "src/data/logos/listmonk.png"
       },
       {
         "nombre": "Mautic",
@@ -2725,7 +2781,8 @@
           "Sustituye carísimas suscripciones de CRM.",
           "Alojado en tu servidor, datos 100% tuyos."
         ],
-        "url": "https://www.mautic.org/"
+        "url": "https://www.mautic.org/",
+        "icono": "src/data/logos/mautic.png"
       }
     ]
   },
@@ -2854,7 +2911,8 @@
           "Base de datos cifrada localmente.",
           "Multiplataforma y auditable."
         ],
-        "url": "https://keepassxc.org/"
+        "url": "https://keepassxc.org/",
+        "icono": "src/data/logos/keepassxc.png"
       },
       {
         "nombre": "Pass",
@@ -2890,7 +2948,8 @@
           "Control total de tu propio servidor de soporte.",
           "Soporta Intel AMT."
         ],
-        "url": "https://www.meshcommander.com/meshcentral2"
+        "url": "https://www.meshcommander.com/meshcentral2",
+        "icono": "src/data/logos/meshcentral.png"
       },
       {
         "nombre": "TightVNC",
@@ -2960,7 +3019,8 @@
           "Privacidad total.",
           "Muy rápido."
         ],
-        "url": "https://www.usebruno.com/"
+        "url": "https://www.usebruno.com/",
+        "icono": "src/data/logos/bruno.png"
       },
       {
         "nombre": "Hoppscotch",
@@ -2977,7 +3037,8 @@
           "Interfaz elegante y oscura.",
           "Soporte para GraphQL y WebSockets sin registros forzosos."
         ],
-        "url": "https://hoppscotch.io/"
+        "url": "https://hoppscotch.io/",
+        "icono": "src/data/logos/hoppscotch.png"
       }
     ]
   },
@@ -2997,7 +3058,8 @@
           "Miles de módulos disponibles.",
           "Gran comunidad española."
         ],
-        "url": "https://www.prestashop.com/"
+        "url": "https://www.prestashop.com/",
+        "icono": "src/data/logos/prestashop.png"
       },
       {
         "nombre": "WooCommerce",
@@ -3032,7 +3094,8 @@
           "Interfaz de usuario muy rápida.",
           "Métricas de soporte transparentes."
         ],
-        "url": "https://zammad.org/"
+        "url": "https://zammad.org/",
+        "icono": "src/data/logos/zammad.png"
       },
       {
         "nombre": "FreeScout",
@@ -3046,7 +3109,8 @@
           "Especializado en buzones de soporte compartidos.",
           "100% privacidad de los tickets de tus clientes."
         ],
-        "url": "https://freescout.net/"
+        "url": "https://freescout.net/",
+        "icono": "src/data/logos/freescout.png"
       }
     ]
   },
@@ -3105,7 +3169,8 @@
           "Encuestas en tiempo real.",
           "Integración nativa con Moodle."
         ],
-        "url": "https://bigbluebutton.org/"
+        "url": "https://bigbluebutton.org/",
+        "icono": "src/data/logos/bigbluebutton.png"
       },
       {
         "nombre": "Jitsi Meet",
@@ -3121,7 +3186,8 @@
           "No requiere cuenta.",
           "Totalmente cifrado y gratuito."
         ],
-        "url": "https://meet.jit.si/"
+        "url": "https://meet.jit.si/",
+        "icono": "src/data/logos/jitsi_meet.png"
       }
     ]
   },
@@ -3140,7 +3206,8 @@
           "Interfaz casi idéntica a Word.",
           "Colaboración en tiempo real excelente."
         ],
-        "url": "https://www.onlyoffice.com/"
+        "url": "https://www.onlyoffice.com/",
+        "icono": "src/data/logos/onlyoffice.png"
       },
       {
         "nombre": "OnlyOffice",
@@ -3154,7 +3221,8 @@
           "Interfaz casi idéntica a Word.",
           "Colaboración en tiempo real excelente."
         ],
-        "url": "https://www.onlyoffice.com/"
+        "url": "https://www.onlyoffice.com/",
+        "icono": "src/data/logos/onlyoffice.png"
       },
       {
         "nombre": "Collabora Online",
@@ -3204,7 +3272,8 @@
           "Especializado en dibujo técnico 2D.",
           "Muy ligero para ordenadores antiguos."
         ],
-        "url": "https://librecad.org/"
+        "url": "https://librecad.org/",
+        "icono": "src/data/logos/librecad.png"
       },
       {
         "nombre": "LibreCAD",
@@ -3220,7 +3289,8 @@
           "Especializado en dibujo técnico 2D.",
           "Muy ligero para ordenadores antiguos."
         ],
-        "url": "https://librecad.org/"
+        "url": "https://librecad.org/",
+        "icono": "src/data/logos/librecad.png"
       },
       {
         "nombre": "BRL-CAD",
@@ -3257,7 +3327,8 @@
           "Tú eliges tu servidor.",
           "Sin control corporativo central."
         ],
-        "url": "https://element.io/"
+        "url": "https://element.io/",
+        "icono": "src/data/logos/element.png"
       },
       {
         "nombre": "Element",
@@ -3272,7 +3343,8 @@
           "Tú eliges tu servidor.",
           "Sin control corporativo central."
         ],
-        "url": "https://element.io/"
+        "url": "https://element.io/",
+        "icono": "src/data/logos/element.png"
       }
     ]
   },
@@ -3345,7 +3417,8 @@
           "Gestión de color avanzada.",
           "Alto rendimiento en equipos modestos."
         ],
-        "url": "https://www.olivevideoeditor.org/"
+        "url": "https://www.olivevideoeditor.org/",
+        "icono": "src/data/logos/olive.png"
       }
     ]
   },
@@ -3381,7 +3454,8 @@
           "Manejo excelente de curvas de Bézier.",
           "Trabaja en el formato estándar web SVG."
         ],
-        "url": "https://inkscape.org/"
+        "url": "https://inkscape.org/",
+        "icono": "src/data/logos/inkscape.png"
       }
     ]
   },
@@ -3401,7 +3475,8 @@
           "Basado nativamente en SVG y CSS.",
           "Colaboración en tiempo real sin suscripción corporativa."
         ],
-        "url": "https://penpot.app/"
+        "url": "https://penpot.app/",
+        "icono": "src/data/logos/penpot.png"
       },
       {
         "nombre": "Quant-UX",
@@ -3450,7 +3525,8 @@
           "Basada en SVG.",
           "Manejo superior de tipografías y colaboración que Canva."
         ],
-        "url": "https://penpot.app/"
+        "url": "https://penpot.app/",
+        "icono": "src/data/logos/penpot.png"
       }
     ]
   },
@@ -3816,7 +3892,8 @@
           "Sin costes por usuario.",
           "Integra contabilidad, recursos humanos y ventas en un solo lugar."
         ],
-        "url": "https://erpnext.com/"
+        "url": "https://erpnext.com/",
+        "icono": "src/data/logos/erpnext.png"
       },
       {
         "nombre": "CiviCRM",
@@ -3987,7 +4064,8 @@
           "Interfaz hermosa y reactiva.",
           "Soporta fondos personalizados y seguimiento de tiempo."
         ],
-        "url": "https://planka.app/"
+        "url": "https://planka.app/",
+        "icono": "src/data/logos/planka.png"
       },
       {
         "nombre": "TaskBoard",
@@ -4021,7 +4099,8 @@
           "Conecta correos, WhatsApp, Telegram y chat web en un solo panel.",
           "Bots conversacionales."
         ],
-        "url": "https://www.chatwoot.com/"
+        "url": "https://www.chatwoot.com/",
+        "icono": "src/data/logos/chatwoot.png"
       },
       {
         "nombre": "UVdesk",
@@ -4057,7 +4136,8 @@
           "Soporta las mismas extensiones de desarrollo web que VS Code.",
           "Privacidad garantizada."
         ],
-        "url": "https://vscodium.com/"
+        "url": "https://vscodium.com/",
+        "icono": "src/data/logos/vscodium.png"
       },
       {
         "nombre": "Brackets",
@@ -4482,7 +4562,8 @@
           "Estándar en servidores de correo para escanear adjuntos.",
           "Ligero y auditable."
         ],
-        "url": "https://www.clamav.net/"
+        "url": "https://www.clamav.net/",
+        "icono": "src/data/logos/clamav.png"
       },
       {
         "nombre": "Wazuh",
@@ -4519,7 +4600,8 @@
           "Tus notas son archivos Markdown locales.",
           "Gráfico de conocimiento interactivo."
         ],
-        "url": "https://logseq.com/"
+        "url": "https://logseq.com/",
+        "icono": "src/data/logos/logseq.png"
       },
       {
         "nombre": "Trilium Notes",
@@ -4661,7 +4743,8 @@
           "Soporte PGP integrado.",
           "Calendario, tareas y chat en la misma aplicación."
         ],
-        "url": "https://www.thunderbird.net/"
+        "url": "https://www.thunderbird.net/",
+        "icono": "src/data/logos/thunderbird.png"
       },
       {
         "nombre": "Mailspring",
@@ -4836,7 +4919,8 @@
           "Construye tu propio Netflix con tus películas.",
           "Cero telemetría y sin funciones de pago."
         ],
-        "url": "https://jellyfin.org/"
+        "url": "https://jellyfin.org/",
+        "icono": "src/data/logos/jellyfin.png"
       },
       {
         "nombre": "Kodi",
@@ -4850,7 +4934,8 @@
           "Soporte inmenso de add-ons.",
           "Decodifica prácticamente cualquier formato de vídeo existente."
         ],
-        "url": "https://kodi.tv/"
+        "url": "https://kodi.tv/",
+        "icono": "src/data/logos/kodi.png"
       }
     ]
   },
@@ -4870,7 +4955,8 @@
           "Altamente escalable.",
           "Integración sólida con sistemas corporativos e identidad central."
         ],
-        "url": "https://owncloud.com/"
+        "url": "https://owncloud.com/",
+        "icono": "src/data/logos/owncloud.png"
       },
       {
         "nombre": "Pydio Cells",
@@ -5010,7 +5096,8 @@
           "Cumple con los estrictos estándares de privacidad alemanes.",
           "Diagramas de Gantt potentes."
         ],
-        "url": "https://www.openproject.org/"
+        "url": "https://www.openproject.org/",
+        "icono": "src/data/logos/openproject.png"
       },
       {
         "nombre": "Taiga",
@@ -5025,7 +5112,8 @@
           "Diseñada específicamente para equipos de desarrollo y creativos.",
           "Interfaz premiada."
         ],
-        "url": "https://taiga.io/"
+        "url": "https://taiga.io/",
+        "icono": "src/data/logos/taiga.png"
       }
     ]
   },
@@ -5063,7 +5151,8 @@
           "Completamente libre (a diferencia de Obsidian).",
           "Estructura esquemática ideal para tomar notas rápidas."
         ],
-        "url": "https://logseq.com/"
+        "url": "https://logseq.com/",
+        "icono": "src/data/logos/logseq.png"
       }
     ]
   },
@@ -5132,7 +5221,8 @@
           "Rendimiento extremo en una sola base de datos PostgreSQL.",
           "Privacidad de tu lista de suscriptores."
         ],
-        "url": "https://listmonk.app/"
+        "url": "https://listmonk.app/",
+        "icono": "src/data/logos/listmonk.png"
       }
     ]
   },
@@ -5220,7 +5310,8 @@
           "Utiliza estándares web (SVG) nativamente.",
           "Colaboración en tiempo real entre diseñadores y desarrolladores."
         ],
-        "url": "https://penpot.app/"
+        "url": "https://penpot.app/",
+        "icono": "src/data/logos/penpot.png"
       },
       {
         "nombre": "Akira",
@@ -5255,7 +5346,8 @@
           "Capacidades de modelado avanzado y renderizado fotorealista (Cycles).",
           "Comunidad gigantesca."
         ],
-        "url": "https://www.blender.org/"
+        "url": "https://www.blender.org/",
+        "icono": "src/data/logos/blender.png"
       },
       {
         "nombre": "Wings 3D",
@@ -5292,7 +5384,8 @@
           "Uso gratuito incluso en entornos empresariales (pack base).",
           "Snapshot de estados de máquina."
         ],
-        "url": "https://www.virtualbox.org/"
+        "url": "https://www.virtualbox.org/",
+        "icono": "src/data/logos/virtualbox.png"
       },
       {
         "nombre": "UTM",
@@ -5307,7 +5400,8 @@
           "Soporte increíble para la arquitectura Apple Silicon (M1/M2).",
           "Ejecuta Windows ARM a velocidad casi nativa."
         ],
-        "url": "https://mac.getutm.app/"
+        "url": "https://mac.getutm.app/",
+        "icono": "src/data/logos/utm.png"
       }
     ]
   },
@@ -5461,7 +5555,8 @@
           "Integración nativa con Moodle y Canvas.",
           "Pizarra multi-usuario en tiempo real."
         ],
-        "url": "https://bigbluebutton.org/"
+        "url": "https://bigbluebutton.org/",
+        "icono": "src/data/logos/bigbluebutton.png"
       },
       {
         "nombre": "Jitsi Meet",
@@ -5477,7 +5572,8 @@
           "No se necesita cuenta ni cliente pesado.",
           "Basado en WebRTC."
         ],
-        "url": "https://meet.jit.si/"
+        "url": "https://meet.jit.si/",
+        "icono": "src/data/logos/jitsi_meet.png"
       }
     ]
   },
@@ -5632,7 +5728,8 @@
           "Explorador de variables avanzado integrado.",
           "Integración nativa con Pandas y NumPy."
         ],
-        "url": "https://www.spyder-ide.org/"
+        "url": "https://www.spyder-ide.org/",
+        "icono": "src/data/logos/spyder.png"
       },
       {
         "nombre": "JupyterLab",
@@ -6064,7 +6161,8 @@
           "No oculta funcionalidades básicas detrás de muros de pago.",
           "Interfaz web moderna."
         ],
-        "url": "https://erpnext.com/"
+        "url": "https://erpnext.com/",
+        "icono": "src/data/logos/erpnext.png"
       }
     ]
   },
@@ -6371,7 +6469,8 @@
           "Unifica tus bibliotecas de GOG, Steam y Epic en un solo lugar.",
           "Instaladores automáticos a través de Wine."
         ],
-        "url": "https://lutris.net/"
+        "url": "https://lutris.net/",
+        "icono": "src/data/logos/lutris.png"
       },
       {
         "nombre": "Heroic Games Launcher",
@@ -6387,7 +6486,8 @@
           "Interfaz muy rápida e integrada.",
           "Soporte nativo para Steam Deck."
         ],
-        "url": "https://heroicgameslauncher.com/"
+        "url": "https://heroicgameslauncher.com/",
+        "icono": "src/data/logos/heroic_games_launcher.png"
       }
     ]
   },
@@ -6492,7 +6592,8 @@
           "No requiere base de datos (todo estático).",
           "Más de 100 iconos de marcas integrados."
         ],
-        "url": "https://littlelink.io/"
+        "url": "https://littlelink.io/",
+        "icono": "src/data/logos/littlelink.png"
       }
     ]
   },
@@ -6548,7 +6649,8 @@
           "El protocolo de cifrado de Signal es el estándar de oro (lo usan hasta WhatsApp y Skype).",
           "ONG sin ánimo de lucro."
         ],
-        "url": "https://signal.org/"
+        "url": "https://signal.org/",
+        "icono": "src/data/logos/signal.png"
       },
       {
         "nombre": "Session",
@@ -6566,7 +6668,8 @@
           "El enrutamiento descentralizado oculta tu dirección IP.",
           "Resistente a la censura."
         ],
-        "url": "https://getsession.org/"
+        "url": "https://getsession.org/",
+        "icono": "src/data/logos/session.png"
       },
       {
         "nombre": "Delta Chat",
@@ -6903,7 +7006,8 @@
           "Tú eres el propietario de tus enlaces.",
           "Generación automática de códigos QR y analíticas sin cookies."
         ],
-        "url": "https://shlink.io/"
+        "url": "https://shlink.io/",
+        "icono": "src/data/logos/shlink.png"
       },
       {
         "nombre": "YOURLS",
@@ -7186,7 +7290,8 @@
           "Destruye archivos para ocultar rastros (usado por Bruce Schneier).",
           "Sin adware ni instaladores engañosos."
         ],
-        "url": "https://www.bleachbit.org/"
+        "url": "https://www.bleachbit.org/",
+        "icono": "src/data/logos/bleachbit.png"
       },
       {
         "nombre": "Stacer",
@@ -7200,7 +7305,8 @@
           "Interfaz visual moderna tipo panel de control.",
           "Limpia cachés, gestiona servicios de arranque."
         ],
-        "url": "https://github.com/oguzhaninan/Stacer"
+        "url": "https://github.com/oguzhaninan/Stacer",
+        "icono": "src/data/logos/stacer.png"
       }
     ]
   },
@@ -7274,7 +7380,8 @@
           "Bandeja de entrada unificada para todos los canales de tu empresa.",
           "Alternativa madura y estable."
         ],
-        "url": "https://www.chatwoot.com/"
+        "url": "https://www.chatwoot.com/",
+        "icono": "src/data/logos/chatwoot.png"
       }
     ]
   },
