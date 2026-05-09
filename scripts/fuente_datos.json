@@ -6168,5 +6168,716 @@
         "url": "https://www.ganttproject.biz/"
       }
     ]
+  },
+  "simplify3d.com": {
+    "privativo": "Simplify3D",
+    "alternativas": [
+      {
+        "nombre": "PrusaSlicer",
+        "licencia": "AGPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Laminador (slicer) 3D extremadamente potente y en constante evolución.",
+        "por_que": [
+          "Perfiles preconfigurados para cientos de impresoras.",
+          "Generación de soportes orgánicos impecables."
+        ],
+        "url": "https://www.prusa3d.com/page/prusaslicer_424/"
+      },
+      {
+        "nombre": "UltiMaker Cura",
+        "licencia": "LGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "El software de impresión 3D más popular del mundo.",
+        "por_que": [
+          "Interfaz fácil de usar para principiantes.",
+          "Inmenso marketplace de plugins integrados."
+        ],
+        "url": "https://ultimaker.com/software/ultimaker-cura"
+      }
+    ]
+  },
+  "store.steampowered.com": {
+    "privativo": "Steam / Epic Games Launcher",
+    "alternativas": [
+      {
+        "nombre": "Lutris",
+        "licencia": "GPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Linux"
+        ],
+        "descripcion": "Plataforma de preservación y gestión de videojuegos abierta.",
+        "por_que": [
+          "Unifica tus bibliotecas de GOG, Steam y Epic en un solo lugar.",
+          "Instaladores automáticos a través de Wine."
+        ],
+        "url": "https://lutris.net/"
+      },
+      {
+        "nombre": "Heroic Games Launcher",
+        "licencia": "GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Alternativa de código abierto para Epic Games, GOG y Amazon Prime Games.",
+        "por_que": [
+          "Interfaz muy rápida e integrada.",
+          "Soporte nativo para Steam Deck."
+        ],
+        "url": "https://heroicgameslauncher.com/"
+      }
+    ]
+  },
+  "ynab.com": {
+    "privativo": "YNAB / Mint (Finanzas)",
+    "alternativas": [
+      {
+        "nombre": "Firefly III",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Gestor de finanzas personales brillante que puedes alojar en tu propio servidor.",
+        "por_que": [
+          "No comparte tus transacciones bancarias con corporaciones.",
+          "Reglas de automatización complejas para categorizar gastos."
+        ],
+        "url": "https://firefly-iii.org/"
+      },
+      {
+        "nombre": "GnuCash",
+        "licencia": "GPLv2",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Software de contabilidad financiera personal y para pequeñas empresas.",
+        "por_que": [
+          "Basado en principios de contabilidad de doble entrada.",
+          "Generación de informes exhaustivos."
+        ],
+        "url": "https://www.gnucash.org/"
+      }
+    ]
+  },
+  "authy.com": {
+    "privativo": "Authy / Google Authenticator",
+    "alternativas": [
+      {
+        "nombre": "Aegis Authenticator",
+        "licencia": "GPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Android"
+        ],
+        "descripcion": "App segura y libre para gestionar tokens de verificación en dos pasos (2FA).",
+        "por_que": [
+          "Bóveda cifrada y exportable (tú eres dueño de tus llaves).",
+          "Soporta contraseñas y biometría."
+        ],
+        "url": "https://getaegis.app/"
+      },
+      {
+        "nombre": "FreeOTP",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Android",
+          "iOS"
+        ],
+        "descripcion": "Autenticador 2FA ligero desarrollado por Red Hat.",
+        "por_que": [
+          "Código extremadamente mínimo y auditable.",
+          "No requiere permisos innecesarios en tu teléfono."
+        ],
+        "url": "https://freeotp.github.io/"
+      }
+    ]
+  },
+  "linktr.ee": {
+    "privativo": "Linktree",
+    "alternativas": [
+      {
+        "nombre": "LinkStack",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "El creador de páginas de enlaces definitivo y personalizable.",
+        "por_que": [
+          "Tú eres el dueño de tus analíticas y clics.",
+          "Permite crear múltiples usuarios en el mismo servidor."
+        ],
+        "url": "https://linkstack.org/"
+      },
+      {
+        "nombre": "LittleLink",
+        "licencia": "MIT",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Página de enlaces ligera y minimalista para redes sociales.",
+        "por_que": [
+          "No requiere base de datos (todo estático).",
+          "Más de 100 iconos de marcas integrados."
+        ],
+        "url": "https://littlelink.io/"
+      }
+    ]
+  },
+  "patreon.com": {
+    "privativo": "Patreon / OnlyFans",
+    "alternativas": [
+      {
+        "nombre": "Liberapay",
+        "licencia": "CC0 1.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "Plataforma de donaciones recurrentes gestionada por una ONG.",
+        "por_que": [
+          "No se llevan ningún porcentaje de tus donaciones (cero comisiones propias).",
+          "Privacidad financiera para creadores."
+        ],
+        "url": "https://liberapay.com/"
+      },
+      {
+        "nombre": "Open Collective",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "Plataforma de financiación transparente para comunidades y proyectos abiertos.",
+        "por_que": [
+          "Muestra públicamente en qué se gasta el dinero recaudado.",
+          "Ideal para proyectos colaborativos."
+        ],
+        "url": "https://opencollective.com/"
+      }
+    ]
+  },
+  "whatsapp.com": {
+    "privativo": "WhatsApp",
+    "alternativas": [
+      {
+        "nombre": "Signal",
+        "licencia": "AGPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Android",
+          "iOS",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "La aplicación de mensajería más segura del mundo.",
+        "por_que": [
+          "El protocolo de cifrado de Signal es el estándar de oro (lo usan hasta WhatsApp y Skype).",
+          "ONG sin ánimo de lucro."
+        ],
+        "url": "https://signal.org/"
+      },
+      {
+        "nombre": "Session",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Android",
+          "iOS",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Mensajería privada que no requiere número de teléfono para registrarse.",
+        "por_que": [
+          "El enrutamiento descentralizado oculta tu dirección IP.",
+          "Resistente a la censura."
+        ],
+        "url": "https://getsession.org/"
+      }
+    ]
+  },
+  "veeam.com": {
+    "privativo": "Veeam / Acronis (Backups)",
+    "alternativas": [
+      {
+        "nombre": "BorgBackup",
+        "licencia": "BSD",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Linux",
+          "Mac"
+        ],
+        "descripcion": "Programa de copias de seguridad con deduplicación y cifrado en el lado del cliente.",
+        "por_que": [
+          "Ahorra muchísimo espacio en disco gracias a su eficiente deduplicación.",
+          "Completamente seguro contra ransomware."
+        ],
+        "url": "https://www.borgbackup.org/"
+      },
+      {
+        "nombre": "Duplicati",
+        "licencia": "LGPLv2",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Cliente de copia de seguridad gratuito que almacena backups cifrados en la nube.",
+        "por_que": [
+          "Interfaz web fácil de usar.",
+          "Soporta S3, Google Drive, OneDrive y WebDAV."
+        ],
+        "url": "https://www.duplicati.com/"
+      }
+    ]
+  },
+  "google.com/search": {
+    "privativo": "Google Search",
+    "alternativas": [
+      {
+        "nombre": "SearXNG",
+        "licencia": "AGPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Metabuscador que agrega resultados de múltiples motores sin rastrearte.",
+        "por_que": [
+          "Obtienes los resultados de Google/Bing sin darles tu IP ni cookies.",
+          "Puedes montar tu propio buscador privado."
+        ],
+        "url": "https://searx.space/"
+      },
+      {
+        "nombre": "Whoogle Search",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Resultados de búsqueda de Google auto-hospedados y sin anuncios.",
+        "por_que": [
+          "Sin AMP, sin rastreo y sin bloqueos de IP.",
+          "Interfaz extremadamente limpia y similar a Google clásico."
+        ],
+        "url": "https://github.com/benbusby/whoogle-search"
+      }
+    ]
+  },
+  "reddit.com": {
+    "privativo": "Reddit",
+    "alternativas": [
+      {
+        "nombre": "Lemmy",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Federada"
+        ],
+        "descripcion": "Agregador de enlaces y foros descentralizados en el Fediverso.",
+        "por_que": [
+          "Tú puedes crear tu propio servidor y conectarlo con millones de usuarios de otras instancias.",
+          "Cero anuncios."
+        ],
+        "url": "https://join-lemmy.org/"
+      },
+      {
+        "nombre": "Kbin",
+        "licencia": "AGPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Web",
+          "Federada"
+        ],
+        "descripcion": "Red de agregación de contenido y microblogging compatible con ActivityPub.",
+        "por_que": [
+          "Combina el estilo de Reddit con la inmediatez de Twitter/Mastodon.",
+          "Comunidad muy activa y colaborativa."
+        ],
+        "url": "https://kbin.pub/"
+      }
+    ]
+  },
+  "github.com/features/copilot": {
+    "privativo": "GitHub Copilot",
+    "alternativas": [
+      {
+        "nombre": "Continue.dev",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "VS Code",
+          "JetBrains"
+        ],
+        "descripcion": "El asistente de código abierto que integra LLMs directamente en tu IDE.",
+        "por_que": [
+          "Puedes conectarlo a modelos locales (Ollama) para que tu código nunca salga de tu portátil.",
+          "Soporte para chat y autocompletado."
+        ],
+        "url": "https://continue.dev/"
+      },
+      {
+        "nombre": "Tabby",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor",
+          "VS Code"
+        ],
+        "descripcion": "Servidor de IA autohospedado para autocompletado de código.",
+        "por_que": [
+          "Alternativa empresarial a Copilot.",
+          "No requiere que tu código fuente sea enviado a servidores externos."
+        ],
+        "url": "https://tabbyml.com/"
+      }
+    ]
+  },
+  "docs.google.com": {
+    "privativo": "Google Docs",
+    "alternativas": [
+      {
+        "nombre": "CryptPad Docs",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "Editor colaborativo de documentos en tiempo real.",
+        "por_que": [
+          "El contenido se cifra en el navegador antes de enviarse.",
+          "El administrador del servidor no puede leer tus textos."
+        ],
+        "url": "https://cryptpad.fr/"
+      },
+      {
+        "nombre": "Etherpad",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "El clásico editor colaborativo multijugador y de código abierto.",
+        "por_que": [
+          "Historial de versiones granular ('Time Slider').",
+          "Fácilmente integrable en foros o CMS mediante iframes."
+        ],
+        "url": "https://etherpad.org/"
+      }
+    ]
+  },
+  "keep.google.com": {
+    "privativo": "Google Keep",
+    "alternativas": [
+      {
+        "nombre": "Notesnook",
+        "licencia": "GPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Win",
+          "Mac",
+          "Linux",
+          "Móvil"
+        ],
+        "descripcion": "Aplicación de notas privadas con cifrado en el dispositivo.",
+        "por_que": [
+          "Prueba criptográfica de cero conocimiento.",
+          "Sincronización ilimitada sin costes ocultos."
+        ],
+        "url": "https://notesnook.com/"
+      },
+      {
+        "nombre": "Carnet",
+        "licencia": "GPLv3",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Web",
+          "Android",
+          "Nextcloud"
+        ],
+        "descripcion": "Alternativa potente y colorida a Google Keep que se integra con Nextcloud.",
+        "por_que": [
+          "Soporta grabación de audio, fotos y dibujos a mano.",
+          "Todo se guarda en tu propio servidor."
+        ],
+        "url": "https://getcarnet.app/"
+      }
+    ]
+  },
+  "apple.com/siri": {
+    "privativo": "Siri / Alexa / Google Assistant",
+    "alternativas": [
+      {
+        "nombre": "Home Assistant",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Raspberry Pi",
+          "Servidor"
+        ],
+        "descripcion": "Automatización del hogar de código abierto que pone el control y la privacidad en primer lugar.",
+        "por_que": [
+          "Procesamiento de voz local.",
+          "Se integra con más de mil dispositivos sin requerir conexión a internet externa."
+        ],
+        "url": "https://www.home-assistant.io/"
+      },
+      {
+        "nombre": "Mycroft",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Linux",
+          "Raspberry Pi"
+        ],
+        "descripcion": "Asistente de voz de código abierto.",
+        "por_que": [
+          "El micrófono no envía audios para vender publicidad.",
+          "Altamente hackeable para crear tus propios comandos de voz (Skills)."
+        ],
+        "url": "https://mycroft.ai/"
+      }
+    ]
+  },
+  "feedly.com": {
+    "privativo": "Feedly",
+    "alternativas": [
+      {
+        "nombre": "FreshRSS",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Agregador de feeds RSS ligero y rápido como un rayo.",
+        "por_que": [
+          "Excelente modo lectura que extrae artículos completos.",
+          "Funciona fluidamente con miles de suscripciones activas."
+        ],
+        "url": "https://freshrss.org/"
+      },
+      {
+        "nombre": "Miniflux",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Lector de RSS minimalista y súper rápido escrito en Go.",
+        "por_que": [
+          "Diseño brutalista que se enfoca 100% en el texto.",
+          "No distrae con redes sociales ni sugerencias de algoritmos."
+        ],
+        "url": "https://miniflux.app/"
+      }
+    ]
+  },
+  "bitly.com": {
+    "privativo": "Bitly",
+    "alternativas": [
+      {
+        "nombre": "Shlink",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor",
+          "Docker"
+        ],
+        "descripcion": "Acortador de URLs auto-alojado con panel de estadísticas avanzado.",
+        "por_que": [
+          "Tú eres el propietario de tus enlaces.",
+          "Generación automática de códigos QR y analíticas sin cookies."
+        ],
+        "url": "https://shlink.io/"
+      },
+      {
+        "nombre": "YOURLS",
+        "licencia": "MIT",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Your Own URL Shortener: clásico acortador fácil de instalar.",
+        "por_que": [
+          "Instalación básica en PHP/MySQL.",
+          "Gran cantidad de plugins de la comunidad."
+        ],
+        "url": "https://yourls.org/"
+      }
+    ]
+  },
+  "disqus.com": {
+    "privativo": "Disqus",
+    "alternativas": [
+      {
+        "nombre": "Commento",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Motor de comentarios web rápido, sin hinchazón y enfocado en la privacidad.",
+        "por_que": [
+          "Script minúsculo (11KB) que no ralentiza tu web.",
+          "Cero anuncios y sin rastreo de usuarios."
+        ],
+        "url": "https://commento.io/"
+      },
+      {
+        "nombre": "Isso",
+        "licencia": "MIT",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Servidor ligero de comentarios estilo Disqus programado en Python.",
+        "por_que": [
+          "Usa SQLite (sin configuraciones complejas de bases de datos).",
+          "Permite la importación de comentarios desde Disqus o WordPress."
+        ],
+        "url": "https://isso-comments.de/"
+      }
+    ]
+  },
+  "audible.com": {
+    "privativo": "Audible",
+    "alternativas": [
+      {
+        "nombre": "Audiobookshelf",
+        "licencia": "GPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Self-hosted",
+          "Android",
+          "iOS"
+        ],
+        "descripcion": "Servidor de audiolibros y podcasts autohospedado definitivo.",
+        "por_que": [
+          "Recuerda exactamente por qué minuto vas en todos tus dispositivos.",
+          "Soporte fenomenal para metadatos."
+        ],
+        "url": "https://www.audiobookshelf.org/"
+      },
+      {
+        "nombre": "Booksonic",
+        "licencia": "GPLv3",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Self-hosted",
+          "Android"
+        ],
+        "descripcion": "Servidor basado en Subsonic adaptado específicamente para audiolibros.",
+        "por_que": [
+          "Muy ligero.",
+          "Compatible con cualquier aplicación que soporte el protocolo Subsonic."
+        ],
+        "url": "https://booksonic.org/"
+      }
+    ]
+  },
+  "speedtest.net": {
+    "privativo": "Ookla Speedtest",
+    "alternativas": [
+      {
+        "nombre": "LibreSpeed",
+        "licencia": "LGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Test de velocidad de internet sin Flash, sin Java y sin WebSockets (solo JS).",
+        "por_que": [
+          "No guarda tu IP para venderla a terceros.",
+          "Puedes instalarlo en tu servidor para probar la red local."
+        ],
+        "url": "https://librespeed.org/"
+      },
+      {
+        "nombre": "iPerf3",
+        "licencia": "BSD",
+        "estrellas": "4.9",
+        "plataformas": [
+          "CLI",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Herramienta técnica para medir el ancho de banda máximo de una red IP.",
+        "por_que": [
+          "Estándar de ingenieros de red.",
+          "Mediciones puras sin la interferencia del navegador."
+        ],
+        "url": "https://iperf.fr/"
+      }
+    ]
+  },
+  "medium.com": {
+    "privativo": "Medium",
+    "alternativas": [
+      {
+        "nombre": "WriteFreely",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Federada"
+        ],
+        "descripcion": "Plataforma de blogging limpia y minimalista, centrada puramente en escribir.",
+        "por_que": [
+          "Sin muros de pago (paywalls).",
+          "Se conecta al Fediverso (Mastodon)."
+        ],
+        "url": "https://writefreely.org/"
+      },
+      {
+        "nombre": "Plume",
+        "licencia": "AGPLv3",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Web",
+          "Federada"
+        ],
+        "descripcion": "Motor de blogging federado escrito en Rust.",
+        "por_que": [
+          "Soporta blogs colaborativos (varios autores).",
+          "Interfaz ligera y libre de distracciones."
+        ],
+        "url": "https://joinplu.me/"
+      }
+    ]
   }
 }
