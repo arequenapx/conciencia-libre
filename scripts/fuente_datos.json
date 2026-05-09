@@ -97,7 +97,7 @@
           "Parte de la suite LibreOffice.",
           "Fácil de usar para documentos sencillos."
         ],
-        "url": "https://es.libreoffice.org/descubre/draw/",
+        "url": "https://www.libreoffice.org/discover/draw/",
         "icono": "src/data/logos/libreoffice_draw.png"
       }
     ]
@@ -1514,7 +1514,7 @@
           "Se puede usar de forma totalmente offline en escritorio.",
           "Integración nativa con Mattermost."
         ],
-        "url": "https://www.focalboard.com/",
+        "url": "https://www.mattermost.com/focalboard/",
         "icono": "src/data/logos/focalboard.png"
       }
     ]
@@ -1931,7 +1931,7 @@
         "por_que": [
           "Combina la potencia visual de Blender con restricciones geométricas reales."
         ],
-        "url": "https://makertales.com/cad-sketcher",
+        "url": "https://github.com/hlorus/CAD_Sketcher",
         "icono": "src/data/logos/blender_cad_sketcher_.png"
       }
     ]
@@ -3042,7 +3042,7 @@
           "Control total de tu propio servidor de soporte.",
           "Soporta Intel AMT."
         ],
-        "url": "https://www.meshcommander.com/meshcentral2",
+        "url": "https://www.meshcentral.com/",
         "icono": "src/data/logos/meshcentral.png"
       },
       {
@@ -3522,7 +3522,7 @@
           "Gestión de color avanzada.",
           "Alto rendimiento en equipos modestos."
         ],
-        "url": "https://www.olivevideoeditor.org/",
+        "url": "https://github.com/olive-editor/olive",
         "icono": "src/data/logos/olive.png"
       }
     ]
@@ -3543,7 +3543,7 @@
           "Gestión de color CMYK superior.",
           "Soporte para archivos de CorelDraw antiguos."
         ],
-        "url": "https://sk1project.net/",
+        "url": "https://github.com/sk1project/sk1-wx",
         "icono": "src/data/logos/sk1.png"
       },
       {
@@ -4069,7 +4069,7 @@
           "Soporte multicompañía y multidivisa.",
           "Interfaz extremadamente rápida y moderna."
         ],
-        "url": "https://frappe.io/accounting",
+        "url": "https://frappe.io/books",
         "icono": "src/data/logos/frappe_accounting.png"
       }
     ]
@@ -7179,7 +7179,7 @@
           "Soporta grabación de audio, fotos y dibujos a mano.",
           "Todo se guarda en tu propio servidor."
         ],
-        "url": "https://getcarnet.app/"
+        "url": "https://github.com/PhieF/CarnetNextcloud"
       }
     ]
   },
@@ -7458,7 +7458,7 @@
           "Evita el rastreo agresivo y la huella digital de ByteDance.",
           "Visualización sin cuenta obligatoria."
         ],
-        "url": "https://proxitok.pabloferreiro.es/"
+        "url": "https://github.com/pablouser2/ProxiTok"
       },
       {
         "nombre": "FreeTube",
@@ -7499,18 +7499,20 @@
         "icono": "src/data/logos/pixelfed.png"
       },
       {
-        "nombre": "Barinsta",
-        "licencia": "GPLv3",
-        "estrellas": "4.5",
+        "nombre": "Instaloader",
+        "licencia": "MIT",
+        "estrellas": "4.7",
         "plataformas": [
-          "Android"
+          "Win",
+          "Mac",
+          "Linux"
         ],
-        "descripcion": "Cliente alternativo de código abierto para leer Instagram.",
+        "descripcion": "Herramienta avanzada para descargar y explorar contenido de Instagram de forma privada.",
         "por_que": [
-          "Permite ver posts y stories de forma anónima.",
-          "Elimina anuncios y contenido sugerido."
+          "Evita el rastreo de la app oficial.",
+          "Permite backups locales."
         ],
-        "url": "https://f-droid.org/packages/me.austinhuang.instagrabber/",
+        "url": "https://instaloader.github.io/",
         "icono": "src/data/logos/barinsta.png"
       }
     ]
@@ -7635,19 +7637,19 @@
     "privativo": "Intercom / Drift",
     "alternativas": [
       {
-        "nombre": "Papercups",
-        "licencia": "MIT",
+        "nombre": "Chaskiq",
+        "licencia": "GPLv3",
         "estrellas": "4.6",
         "plataformas": [
           "Web",
           "Self-hosted"
         ],
-        "descripcion": "Widget de chat de soporte para clientes en vivo de código abierto.",
+        "descripcion": "Plataforma de marketing conversacional y chat en vivo de código abierto.",
         "por_que": [
-          "Escrito en Elixir/React, muy personalizable.",
-          "Permite integrarlo en tu web sin cuotas mensuales."
+          "Alternativa real a Intercom.",
+          "Totalmente auto-hospedable."
         ],
-        "url": "https://papercups.io/"
+        "url": "https://chaskiq.io/"
       },
       {
         "nombre": "Chatwoot",
