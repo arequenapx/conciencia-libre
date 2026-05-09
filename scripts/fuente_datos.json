@@ -4770,5 +4770,699 @@
         "url": "https://errbit.com/"
       }
     ]
+  },
+  "todoist.com": {
+    "privativo": "Todoist",
+    "alternativas": [
+      {
+        "nombre": "Super Productivity",
+        "licencia": "MIT",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Web"
+        ],
+        "descripcion": "Gestor de tareas y seguimiento de tiempo súper avanzado que no requiere registro.",
+        "por_que": [
+          "Tus datos se guardan localmente.",
+          "Integración con Jira, GitLab y GitHub."
+        ],
+        "url": "https://super-productivity.com/"
+      },
+      {
+        "nombre": "Taskwarrior",
+        "licencia": "MIT",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Terminal",
+          "Linux",
+          "Mac"
+        ],
+        "descripcion": "Gestor de lista de tareas por línea de comandos muy rápido y eficiente.",
+        "por_que": [
+          "Flujo de trabajo para power-users.",
+          "Extremadamente ligero."
+        ],
+        "url": "https://taskwarrior.org/"
+      }
+    ]
+  },
+  "toggl.com": {
+    "privativo": "Toggl Track",
+    "alternativas": [
+      {
+        "nombre": "Kimai",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Sistema de seguimiento de tiempo de código abierto para facturación y gestión.",
+        "por_que": [
+          "Perfecto para freelancers y equipos.",
+          "Facturación integrada."
+        ],
+        "url": "https://www.kimai.org/"
+      },
+      {
+        "nombre": "ActivityWatch",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Registra automáticamente cómo pasas el tiempo en tu ordenador (privacidad primero).",
+        "por_que": [
+          "No tienes que acordarte de iniciar un temporizador.",
+          "Cero datos en la nube."
+        ],
+        "url": "https://activitywatch.net/"
+      }
+    ]
+  },
+  "basecamp.com": {
+    "privativo": "Basecamp",
+    "alternativas": [
+      {
+        "nombre": "OpenProject",
+        "licencia": "GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Software de gestión de proyectos que cubre todo el ciclo de vida.",
+        "por_que": [
+          "Cumple con los estrictos estándares de privacidad alemanes.",
+          "Diagramas de Gantt potentes."
+        ],
+        "url": "https://www.openproject.org/"
+      },
+      {
+        "nombre": "Taiga",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Plataforma de gestión de proyectos ágiles (Scrum/Kanban) muy visual.",
+        "por_que": [
+          "Diseñada específicamente para equipos de desarrollo y creativos.",
+          "Interfaz premiada."
+        ],
+        "url": "https://taiga.io/"
+      }
+    ]
+  },
+  "obsidian.md": {
+    "privativo": "Obsidian (Propiedad Comercial)",
+    "alternativas": [
+      {
+        "nombre": "Zettlr",
+        "licencia": "GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Editor Markdown diseñado específicamente para investigadores y académicos.",
+        "por_que": [
+          "Integración nativa con Zotero para citas bibliográficas.",
+          "Flujo de trabajo Zettelkasten."
+        ],
+        "url": "https://www.zettlr.com/"
+      },
+      {
+        "nombre": "Logseq",
+        "licencia": "AGPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Android"
+        ],
+        "descripcion": "Base de conocimiento local basada en bloques y grafos.",
+        "por_que": [
+          "Completamente libre (a diferencia de Obsidian).",
+          "Estructura esquemática ideal para tomar notas rápidas."
+        ],
+        "url": "https://logseq.com/"
+      }
+    ]
+  },
+  "ringcentral.com": {
+    "privativo": "RingCentral / VoIP Comercial",
+    "alternativas": [
+      {
+        "nombre": "Asterisk",
+        "licencia": "GPLv2",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Linux",
+          "Servidor"
+        ],
+        "descripcion": "El framework de código abierto más popular para construir aplicaciones de comunicación (PBX).",
+        "por_que": [
+          "Transforma un ordenador común en un servidor de comunicaciones rico en funciones.",
+          "Soporta casi todo hardware SIP."
+        ],
+        "url": "https://www.asterisk.org/"
+      },
+      {
+        "nombre": "FreePBX",
+        "licencia": "GPL",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Interfaz gráfica basada en web para gestionar Asterisk.",
+        "por_que": [
+          "Facilita enormemente la configuración de centralitas telefónicas corporativas.",
+          "Gran ecosistema de módulos."
+        ],
+        "url": "https://www.freepbx.org/"
+      }
+    ]
+  },
+  "sendgrid.com": {
+    "privativo": "SendGrid / Mailgun",
+    "alternativas": [
+      {
+        "nombre": "Postal",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor",
+          "Docker"
+        ],
+        "descripcion": "Servidor de correo completo para el envío de correos transaccionales y enrutamiento.",
+        "por_que": [
+          "Alternativa self-hosted a servicios SaaS caros.",
+          "Webhooks y métricas de entrega en tiempo real."
+        ],
+        "url": "https://postalserver.io/"
+      },
+      {
+        "nombre": "Listmonk",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor",
+          "Docker"
+        ],
+        "descripcion": "Gestor de listas de correo masivo independiente con una única interfaz rica.",
+        "por_que": [
+          "Rendimiento extremo en una sola base de datos PostgreSQL.",
+          "Privacidad de tu lista de suscriptores."
+        ],
+        "url": "https://listmonk.app/"
+      }
+    ]
+  },
+  "pagerduty.com": {
+    "privativo": "PagerDuty",
+    "alternativas": [
+      {
+        "nombre": "Grafana OnCall",
+        "licencia": "AGPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Servidor",
+          "Docker"
+        ],
+        "descripcion": "Herramienta de gestión de guardias y enrutamiento de alertas para DevOps.",
+        "por_que": [
+          "Integración directa con el ecosistema Grafana/Prometheus.",
+          "Sin costes por usuario/licencia telefónica."
+        ],
+        "url": "https://grafana.com/oss/oncall/"
+      },
+      {
+        "nombre": "Alerta",
+        "licencia": "MIT",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Consola de alertas escalable para consolidar notificaciones de múltiples monitores.",
+        "por_que": [
+          "Desarrollado originalmente en The Guardian.",
+          "Deduplicación inteligente de alertas de red."
+        ],
+        "url": "https://alerta.io/"
+      }
+    ]
+  },
+  "okta.com": {
+    "privativo": "Okta",
+    "alternativas": [
+      {
+        "nombre": "Authentik",
+        "licencia": "MIT",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor",
+          "Docker"
+        ],
+        "descripcion": "Proveedor de identidad de código abierto centrado en la flexibilidad.",
+        "por_que": [
+          "Flujos de inicio de sesión visualmente programables.",
+          "Reemplaza a Okta y Auth0 fácilmente en on-premise."
+        ],
+        "url": "https://goauthentik.io/"
+      },
+      {
+        "nombre": "Casdoor",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Plataforma de IAM / SSO con una interfaz web moderna.",
+        "por_que": [
+          "Soporta OAuth 2.0, OIDC y SAML.",
+          "Muy fácil de integrar en frameworks web modernos como React o Vue."
+        ],
+        "url": "https://casdoor.org/"
+      }
+    ]
+  },
+  "adobe.com/products/xd": {
+    "privativo": "Adobe XD",
+    "alternativas": [
+      {
+        "nombre": "Penpot",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "La herramienta de diseño colaborativo de código abierto para UI/UX.",
+        "por_que": [
+          "Utiliza estándares web (SVG) nativamente.",
+          "Colaboración en tiempo real entre diseñadores y desarrolladores."
+        ],
+        "url": "https://penpot.app/"
+      },
+      {
+        "nombre": "Akira",
+        "licencia": "GPLv3",
+        "estrellas": "4.3",
+        "plataformas": [
+          "Linux"
+        ],
+        "descripcion": "Aplicación de diseño Linux nativa (Vala/GTK) para UI y UX.",
+        "por_que": [
+          "Rápido y nativo para entornos de escritorio Linux.",
+          "Foco en el diseño vectorial limpio."
+        ],
+        "url": "https://github.com/akiraux/Akira"
+      }
+    ]
+  },
+  "autodesk.com/products/3ds-max": {
+    "privativo": "Autodesk 3ds Max",
+    "alternativas": [
+      {
+        "nombre": "Blender",
+        "licencia": "GPL",
+        "estrellas": "5.0",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Suite de creación 3D de código abierto estándar de la industria.",
+        "por_que": [
+          "Capacidades de modelado avanzado y renderizado fotorealista (Cycles).",
+          "Comunidad gigantesca."
+        ],
+        "url": "https://www.blender.org/"
+      },
+      {
+        "nombre": "Wings 3D",
+        "licencia": "BSD",
+        "estrellas": "4.2",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Modelador de subdivisión de polígonos avanzado, inspirado en Nendo.",
+        "por_que": [
+          "Enfoque exclusivo en modelado de mallas.",
+          "Interfaz amigable para diseño orgánico."
+        ],
+        "url": "http://www.wings3d.com/"
+      }
+    ]
+  },
+  "parallels.com": {
+    "privativo": "Parallels Desktop",
+    "alternativas": [
+      {
+        "nombre": "VirtualBox",
+        "licencia": "GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "El virtualizador x86 y AMD64/Intel64 multiplataforma de uso general.",
+        "por_que": [
+          "Uso gratuito incluso en entornos empresariales (pack base).",
+          "Snapshot de estados de máquina."
+        ],
+        "url": "https://www.virtualbox.org/"
+      },
+      {
+        "nombre": "UTM",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Mac",
+          "iOS"
+        ],
+        "descripcion": "Virtualización completa y emulación basada en QEMU adaptada para macOS/iOS.",
+        "por_que": [
+          "Soporte increíble para la arquitectura Apple Silicon (M1/M2).",
+          "Ejecuta Windows ARM a velocidad casi nativa."
+        ],
+        "url": "https://mac.getutm.app/"
+      }
+    ]
+  },
+  "smartsheet.com": {
+    "privativo": "Smartsheet",
+    "alternativas": [
+      {
+        "nombre": "Grist",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Híbrido entre hoja de cálculo y base de datos, totalmente personalizable.",
+        "por_que": [
+          "Soporta fórmulas en Python.",
+          "Vistas relacionales de datos mucho más claras que Excel."
+        ],
+        "url": "https://www.getgrist.com/"
+      },
+      {
+        "nombre": "NocoDB",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Convierte cualquier base de datos SQL existente en una hoja de cálculo inteligente.",
+        "por_que": [
+          "Conecta directamente a tu MySQL o Postgres.",
+          "Alternativa auto-hospedable a Airtable y Smartsheet."
+        ],
+        "url": "https://nocodb.com/"
+      }
+    ]
+  },
+  "hootsuite.com": {
+    "privativo": "Hootsuite / Buffer",
+    "alternativas": [
+      {
+        "nombre": "Mixpost",
+        "licencia": "MIT",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Software de gestión de redes sociales que puedes alojar tú mismo.",
+        "por_que": [
+          "Programa publicaciones en Twitter, Mastodon y Facebook sin pagar tarifas mensuales.",
+          "Tú controlas tus tokens."
+        ],
+        "url": "https://mixpost.app/"
+      },
+      {
+        "nombre": "Socioboard",
+        "licencia": "GPLv3",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Self-hosted",
+          "Web"
+        ],
+        "descripcion": "Plataforma de plomo social, análisis y gestión omnicanal.",
+        "por_que": [
+          "Gestión avanzada de permisos de equipo.",
+          "Soporte para múltiples redes comerciales."
+        ],
+        "url": "https://socioboard.com/"
+      }
+    ]
+  },
+  "f5.com": {
+    "privativo": "F5 BIG-IP (Load Balancer)",
+    "alternativas": [
+      {
+        "nombre": "HAProxy",
+        "licencia": "GPLv2",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Linux"
+        ],
+        "descripcion": "Balanceador de carga y proxy inverso TCP/HTTP fiable y de altísimo rendimiento.",
+        "por_que": [
+          "El estándar de facto para el balanceo de carga en arquitecturas de alta disponibilidad.",
+          "Extremadamente eficiente."
+        ],
+        "url": "http://www.haproxy.org/"
+      },
+      {
+        "nombre": "Traefik",
+        "licencia": "MIT",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor",
+          "Docker"
+        ],
+        "descripcion": "Proxy inverso moderno y balanceador de carga que se configura dinámicamente.",
+        "por_que": [
+          "Descubre automáticamente servicios en Docker y Kubernetes.",
+          "Generación nativa de certificados Let's Encrypt."
+        ],
+        "url": "https://traefik.io/traefik/"
+      }
+    ]
+  },
+  "solarwinds.com": {
+    "privativo": "SolarWinds",
+    "alternativas": [
+      {
+        "nombre": "Nagios Core",
+        "licencia": "GPLv2",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Linux"
+        ],
+        "descripcion": "Estándar de la industria en monitorización de infraestructuras TI.",
+        "por_que": [
+          "Inmenso ecosistema de plugins desarrollados por la comunidad.",
+          "Extremadamente probado en batallas empresariales."
+        ],
+        "url": "https://www.nagios.org/projects/nagios-core/"
+      },
+      {
+        "nombre": "Zabbix",
+        "licencia": "GPLv2",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Plataforma de monitorización distribuida, métricas y recolección de logs.",
+        "por_que": [
+          "Auto-descubrimiento de redes.",
+          "Mapas de topología dinámicos."
+        ],
+        "url": "https://www.zabbix.com/"
+      }
+    ]
+  },
+  "gotomeeting.com": {
+    "privativo": "GoToMeeting",
+    "alternativas": [
+      {
+        "nombre": "BigBlueButton",
+        "licencia": "LGPL",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Sistema de conferencias web diseñado para el aprendizaje en línea e instituciones.",
+        "por_que": [
+          "Integración nativa con Moodle y Canvas.",
+          "Pizarra multi-usuario en tiempo real."
+        ],
+        "url": "https://bigbluebutton.org/"
+      },
+      {
+        "nombre": "Jitsi Meet",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web",
+          "Móvil",
+          "Self-hosted"
+        ],
+        "descripcion": "Solución de videoconferencia cifrada, abierta y 100% gratuita.",
+        "por_que": [
+          "No se necesita cuenta ni cliente pesado.",
+          "Basado en WebRTC."
+        ],
+        "url": "https://meet.jit.si/"
+      }
+    ]
+  },
+  "fortinet.com": {
+    "privativo": "Fortinet FortiGate",
+    "alternativas": [
+      {
+        "nombre": "OPNsense",
+        "licencia": "BSD",
+        "estrellas": "4.8",
+        "plataformas": [
+          "FreeBSD"
+        ],
+        "descripcion": "Plataforma de firewall y enrutamiento fácil de usar, abierta y basada en HardenedBSD.",
+        "por_que": [
+          "Protección UTM (Unified Threat Management) completa.",
+          "Interfaz de usuario muy limpia."
+        ],
+        "url": "https://opnsense.org/"
+      },
+      {
+        "nombre": "VyOS",
+        "licencia": "GPL",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Linux"
+        ],
+        "descripcion": "Sistema operativo de red basado en Linux que proporciona enrutamiento por software.",
+        "por_que": [
+          "Interfaz de línea de comandos unificada similar a los routers corporativos clásicos (Cisco/Juniper).",
+          "Ligero."
+        ],
+        "url": "https://vyos.io/"
+      }
+    ]
+  },
+  "sumologic.com": {
+    "privativo": "Sumo Logic",
+    "alternativas": [
+      {
+        "nombre": "ELK Stack (Elastic)",
+        "licencia": "SSPL / Elastic License",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "El paquete de Elasticsearch, Logstash y Kibana para búsqueda y analítica.",
+        "por_que": [
+          "Visualización inigualable de logs masivos con Kibana.",
+          "Potencia de búsqueda a texto completo."
+        ],
+        "url": "https://www.elastic.co/elastic-stack/"
+      },
+      {
+        "nombre": "Graylog",
+        "licencia": "GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Gestión de logs construida sobre Elasticsearch, pero con una capa de control más sencilla.",
+        "por_que": [
+          "Más fácil de configurar que Logstash.",
+          "Enfocado fuertemente en análisis de seguridad (SIEM)."
+        ],
+        "url": "https://www.graylog.org/"
+      }
+    ]
+  },
+  "snyk.io": {
+    "privativo": "Snyk",
+    "alternativas": [
+      {
+        "nombre": "Trivy",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "CLI",
+          "Linux",
+          "Docker"
+        ],
+        "descripcion": "Escáner de vulnerabilidades de código abierto potente y rápido para contenedores y código.",
+        "por_que": [
+          "Detecta fallos en dependencias del sistema operativo y paquetes de lenguaje.",
+          "Integración trivial en CI/CD."
+        ],
+        "url": "https://trivy.dev/"
+      },
+      {
+        "nombre": "Dependency-Track",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Plataforma de análisis de componentes que monitoriza el riesgo en la cadena de suministro.",
+        "por_que": [
+          "Proyecto bandera de OWASP.",
+          "Analiza listas de materiales de software (SBOM)."
+        ],
+        "url": "https://dependencytrack.org/"
+      }
+    ]
+  },
+  "browserstack.com": {
+    "privativo": "BrowserStack",
+    "alternativas": [
+      {
+        "nombre": "Selenium Grid",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Clúster inteligente para ejecutar pruebas de navegador en paralelo en múltiples máquinas.",
+        "por_que": [
+          "Estándar global para automatización de pruebas web.",
+          "Altamente escalable."
+        ],
+        "url": "https://www.selenium.dev/"
+      },
+      {
+        "nombre": "Selenoid",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Docker"
+        ],
+        "descripcion": "Implementación ultrarrápida de un hub Selenium basada en contenedores Docker.",
+        "por_que": [
+          "Lanza un navegador fresco por contenedor en milisegundos.",
+          "Menos consumo de memoria que Grid tradicional."
+        ],
+        "url": "https://aerokube.com/selenoid/"
+      }
+    ]
   }
 }
