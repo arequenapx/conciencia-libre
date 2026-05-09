@@ -1443,6 +1443,21 @@
         ],
         "url": "https://www.metabase.com/",
         "icono": "src/data/logos/metabase.png"
+      },
+      {
+        "nombre": "Apache Superset",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Plataforma moderna de exploración y visualización de datos de nivel empresarial.",
+        "por_que": [
+          "Se integra con la mayoría de bases de datos SQL.",
+          "Creado originalmente por Airbnb."
+        ],
+        "url": "https://superset.apache.org/",
+        "icono": "src/data/logos/apache_superset.png"
       }
     ]
   },
@@ -1463,6 +1478,24 @@
         ],
         "url": "https://gitea.io/",
         "icono": "src/data/logos/gitea.png"
+      },
+      {
+        "nombre": "Gogs",
+        "licencia": "MIT",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Self-hosted",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Servicio Git auto-alojado extremadamente ligero y fácil de instalar.",
+        "por_que": [
+          "Requiere muy pocos recursos (funciona en una Raspberry Pi).",
+          "Escrito en Go."
+        ],
+        "url": "https://gogs.io/",
+        "icono": "src/data/logos/gogs.png"
       }
     ]
   },
@@ -1485,6 +1518,23 @@
         ],
         "url": "https://www.eclipse.org/ide/",
         "icono": "src/data/logos/eclipse_ide.png"
+      },
+      {
+        "nombre": "Apache NetBeans",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Entorno de desarrollo integrado mucho más allá de Java.",
+        "por_que": [
+          "Soporte excelente out-of-the-box para Maven y Gradle.",
+          "Totalmente gratuito sin versión 'Ultimate' de pago."
+        ],
+        "url": "https://netbeans.apache.org/",
+        "icono": "src/data/logos/apache_netbeans.png"
       }
     ]
   },
@@ -1505,6 +1555,22 @@
         ],
         "url": "https://supabase.com/",
         "icono": "src/data/logos/supabase.png"
+      },
+      {
+        "nombre": "Appwrite",
+        "licencia": "BSD",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor",
+          "Docker"
+        ],
+        "descripcion": "Plataforma Backend-as-a-Service segura para desarrolladores web, móviles y flutter.",
+        "por_que": [
+          "Incluye Auth, Bases de Datos, Funciones y Almacenamiento.",
+          "Dashboard visual muy intuitivo."
+        ],
+        "url": "https://appwrite.io/",
+        "icono": "src/data/logos/appwrite.png"
       }
     ]
   },
@@ -1528,6 +1594,21 @@
         ],
         "url": "https://godotengine.org/",
         "icono": "src/data/logos/godot_engine.png"
+      },
+      {
+        "nombre": "Stride",
+        "licencia": "MIT",
+        "estrellas": "4.3",
+        "plataformas": [
+          "Win"
+        ],
+        "descripcion": "Motor de videojuegos 2D y 3D de código abierto altamente modular.",
+        "por_que": [
+          "Escrito íntegramente en C#.",
+          "Perfecto para desarrolladores que vienen del ecosistema .NET."
+        ],
+        "url": "https://stride3d.net/",
+        "icono": "src/data/logos/stride.png"
       }
     ]
   },
@@ -1549,6 +1630,23 @@
         ],
         "url": "https://o3de.org/",
         "icono": "src/data/logos/o3de.png"
+      },
+      {
+        "nombre": "Godot Engine (3D)",
+        "licencia": "MIT",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Aunque se usa mucho para 2D, su renderizador 3D compite en juegos AA y desarrollo indie.",
+        "por_que": [
+          "Soporte de tecnologías modernas como Vulkan.",
+          "Comunidad de tutoriales inmensa."
+        ],
+        "url": "https://godotengine.org/",
+        "icono": "src/data/logos/godot_engine_(3d).png"
       }
     ]
   },
@@ -1571,6 +1669,23 @@
         ],
         "url": "https://www.sagemath.org/",
         "icono": "src/data/logos/sagemath.png"
+      },
+      {
+        "nombre": "Maxima",
+        "licencia": "GPLv2",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Sistema de álgebra computacional para manipulación de expresiones simbólicas y numéricas.",
+        "por_que": [
+          "Especializado en cálculo simbólico (derivadas, integrales).",
+          "Curva de aprendizaje similar a Mathematica."
+        ],
+        "url": "https://maxima.sourceforge.io/",
+        "icono": "src/data/logos/maxima.png"
       }
     ]
   },
@@ -1593,6 +1708,23 @@
         ],
         "url": "https://www.scilab.org/",
         "icono": "src/data/logos/scilab.png"
+      },
+      {
+        "nombre": "GNU Octave",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Software para cálculos numéricos avanzados, altamente compatible con sintaxis científica.",
+        "por_que": [
+          "Gráficos 2D/3D integrados para visualización de datos.",
+          "Excelente para matrices."
+        ],
+        "url": "https://octave.org/",
+        "icono": "src/data/logos/gnu_octave.png"
       }
     ]
   },
@@ -1654,6 +1786,23 @@
         ],
         "url": "https://solvespace.com/",
         "icono": "src/data/logos/solvespace.png"
+      },
+      {
+        "nombre": "FreeCAD",
+        "licencia": "LGPLv2+",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Modelador 3D paramétrico para diseño mecánico y de producto.",
+        "por_que": [
+          "Historial de operaciones modificable.",
+          "Formatos libres y sin bloqueos de versión."
+        ],
+        "url": "https://www.freecad.org/",
+        "icono": "src/data/logos/freecad.png"
       }
     ]
   },
@@ -1676,6 +1825,22 @@
         ],
         "url": "https://openscad.org/",
         "icono": "src/data/logos/openscad.png"
+      },
+      {
+        "nombre": "Blender (CAD Sketcher)",
+        "licencia": "GPL",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Uso de Blender con el add-on CAD Sketcher para modelado paramétrico de precisión.",
+        "por_que": [
+          "Combina la potencia visual de Blender con restricciones geométricas reales."
+        ],
+        "url": "https://makertales.com/cad-sketcher",
+        "icono": "src/data/logos/blender_(cad_sketcher).png"
       }
     ]
   },
@@ -1698,6 +1863,23 @@
         ],
         "url": "https://www.kicad.org/",
         "icono": "src/data/logos/kicad.png"
+      },
+      {
+        "nombre": "LibrePCB",
+        "licencia": "GPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Software EDA (Electronic Design Automation) intuitivo para crear circuitos impresos.",
+        "por_que": [
+          "Gestión de librerías moderna y sin dolor.",
+          "Interfaz mucho más limpia que otros EDA."
+        ],
+        "url": "https://librepcb.org/",
+        "icono": "src/data/logos/librepcb.png"
       }
     ]
   },
@@ -1721,6 +1903,23 @@
         ],
         "url": "https://www.qgis.org/",
         "icono": "src/data/logos/qgis.png"
+      },
+      {
+        "nombre": "gvSIG",
+        "licencia": "GPL",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Linux",
+          "Mac"
+        ],
+        "descripcion": "Sistema de Información Geográfica potente diseñado para la gestión de datos espaciales.",
+        "por_que": [
+          "Herramienta muy usada en administraciones públicas.",
+          "Gran soporte de bases de datos espaciales."
+        ],
+        "url": "http://www.gvsig.com/",
+        "icono": "src/data/logos/gvsig.png"
       }
     ]
   },
@@ -1743,6 +1942,22 @@
         ],
         "url": "https://moodle.org/",
         "icono": "src/data/logos/moodle.png"
+      },
+      {
+        "nombre": "Chamilo",
+        "licencia": "GPLv3+",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Web",
+          "Servidor"
+        ],
+        "descripcion": "Plataforma de e-learning enfocada en la facilidad de uso y accesibilidad.",
+        "por_que": [
+          "Interfaz visualmente más ligera que Moodle.",
+          "Gran comunidad hispanohablante."
+        ],
+        "url": "https://chamilo.org/es/",
+        "icono": "src/data/logos/chamilo.png"
       }
     ]
   },
@@ -1763,6 +1978,21 @@
         ],
         "url": "https://apps.ankiweb.net/",
         "icono": "src/data/logos/anki.png"
+      },
+      {
+        "nombre": "LibreLingo",
+        "licencia": "AGPLv3",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "Plataforma comunitaria para el aprendizaje de idiomas enfocada en la privacidad.",
+        "por_que": [
+          "Sin gamificación tóxica ni anuncios.",
+          "Tú eres dueño de tus datos de progreso."
+        ],
+        "url": "https://librelingo.app/",
+        "icono": "src/data/logos/librelingo.png"
       }
     ]
   },
@@ -1783,6 +2013,22 @@
         ],
         "url": "https://owncast.online/",
         "icono": "src/data/logos/owncast.png"
+      },
+      {
+        "nombre": "PeerTube (Live)",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Federada"
+        ],
+        "descripcion": "Ahora incluye funcionalidad nativa para realizar streams en directo usando P2P.",
+        "por_que": [
+          "Tus directos no pertenecen a una plataforma corporativa.",
+          "Reduce los costes de servidor gracias al P2P."
+        ],
+        "url": "https://joinpeertube.org/",
+        "icono": "src/data/logos/peertube_(live).png"
       }
     ]
   },
@@ -1804,6 +2050,24 @@
         ],
         "url": "https://joinpeertube.org/",
         "icono": "src/data/logos/peertube.png"
+      },
+      {
+        "nombre": "LBRY / Odysee",
+        "licencia": "MIT (Protocolo)",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Web",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Plataforma de vídeo basada en blockchain que elimina el poder de la censura centralizada.",
+        "por_que": [
+          "Monetización directa en criptomonedas integradas.",
+          "Resistencia a caídas."
+        ],
+        "url": "https://odysee.com/",
+        "icono": "src/data/logos/lbry_/_odysee.png"
       }
     ]
   },
@@ -1827,6 +2091,22 @@
         ],
         "url": "https://obsproject.com/",
         "icono": "src/data/logos/obs_studio.png"
+      },
+      {
+        "nombre": "VokoscreenNG",
+        "licencia": "GPLv2",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Win",
+          "Linux"
+        ],
+        "descripcion": "Creador de screencasts (capturas de pantalla en vídeo) muy fácil de usar.",
+        "por_que": [
+          "Ideal para grabar clases o tutoriales rápido.",
+          "Soporte para webcam integrada."
+        ],
+        "url": "https://linuxtv.org/wiki/index.php/VokoscreenNG",
+        "icono": "src/data/logos/vokoscreenng.png"
       }
     ]
   },
@@ -1847,6 +2127,20 @@
         ],
         "url": "https://www.freeipa.org/",
         "icono": "src/data/logos/freeipa.png"
+      },
+      {
+        "nombre": "Samba4 (AD DC)",
+        "licencia": "GPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Linux"
+        ],
+        "descripcion": "Servidor compatible con Active Directory Domain Controller.",
+        "por_que": [
+          "Permite administrar ordenadores Windows sin pagar licencias de Windows Server."
+        ],
+        "url": "https://www.samba.org/",
+        "icono": "src/data/logos/samba4_(ad_dc).png"
       }
     ]
   },
@@ -1867,6 +2161,21 @@
         ],
         "url": "https://www.elastic.co/what-is/elk-stack",
         "icono": "src/data/logos/elk_stack.png"
+      },
+      {
+        "nombre": "Graylog",
+        "licencia": "GPLv3 / SSPL",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Gestión de logs centralizada súper rápida y potente.",
+        "por_que": [
+          "Soporta terabytes de logs diarios.",
+          "Alertas en tiempo real para ciberseguridad."
+        ],
+        "url": "https://www.graylog.org/",
+        "icono": "src/data/logos/graylog.png"
       }
     ]
   },
@@ -1889,6 +2198,23 @@
         ],
         "url": "https://podman.io/",
         "icono": "src/data/logos/podman.png"
+      },
+      {
+        "nombre": "Rancher Desktop",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Gestión de contenedores y Kubernetes en el escritorio libre de las licencias de Docker.",
+        "por_que": [
+          "Usa containerd o dockerd bajo el capó.",
+          "Trae un cluster de K3s integrado."
+        ],
+        "url": "https://rancherdesktop.io/",
+        "icono": "src/data/logos/rancher_desktop.png"
       }
     ]
   },
@@ -1909,6 +2235,21 @@
         ],
         "url": "https://github.com/fatedier/frp",
         "icono": "src/data/logos/frp.png"
+      },
+      {
+        "nombre": "Localtunnel",
+        "licencia": "MIT",
+        "estrellas": "4.5",
+        "plataformas": [
+          "CLI / Node"
+        ],
+        "descripcion": "Expone tu localhost al mundo fácilmente para pruebas.",
+        "por_que": [
+          "No requiere crear una cuenta corporativa.",
+          "Implementación muy rápida y sin límites arbitrarios."
+        ],
+        "url": "https://theboroer.github.io/localtunnel-www/",
+        "icono": "src/data/logos/localtunnel.png"
       }
     ]
   },
@@ -1929,6 +2270,23 @@
         ],
         "url": "https://www.openproject.org/",
         "icono": "src/data/logos/openproject.png"
+      },
+      {
+        "nombre": "Redmine",
+        "licencia": "GPLv2",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Self-hosted",
+          "Win",
+          "Linux"
+        ],
+        "descripcion": "Gestor de proyectos flexible con seguimiento de errores muy potente.",
+        "por_que": [
+          "Altamente personalizable con plugins.",
+          "Diagramas de Gantt y calendario integrados."
+        ],
+        "url": "https://www.redmine.org/",
+        "icono": "src/data/logos/redmine.png"
       }
     ]
   },
@@ -1949,6 +2307,24 @@
         ],
         "url": "https://nextcloud.com/",
         "icono": "src/data/logos/nextcloud.png"
+      },
+      {
+        "nombre": "Syncthing",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Android"
+        ],
+        "descripcion": "Sincronización de archivos continua y descentralizada P2P.",
+        "por_que": [
+          "Tus datos no pasan por ningún servidor central.",
+          "Mucho más rápido en red local."
+        ],
+        "url": "https://syncthing.net/",
+        "icono": "src/data/logos/syncthing.png"
       }
     ]
   },
@@ -1970,6 +2346,22 @@
         ],
         "url": "https://wormhole.app/",
         "icono": "src/data/logos/wormhole.png"
+      },
+      {
+        "nombre": "Lufi",
+        "licencia": "AGPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Alojamiento temporal de archivos con cifrado del lado del cliente.",
+        "por_que": [
+          "El servidor no puede ver el contenido del archivo.",
+          "Puedes alojarlo tú mismo fácilmente."
+        ],
+        "url": "https://framagit.org/luc/lufi",
+        "icono": "src/data/logos/lufi.png"
       }
     ]
   },
@@ -1991,6 +2383,24 @@
         ],
         "url": "https://languagetool.org/",
         "icono": "src/data/logos/languagetool.png"
+      },
+      {
+        "nombre": "Vale",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "CLI",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Linter para prosa que te permite crear tus propias guías de estilo.",
+        "por_que": [
+          "Funciona offline y en terminal.",
+          "Integración directa con editores de código (VS Code)."
+        ],
+        "url": "https://vale.sh/",
+        "icono": "src/data/logos/vale.png"
       }
     ]
   },
@@ -2014,6 +2424,23 @@
         ],
         "url": "https://opentoonz.github.io/e/",
         "icono": "src/data/logos/opentoonz.png"
+      },
+      {
+        "nombre": "Blender (Grease Pencil)",
+        "licencia": "GPL",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Herramienta de animación 2D integrada en el motor 3D de Blender.",
+        "por_que": [
+          "Permite combinar animaciones 2D tradicionales en entornos 3D.",
+          "Flujo de trabajo innovador."
+        ],
+        "url": "https://www.blender.org/features/grease-pencil/",
+        "icono": "src/data/logos/blender_(grease_pencil).png"
       }
     ]
   },
@@ -2037,6 +2464,23 @@
         ],
         "url": "https://ardour.org/",
         "icono": "src/data/logos/ardour.png"
+      },
+      {
+        "nombre": "LMMS",
+        "licencia": "GPLv2",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Creación de música digital completa (alternativa a FL Studio / Logic).",
+        "por_que": [
+          "Soporte de plugins VST e instrumentos MIDI.",
+          "Comunidad de músicos muy activa."
+        ],
+        "url": "https://lmms.io/",
+        "icono": "src/data/logos/lmms.png"
       }
     ]
   },
@@ -2060,6 +2504,21 @@
         ],
         "url": "https://mixxx.org/",
         "icono": "src/data/logos/mixxx.png"
+      },
+      {
+        "nombre": "xwax",
+        "licencia": "GPL",
+        "estrellas": "4.3",
+        "plataformas": [
+          "Linux"
+        ],
+        "descripcion": "Emulador de vinilos de código de tiempo para DJs de la vieja escuela.",
+        "por_que": [
+          "Extremadamente estable para actuaciones en directo.",
+          "Bajo consumo de recursos."
+        ],
+        "url": "https://xwax.org/",
+        "icono": "src/data/logos/xwax.png"
       }
     ]
   },
@@ -2083,6 +2542,23 @@
         ],
         "url": "http://dia-installer.de/",
         "icono": "src/data/logos/dia.png"
+      },
+      {
+        "nombre": "Pencil Project",
+        "licencia": "GPLv2",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Herramienta para crear prototipos GUI y diagramas.",
+        "por_que": [
+          "Colección integrada de formas de interfaz de usuario.",
+          "Exportación fácil."
+        ],
+        "url": "https://pencil.evolus.vn/",
+        "icono": "src/data/logos/pencil_project.png"
       }
     ]
   },
@@ -2106,6 +2582,23 @@
         ],
         "url": "https://shotcut.org/",
         "icono": "src/data/logos/shotcut.png"
+      },
+      {
+        "nombre": "Kdenlive",
+        "licencia": "GPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Editor de vídeo no lineal profesional de la suite KDE.",
+        "por_que": [
+          "Edición proxy para vídeos 4K pesados.",
+          "Renderizado súper rápido."
+        ],
+        "url": "https://kdenlive.org/",
+        "icono": "src/data/logos/kdenlive.png"
       }
     ]
   },
@@ -2129,6 +2622,24 @@
         ],
         "url": "https://ginkgo-cadx.com/",
         "icono": "src/data/logos/ginkgo_cadx.png"
+      },
+      {
+        "nombre": "Weasis",
+        "licencia": "EPL",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Web"
+        ],
+        "descripcion": "Visor DICOM médico multiplataforma muy utilizado en hospitales.",
+        "por_que": [
+          "Se integra bien en navegadores (arquitectura web).",
+          "Ligero y escalable."
+        ],
+        "url": "https://nroduit.github.io/en/",
+        "icono": "src/data/logos/weasis.png"
       }
     ]
   },
@@ -2150,6 +2661,23 @@
         ],
         "url": "https://www.gadgetbridge.org/",
         "icono": "src/data/logos/gadgetbridge.png"
+      },
+      {
+        "nombre": "wger",
+        "licencia": "AGPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Web",
+          "Android",
+          "Self-hosted"
+        ],
+        "descripcion": "Gestor de rutinas de entrenamiento y dietas de código abierto.",
+        "por_que": [
+          "Sin recolección de datos de salud por corporaciones.",
+          "Planificador de rutinas avanzado."
+        ],
+        "url": "https://wger.de/",
+        "icono": "src/data/logos/wger.png"
       }
     ]
   },
@@ -2171,6 +2699,23 @@
         ],
         "url": "https://www.seafile.com/",
         "icono": "src/data/logos/seafile.png"
+      },
+      {
+        "nombre": "Syncthing",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Android"
+        ],
+        "descripcion": "Sincronizador continuo de archivos (P2P).",
+        "por_que": [
+          "Mueve archivos directamente entre tus dispositivos sin pasar por una nube de terceros."
+        ],
+        "url": "https://syncthing.net/",
+        "icono": "src/data/logos/syncthing.png"
       }
     ]
   },
@@ -2192,6 +2737,21 @@
         ],
         "url": "https://listmonk.app/",
         "icono": "src/data/logos/listmonk.png"
+      },
+      {
+        "nombre": "Mautic",
+        "licencia": "GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Plataforma de automatización de marketing y email.",
+        "por_que": [
+          "Sustituye carísimas suscripciones de CRM.",
+          "Alojado en tu servidor, datos 100% tuyos."
+        ],
+        "url": "https://www.mautic.org/",
+        "icono": "src/data/logos/mautic.png"
       }
     ]
   },
@@ -2213,6 +2773,22 @@
         ],
         "url": "https://github.com/huginn/huginn",
         "icono": "src/data/logos/huginn.png"
+      },
+      {
+        "nombre": "Node-RED",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor",
+          "IoT"
+        ],
+        "descripcion": "Herramienta de programación visual para conectar dispositivos y APIs.",
+        "por_que": [
+          "Flujo visual basado en nodos.",
+          "Súper popular en domótica (Home Assistant) e IoT."
+        ],
+        "url": "https://nodered.org/",
+        "icono": "src/data/logos/node-red.png"
       }
     ]
   },
@@ -2235,6 +2811,22 @@
         ],
         "url": "https://joinmastodon.org/",
         "icono": "src/data/logos/mastodon.png"
+      },
+      {
+        "nombre": "Pleroma / Akkoma",
+        "licencia": "AGPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Web",
+          "Federada"
+        ],
+        "descripcion": "Plataforma de microblogging federada, mucho más ligera que Mastodon.",
+        "por_que": [
+          "Funciona en Raspberry Pi sin problema.",
+          "Compatible con Mastodon y todo el Fediverso."
+        ],
+        "url": "https://pleroma.social/",
+        "icono": "src/data/logos/pleroma_/_akkoma.png"
       }
     ]
   },
@@ -2257,6 +2849,22 @@
         ],
         "url": "https://friendi.ca/",
         "icono": "src/data/logos/friendica.png"
+      },
+      {
+        "nombre": "Diaspora*",
+        "licencia": "AGPLv3",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Web",
+          "Federada"
+        ],
+        "descripcion": "Red social descentralizada estructurada en 'pods'.",
+        "por_que": [
+          "Tú eres el dueño de tu información personal.",
+          "Interoperabilidad descentralizada."
+        ],
+        "url": "https://diasporafoundation.org/",
+        "icono": "src/data/logos/diaspora*.png"
       }
     ]
   },
@@ -2280,6 +2888,23 @@
         ],
         "url": "https://keepassxc.org/",
         "icono": "src/data/logos/keepassxc.png"
+      },
+      {
+        "nombre": "Pass",
+        "licencia": "GPLv2",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Terminal",
+          "Linux",
+          "Mac"
+        ],
+        "descripcion": "El gestor de contraseñas estándar de UNIX.",
+        "por_que": [
+          "Usa GPG nativo para cifrar contraseñas.",
+          "Sigue la filosofía UNIX (un archivo, una clave)."
+        ],
+        "url": "https://www.passwordstore.org/",
+        "icono": "src/data/logos/pass.png"
       }
     ]
   },
@@ -2301,6 +2926,21 @@
         ],
         "url": "https://www.meshcommander.com/meshcentral2",
         "icono": "src/data/logos/meshcentral.png"
+      },
+      {
+        "nombre": "TightVNC",
+        "licencia": "GPLv2",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Win",
+          "Linux"
+        ],
+        "descripcion": "Software de control remoto de escritorio ligero y sin dependencias externas.",
+        "por_que": [
+          "Totalmente gratuito, sin alertas molestas de licencia comercial."
+        ],
+        "url": "https://www.tightvnc.com/",
+        "icono": "src/data/logos/tightvnc.png"
       }
     ]
   },
@@ -2322,6 +2962,21 @@
         ],
         "url": "https://hestiacp.com/",
         "icono": "src/data/logos/hestiacp.png"
+      },
+      {
+        "nombre": "ISPConfig",
+        "licencia": "BSD",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Linux"
+        ],
+        "descripcion": "Panel de control de hosting masivo de código abierto.",
+        "por_que": [
+          "Permite administrar múltiples servidores desde un solo panel.",
+          "Integración con Apache/Nginx y Postfix."
+        ],
+        "url": "https://www.ispconfig.org/",
+        "icono": "src/data/logos/ispconfig.png"
       }
     ]
   },
@@ -2345,6 +3000,24 @@
         ],
         "url": "https://www.usebruno.com/",
         "icono": "src/data/logos/bruno.png"
+      },
+      {
+        "nombre": "Hoppscotch",
+        "licencia": "MIT",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Entorno de desarrollo de APIs ultrarrápido y minimalista.",
+        "por_que": [
+          "Interfaz elegante y oscura.",
+          "Soporte para GraphQL y WebSockets sin registros forzosos."
+        ],
+        "url": "https://hoppscotch.io/",
+        "icono": "src/data/logos/hoppscotch.png"
       }
     ]
   },
@@ -2366,6 +3039,22 @@
         ],
         "url": "https://www.prestashop.com/",
         "icono": "src/data/logos/prestashop.png"
+      },
+      {
+        "nombre": "WooCommerce",
+        "licencia": "GPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "La plataforma de comercio electrónico de código abierto más popular del mundo (sobre WordPress).",
+        "por_que": [
+          "No pagas comisiones por venta.",
+          "Eres el dueño absoluto de tu tienda online."
+        ],
+        "url": "https://woocommerce.com/",
+        "icono": "src/data/logos/woocommerce.png"
       }
     ]
   },
@@ -2387,6 +3076,21 @@
         ],
         "url": "https://zammad.org/",
         "icono": "src/data/logos/zammad.png"
+      },
+      {
+        "nombre": "FreeScout",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Clon súper ligero y autogestionado de Help Scout / Zendesk.",
+        "por_que": [
+          "Especializado en buzones de soporte compartidos.",
+          "100% privacidad de los tickets de tus clientes."
+        ],
+        "url": "https://freescout.net/",
+        "icono": "src/data/logos/freescout.png"
       }
     ]
   },
@@ -2410,6 +3114,24 @@
         ],
         "url": "https://www.zaproxy.org/",
         "icono": "src/data/logos/owasp_zap.png"
+      },
+      {
+        "nombre": "Mitmproxy",
+        "licencia": "MIT",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Terminal",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Proxy HTTPS interactivo por consola y web.",
+        "por_que": [
+          "Ideal para ingenieros de seguridad.",
+          "Automatizable 100% mediante scripts en Python."
+        ],
+        "url": "https://mitmproxy.org/",
+        "icono": "src/data/logos/mitmproxy.png"
       }
     ]
   },
@@ -2431,6 +3153,23 @@
         ],
         "url": "https://bigbluebutton.org/",
         "icono": "src/data/logos/bigbluebutton.png"
+      },
+      {
+        "nombre": "Jitsi Meet",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web",
+          "iOS",
+          "Android"
+        ],
+        "descripcion": "Videoconferencias instantáneas sin necesidad de instalar clientes pesados.",
+        "por_que": [
+          "No requiere cuenta.",
+          "Totalmente cifrado y gratuito."
+        ],
+        "url": "https://meet.jit.si/",
+        "icono": "src/data/logos/jitsi_meet.png"
       }
     ]
   },
@@ -2658,6 +3397,23 @@
         ],
         "url": "https://sk1project.net/",
         "icono": "src/data/logos/sk1.png"
+      },
+      {
+        "nombre": "Inkscape",
+        "licencia": "GPLv2+",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Editor de gráficos vectoriales líder en el mundo del código abierto.",
+        "por_que": [
+          "Manejo excelente de curvas de Bézier.",
+          "Trabaja en el formato estándar web SVG."
+        ],
+        "url": "https://inkscape.org/",
+        "icono": "src/data/logos/inkscape.png"
       }
     ]
   },
@@ -2715,6 +3471,22 @@
         ],
         "url": "https://polotno.com/",
         "icono": "src/data/logos/polotno.png"
+      },
+      {
+        "nombre": "Penpot",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Plataforma de diseño abierta pensada para UI/UX y creatividad.",
+        "por_que": [
+          "Basada en SVG.",
+          "Manejo superior de tipografías y colaboración que Canva."
+        ],
+        "url": "https://penpot.app/",
+        "icono": "src/data/logos/penpot.png"
       }
     ]
   },
@@ -2737,6 +3509,23 @@
         ],
         "url": "https://blenderbim.org/",
         "icono": "src/data/logos/blenderbim.png"
+      },
+      {
+        "nombre": "FreeCAD (BIM Workbench)",
+        "licencia": "LGPLv2+",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Entorno BIM (Building Information Modeling) integrado dentro de FreeCAD.",
+        "por_que": [
+          "Exportación directa al formato abierto de construcción IFC.",
+          "Totalmente paramétrico."
+        ],
+        "url": "https://wiki.freecad.org/BIM_Workbench",
+        "icono": "src/data/logos/freecad_(bim_workbench).png"
       }
     ]
   },
@@ -2759,6 +3548,23 @@
         ],
         "url": "https://www.knime.com/",
         "icono": "src/data/logos/knime.png"
+      },
+      {
+        "nombre": "Orange",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Minería de datos visual y aprendizaje automático basado en componentes.",
+        "por_que": [
+          "Visualización interactiva e intuitiva de big data.",
+          "Ideal para estudiantes de ciencia de datos."
+        ],
+        "url": "https://orangedatamining.com/",
+        "icono": "src/data/logos/orange.png"
       }
     ]
   }
