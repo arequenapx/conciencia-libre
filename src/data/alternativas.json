@@ -6,13 +6,61 @@
         "nombre": "GIMP",
         "url": "https://www.gimp.org/",
         "descripcion": "Editor profesional de imágenes.",
+        "licencia": "GPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
         "icono": "src/data/logos/gimp.png"
       },
       {
         "nombre": "Krita",
         "url": "https://krita.org/",
         "descripcion": "Especializado en pintura digital.",
+        "licencia": "GPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
         "icono": "src/data/logos/krita.png"
+      },
+      {
+        "nombre": "PhotoFlow",
+        "licencia": "GPLv3",
+        "estrellas": "4.2",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Editor de fotos no destructivo con capas de ajuste en tiempo real.",
+        "por_que": [
+          "Flujo de trabajo totalmente no destructivo.",
+          "Ideal para retoque fotográfico técnico."
+        ],
+        "url": "https://aferrero2707.github.io/PhotoFlow/",
+        "icono": "src/data/logos/photoflow.png"
+      },
+      {
+        "nombre": "PhotoFlow",
+        "licencia": "GPLv3",
+        "estrellas": "4.2",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Editor de fotos no destructivo con capas de ajuste en tiempo real.",
+        "por_que": [
+          "Flujo de trabajo totalmente no destructivo.",
+          "Ideal para retoque fotográfico técnico."
+        ],
+        "url": "https://aferrero2707.github.io/PhotoFlow/",
+        "icono": "src/data/logos/photoflow.png"
       }
     ]
   },
@@ -36,6 +84,23 @@
         ],
         "url": "https://www.scribus.net/",
         "icono": "src/data/logos/scribus.png"
+      },
+      {
+        "nombre": "LibreOffice Draw",
+        "licencia": "LGPLv3",
+        "estrellas": "4.2",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Herramienta versátil para maquetación básica y gráficos vectoriales.",
+        "por_que": [
+          "Parte de la suite LibreOffice.",
+          "Fácil de usar para documentos sencillos."
+        ],
+        "url": "https://es.libreoffice.org/descubre/draw/",
+        "icono": "src/data/logos/libreoffice_draw.png"
       }
     ]
   },
@@ -58,6 +123,23 @@
         ],
         "url": "https://www.darktable.org/",
         "icono": "src/data/logos/darktable.png"
+      },
+      {
+        "nombre": "RawTherapee",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Procesador de fotos RAW potente y con gran control técnico.",
+        "por_que": [
+          "Motores de demosaicing avanzados.",
+          "Edición no destructiva de alto nivel."
+        ],
+        "url": "https://www.rawtherapee.com/",
+        "icono": "src/data/logos/rawtherapee.png"
       }
     ]
   },
@@ -80,6 +162,23 @@
         ],
         "url": "https://natrongithub.github.io/",
         "icono": "src/data/logos/natron.png"
+      },
+      {
+        "nombre": "Synfig Studio",
+        "licencia": "GPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Software de animación 2D vectorial potente.",
+        "por_que": [
+          "Animación basada en huesos.",
+          "Ideal para motion graphics."
+        ],
+        "url": "https://www.synfig.org/",
+        "icono": "src/data/logos/synfig_studio.png"
       }
     ]
   },
@@ -102,6 +201,23 @@
         ],
         "url": "https://www.audacityteam.org/",
         "icono": "src/data/logos/audacity.png"
+      },
+      {
+        "nombre": "Ocenaudio",
+        "licencia": "Prop/Free",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Editor de audio rápido y fácil de usar.",
+        "por_que": [
+          "Previsualización de efectos en tiempo real.",
+          "Gestión eficiente de archivos grandes."
+        ],
+        "url": "https://www.ocenaudio.com/",
+        "icono": "src/data/logos/ocenaudio.png"
       }
     ]
   },
@@ -124,6 +240,23 @@
         ],
         "url": "https://www.blender.org/",
         "icono": "src/data/logos/blender.png"
+      },
+      {
+        "nombre": "Bforartists",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Fork de Blender centrado en mejorar la interfaz para artistas.",
+        "por_que": [
+          "Menús más visuales.",
+          "Flujo de trabajo optimizado."
+        ],
+        "url": "https://www.bforartists.de/",
+        "icono": "src/data/logos/bforartists.png"
       }
     ]
   },
@@ -146,6 +279,23 @@
         ],
         "url": "http://www.sweethome3d.com/",
         "icono": "src/data/logos/sweet_home_3d.png"
+      },
+      {
+        "nombre": "FreeCAD (Arch)",
+        "licencia": "LGPLv2+",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Módulo de arquitectura de FreeCAD para modelado BIM.",
+        "por_que": [
+          "Totalmente paramétrico.",
+          "Salida técnica profesional."
+        ],
+        "url": "https://www.freecad.org/",
+        "icono": "src/data/logos/freecad_(arch).png"
       }
     ]
   },
@@ -168,6 +318,22 @@
         ],
         "url": "https://www.7-zip.org/",
         "icono": "src/data/logos/7-zip.png"
+      },
+      {
+        "nombre": "PeaZip",
+        "licencia": "LGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Linux"
+        ],
+        "descripcion": "Gestor de archivos comprimidos con soporte para más de 200 formatos.",
+        "por_que": [
+          "Interfaz moderna.",
+          "Seguridad avanzada con gestor de contraseñas."
+        ],
+        "url": "https://peazip.github.io/",
+        "icono": "src/data/logos/peazip.png"
       }
     ]
   },
@@ -191,6 +357,22 @@
         ],
         "url": "https://rustdesk.com/",
         "icono": "src/data/logos/rustdesk.png"
+      },
+      {
+        "nombre": "Remmina",
+        "licencia": "GPLv2",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Linux",
+          "Mac"
+        ],
+        "descripcion": "Cliente de escritorio remoto potente para sistemas POSIX.",
+        "por_que": [
+          "Soporta RDP, VNC, SSH.",
+          "Ideal para administración de servidores."
+        ],
+        "url": "https://remmina.org/",
+        "icono": "src/data/logos/remmina.png"
       }
     ]
   },
@@ -213,6 +395,21 @@
         ],
         "url": "https://nuclear.js.org/",
         "icono": "src/data/logos/nuclear.png"
+      },
+      {
+        "nombre": "ViMusic",
+        "licencia": "MIT",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Android"
+        ],
+        "descripcion": "App para escuchar música desde YouTube Music de forma libre.",
+        "por_que": [
+          "Sin anuncios.",
+          "Bajo consumo de datos."
+        ],
+        "url": "https://github.com/vfsfitvnm/ViMusic",
+        "icono": "src/data/logos/vimusic.png"
       }
     ]
   },
@@ -233,6 +430,70 @@
         ],
         "url": "https://linuxmint.com/",
         "icono": "src/data/logos/linux_mint.png"
+      },
+      {
+        "nombre": "Ubuntu",
+        "licencia": "GPL",
+        "estrellas": "4.9",
+        "plataformas": [
+          "PC"
+        ],
+        "descripcion": "El sistema operativo Linux más popular y con mayor soporte.",
+        "por_que": [
+          "Enorme comunidad de ayuda.",
+          "Fácil instalación de software.",
+          "Estabilidad profesional."
+        ],
+        "url": "https://ubuntu.com/",
+        "icono": "src/data/logos/ubuntu.png"
+      },
+      {
+        "nombre": "Debian",
+        "licencia": "GPL",
+        "estrellas": "5.0",
+        "plataformas": [
+          "PC",
+          "Servidor"
+        ],
+        "descripcion": "El sistema operativo universal, conocido por su estabilidad legendaria.",
+        "por_que": [
+          "100% software libre por compromiso.",
+          "Roca sólida para trabajo crítico."
+        ],
+        "url": "https://www.debian.org/",
+        "icono": "src/data/logos/debian.png"
+      },
+      {
+        "nombre": "Ubuntu",
+        "licencia": "GPL",
+        "estrellas": "4.9",
+        "plataformas": [
+          "PC"
+        ],
+        "descripcion": "El sistema operativo Linux más popular y con mayor soporte.",
+        "por_que": [
+          "Enorme comunidad de ayuda.",
+          "Fácil instalación de software.",
+          "Estabilidad profesional."
+        ],
+        "url": "https://ubuntu.com/",
+        "icono": "src/data/logos/ubuntu.png"
+      },
+      {
+        "nombre": "Debian",
+        "licencia": "GPL",
+        "estrellas": "5.0",
+        "plataformas": [
+          "PC",
+          "Servidor"
+        ],
+        "descripcion": "El sistema operativo universal, conocido por su estabilidad legendaria.",
+        "por_que": [
+          "100% software libre por compromiso.",
+          "Roca sólida para trabajo crítico."
+        ],
+        "url": "https://www.debian.org/",
+        "icono": "src/data/logos/debian.png"
       }
     ]
   },
@@ -270,6 +531,36 @@
         ],
         "url": "https://librewolf.net/",
         "icono": "src/data/logos/librewolf.png"
+      },
+      {
+        "nombre": "Chromium",
+        "licencia": "BSD",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "El proyecto de código abierto base de Chrome, pero sin añadidos de Google.",
+        "por_que": [
+          "Experiencia pura y abierta.",
+          "Compatible con todas las extensiones de Chrome."
+        ],
+        "url": "https://www.chromium.org/",
+        "icono": "src/data/logos/chromium.png"
+      },
+      {
+        "nombre": "Chromium",
+        "licencia": "BSD",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "El proyecto de código abierto base de Chrome, pero sin añadidos de Google.",
+        "por_que": [
+          "Experiencia pura y abierta.",
+          "Compatible con todas las extensiones de Chrome."
+        ],
+        "url": "https://www.chromium.org/",
+        "icono": "src/data/logos/chromium.png"
       }
     ]
   },
@@ -292,6 +583,23 @@
         ],
         "url": "https://www.virtualbox.org/",
         "icono": "src/data/logos/virtualbox.png"
+      },
+      {
+        "nombre": "QEMU",
+        "licencia": "GPLv2",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Linux",
+          "Win",
+          "Mac"
+        ],
+        "descripcion": "Emulador y virtualizador genérico de código abierto.",
+        "por_que": [
+          "Rendimiento casi nativo con KVM.",
+          "Soporta multitud de arquitecturas."
+        ],
+        "url": "https://www.qemu.org/",
+        "icono": "src/data/logos/qemu.png"
       }
     ]
   },
@@ -314,6 +622,22 @@
         ],
         "url": "https://vscodium.com/",
         "icono": "src/data/logos/vscodium.png"
+      },
+      {
+        "nombre": "Notepad++",
+        "licencia": "GPLv2",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Linux"
+        ],
+        "descripcion": "Editor de código fuente ligero y de ejecución extremadamente rápida.",
+        "por_que": [
+          "Soporte inmenso de plugins.",
+          "Consumo de RAM casi nulo."
+        ],
+        "url": "https://notepad-plus-plus.org/",
+        "icono": "src/data/logos/notepad.png"
       }
     ]
   },
@@ -336,6 +660,23 @@
         ],
         "url": "https://calligra.org/karbon/",
         "icono": "src/data/logos/karbon.png"
+      },
+      {
+        "nombre": "Inkscape",
+        "licencia": "GPLv2+",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "El estándar de código abierto para gráficos vectoriales.",
+        "por_que": [
+          "Formato nativo SVG.",
+          "Totalmente gratuito frente a las licencias de Corel."
+        ],
+        "url": "https://inkscape.org/",
+        "icono": "src/data/logos/inkscape.png"
       }
     ]
   },
@@ -358,6 +699,24 @@
         ],
         "url": "https://www.gnu.org/software/octave/",
         "icono": "src/data/logos/gnu_octave.png"
+      },
+      {
+        "nombre": "Julia",
+        "licencia": "MIT",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Lenguaje de programación de alto rendimiento para computación científica.",
+        "por_que": [
+          "Velocidad similar a C.",
+          "Diseñado específicamente para matemáticas.",
+          "Sintaxis amigable."
+        ],
+        "url": "https://julialang.org/",
+        "icono": "src/data/logos/julia.png"
       }
     ]
   },
@@ -379,6 +738,24 @@
         ],
         "url": "https://taiga.io/",
         "icono": "src/data/logos/taiga.png"
+      },
+      {
+        "nombre": "Wekan",
+        "licencia": "MIT",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Self-hosted",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Tablero Kanban de código abierto centrado en la privacidad.",
+        "por_que": [
+          "Interfaz casi idéntica a Trello.",
+          "Puedes alojarlo en tu propia Raspberry Pi o servidor."
+        ],
+        "url": "https://wekan.github.io/",
+        "icono": "src/data/logos/wekan.png"
       }
     ]
   },
@@ -401,6 +778,21 @@
         ],
         "url": "https://es.libreoffice.org/",
         "icono": "src/data/logos/libreoffice_impress.png"
+      },
+      {
+        "nombre": "Reveal.js",
+        "licencia": "MIT",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "Framework HTML para crear presentaciones interactivas y hermosas.",
+        "por_que": [
+          "Presentaciones que corren en el navegador.",
+          "Ideal para desarrolladores y educadores."
+        ],
+        "url": "https://revealjs.com/",
+        "icono": "src/data/logos/reveal.js.png"
       }
     ]
   },
@@ -422,6 +814,23 @@
         ],
         "url": "https://github.com/pdfarranger/pdfarranger",
         "icono": "src/data/logos/pdfarranger.png"
+      },
+      {
+        "nombre": "Okular",
+        "licencia": "GPLv2",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Visor de documentos universal impulsado por KDE.",
+        "por_que": [
+          "Permite hacer anotaciones, subrayar y rellenar formularios PDF.",
+          "Muy rápido."
+        ],
+        "url": "https://okular.kde.org/",
+        "icono": "src/data/logos/okular.png"
       }
     ]
   },
@@ -442,6 +851,21 @@
         ],
         "url": "https://joplinapp.org/",
         "icono": "src/data/logos/joplin.png"
+      },
+      {
+        "nombre": "Standard Notes",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Aplicación de notas sencilla con cifrado estricto de extremo a extremo.",
+        "por_que": [
+          "Privacidad absoluta.",
+          "Soporte offline impecable."
+        ],
+        "url": "https://standardnotes.com/",
+        "icono": "src/data/logos/standard_notes.png"
       }
     ]
   },
@@ -464,6 +888,24 @@
         ],
         "url": "https://revolt.chat/",
         "icono": "src/data/logos/revolt.png"
+      },
+      {
+        "nombre": "Mumble",
+        "licencia": "BSD",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Móvil"
+        ],
+        "descripcion": "Software de chat de voz de código abierto, baja latencia y alta calidad.",
+        "por_que": [
+          "Cifrado nativo.",
+          "Latencia ridículamente baja para juegos o trabajo en equipo."
+        ],
+        "url": "https://www.mumble.info/",
+        "icono": "src/data/logos/mumble.png"
       }
     ]
   },
@@ -488,6 +930,23 @@
         ],
         "url": "https://hoppscotch.io/",
         "icono": "src/data/logos/hoppscotch.png"
+      },
+      {
+        "nombre": "Bruno",
+        "licencia": "MIT",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Cliente API local y amigable con Git.",
+        "por_que": [
+          "Almacena las colecciones en texto plano en tu repositorio.",
+          "Sin cuentas obligatorias en la nube."
+        ],
+        "url": "https://www.usebruno.com/",
+        "icono": "src/data/logos/bruno.png"
       }
     ]
   },
@@ -509,6 +968,21 @@
         ],
         "url": "https://www.postgresql.org/",
         "icono": "src/data/logos/postgresql.png"
+      },
+      {
+        "nombre": "Firebird",
+        "licencia": "IDPL",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Base de datos relacional madura, ligera y sin mantenimiento.",
+        "por_que": [
+          "Huella de memoria minúscula.",
+          "Concurrencia excepcional."
+        ],
+        "url": "https://firebirdsql.org/",
+        "icono": "src/data/logos/firebird.png"
       }
     ]
   },
@@ -530,6 +1004,21 @@
         ],
         "url": "https://mariadb.org/",
         "icono": "src/data/logos/mariadb.png"
+      },
+      {
+        "nombre": "PostgreSQL",
+        "licencia": "PostgreSQL License",
+        "estrellas": "5.0",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "La base de datos relacional de código abierto más avanzada.",
+        "por_que": [
+          "Soporta cargas de trabajo masivas empresariales.",
+          "Extensible (PostGIS para geolocalización)."
+        ],
+        "url": "https://www.postgresql.org/",
+        "icono": "src/data/logos/postgresql.png"
       }
     ]
   },
@@ -551,6 +1040,21 @@
         ],
         "url": "https://forgejo.org/",
         "icono": "src/data/logos/forgejo.png"
+      },
+      {
+        "nombre": "GitLab CE",
+        "licencia": "MIT (Community Edition)",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Plataforma completa de DevOps y forja de software.",
+        "por_que": [
+          "Incluye CI/CD integrado potente.",
+          "Auto-alojable para privacidad corporativa."
+        ],
+        "url": "https://about.gitlab.com/install/ce-or-ee/",
+        "icono": "src/data/logos/gitlab_ce.png"
       }
     ]
   },
@@ -572,6 +1076,23 @@
         ],
         "url": "https://bitwarden.com/",
         "icono": "src/data/logos/bitwarden.png"
+      },
+      {
+        "nombre": "KeePassXC",
+        "licencia": "GPL",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Gestor de contraseñas offline, sin necesidad de nube.",
+        "por_que": [
+          "Tu bóveda se guarda en local.",
+          "Integración excelente con navegadores (vía extensión)."
+        ],
+        "url": "https://keepassxc.org/",
+        "icono": "src/data/logos/keepassxc.png"
       }
     ]
   },
@@ -592,6 +1113,21 @@
         ],
         "url": "https://www.wireguard.com/",
         "icono": "src/data/logos/wireguard.png"
+      },
+      {
+        "nombre": "OpenVPN",
+        "licencia": "AGPL",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "El software y protocolo de red privada virtual (VPN) estándar de la industria.",
+        "por_que": [
+          "Extremadamente configurable.",
+          "Soportado por casi cualquier dispositivo."
+        ],
+        "url": "https://openvpn.net/",
+        "icono": "src/data/logos/openvpn.png"
       }
     ]
   },
@@ -614,6 +1150,21 @@
         ],
         "url": "https://www.gns3.com/",
         "icono": "src/data/logos/gns3.png"
+      },
+      {
+        "nombre": "CORE (Common Open Research Emulator)",
+        "licencia": "BSD",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Linux"
+        ],
+        "descripcion": "Emulador de redes que permite desplegar arquitecturas complejas.",
+        "por_que": [
+          "Usa contenedores ligeros de Linux para cada nodo virtual.",
+          "Muy rápido en comparativa."
+        ],
+        "url": "https://coreemu.github.io/core/",
+        "icono": "src/data/logos/core_(common_open_research_emulator).png"
       }
     ]
   },
@@ -634,6 +1185,23 @@
         ],
         "url": "https://www.openvas.org/",
         "icono": "src/data/logos/openvas.png"
+      },
+      {
+        "nombre": "Nmap / Zenmap",
+        "licencia": "GPL",
+        "estrellas": "5.0",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "El mapeador de redes y escáner de puertos de facto.",
+        "por_que": [
+          "La herramienta más importante en auditorías de seguridad.",
+          "Motor de scripts (NSE) para detectar vulnerabilidades."
+        ],
+        "url": "https://nmap.org/",
+        "icono": "src/data/logos/nmap_/_zenmap.png"
       }
     ]
   },
@@ -655,6 +1223,22 @@
         ],
         "url": "https://www.odoo.com/",
         "icono": "src/data/logos/odoo.png"
+      },
+      {
+        "nombre": "SuiteCRM",
+        "licencia": "AGPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Sistema CRM de nivel empresarial y código abierto (fork de SugarCRM).",
+        "por_que": [
+          "Sin límites de usuarios.",
+          "Automatización avanzada de flujos de trabajo de ventas."
+        ],
+        "url": "https://suitecrm.com/",
+        "icono": "src/data/logos/suitecrm.png"
       }
     ]
   },
@@ -675,6 +1259,22 @@
         ],
         "url": "https://nocodb.com/",
         "icono": "src/data/logos/nocodb.png"
+      },
+      {
+        "nombre": "Baserow",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Crea bases de datos sin código de forma colaborativa.",
+        "por_que": [
+          "Código abierto, sin bloqueos de proveedor.",
+          "Rápido y puede manejar muchos registros de datos."
+        ],
+        "url": "https://baserow.io/",
+        "icono": "src/data/logos/baserow.png"
       }
     ]
   },
@@ -696,6 +1296,22 @@
         ],
         "url": "https://app.diagrams.net/",
         "icono": "src/data/logos/diagrams.net.png"
+      },
+      {
+        "nombre": "Excalidraw",
+        "licencia": "MIT",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "Herramienta de pizarra virtual con aspecto de dibujo a mano.",
+        "por_que": [
+          "Colaboración sin necesidad de registro.",
+          "Cifrado de extremo a extremo.",
+          "Archivos guardados en tu navegador."
+        ],
+        "url": "https://excalidraw.com/",
+        "icono": "src/data/logos/excalidraw.png"
       }
     ]
   },
@@ -717,6 +1333,21 @@
         ],
         "url": "https://matomo.org/",
         "icono": "src/data/logos/matomo.png"
+      },
+      {
+        "nombre": "Plausible Analytics",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Analítica web ligera que respeta la privacidad sin usar cookies.",
+        "por_que": [
+          "Totalmente compatible con el RGPD.",
+          "Script de rastreo de menos de 1KB (tu web carga más rápido)."
+        ],
+        "url": "https://plausible.io/",
+        "icono": "src/data/logos/plausible_analytics.png"
       }
     ]
   },
@@ -737,6 +1368,22 @@
         ],
         "url": "https://www.limesurvey.org/",
         "icono": "src/data/logos/limesurvey.png"
+      },
+      {
+        "nombre": "Formbricks",
+        "licencia": "AGPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Software de encuestas y recolección de feedback moderno y abierto.",
+        "por_que": [
+          "Se puede integrar en la web/app nativamente.",
+          "Respetuoso con la privacidad de los usuarios."
+        ],
+        "url": "https://formbricks.com/",
+        "icono": "src/data/logos/formbricks.png"
       }
     ]
   },
@@ -758,6 +1405,24 @@
         ],
         "url": "https://vikunja.io/",
         "icono": "src/data/logos/vikunja.png"
+      },
+      {
+        "nombre": "Focalboard",
+        "licencia": "MIT",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Self-hosted"
+        ],
+        "descripcion": "Alternativa a Trello/Asana/Notion centrada en gestión de proyectos.",
+        "por_que": [
+          "Se puede usar de forma totalmente offline en escritorio.",
+          "Integración nativa con Mattermost."
+        ],
+        "url": "https://www.focalboard.com/",
+        "icono": "src/data/logos/focalboard.png"
       }
     ]
   },
@@ -1766,6 +2431,334 @@
         ],
         "url": "https://bigbluebutton.org/",
         "icono": "src/data/logos/bigbluebutton.png"
+      }
+    ]
+  },
+  "microsoft.com/en-us/microsoft-365/word": {
+    "privativo": "Word",
+    "alternativas": [
+      {
+        "nombre": "OnlyOffice",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Suite ofimática con la mayor compatibilidad nativa con formatos de Microsoft.",
+        "por_que": [
+          "Interfaz casi idéntica a Word.",
+          "Colaboración en tiempo real excelente."
+        ],
+        "url": "https://www.onlyoffice.com/",
+        "icono": "src/data/logos/onlyoffice.png"
+      },
+      {
+        "nombre": "OnlyOffice",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Suite ofimática con la mayor compatibilidad nativa con formatos de Microsoft.",
+        "por_que": [
+          "Interfaz casi idéntica a Word.",
+          "Colaboración en tiempo real excelente."
+        ],
+        "url": "https://www.onlyoffice.com/",
+        "icono": "src/data/logos/onlyoffice.png"
+      }
+    ]
+  },
+  "autodesk.com/products/autocad": {
+    "privativo": "Autocad",
+    "alternativas": [
+      {
+        "nombre": "LibreCAD",
+        "licencia": "GPLv2",
+        "estrellas": "4.3",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Aplicación CAD 2D completa y ligera.",
+        "por_que": [
+          "Especializado en dibujo técnico 2D.",
+          "Muy ligero para ordenadores antiguos."
+        ],
+        "url": "https://librecad.org/",
+        "icono": "src/data/logos/librecad.png"
+      },
+      {
+        "nombre": "LibreCAD",
+        "licencia": "GPLv2",
+        "estrellas": "4.3",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Aplicación CAD 2D completa y ligera.",
+        "por_que": [
+          "Especializado en dibujo técnico 2D.",
+          "Muy ligero para ordenadores antiguos."
+        ],
+        "url": "https://librecad.org/",
+        "icono": "src/data/logos/librecad.png"
+      },
+      {
+        "nombre": "BRL-CAD",
+        "licencia": "GPL / LGPL",
+        "estrellas": "4.1",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Sistema de modelado sólido constructivo de grado militar.",
+        "por_que": [
+          "Más de 30 años de desarrollo.",
+          "Análisis de ingeniería avanzado.",
+          "Usado por el ejército de EE.UU."
+        ],
+        "url": "https://brlcad.org/",
+        "icono": "src/data/logos/brl-cad.png"
+      }
+    ]
+  },
+  "slack.com": {
+    "privativo": "Slack",
+    "alternativas": [
+      {
+        "nombre": "Element",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Comunicación segura y descentralizada basada en el protocolo Matrix.",
+        "por_que": [
+          "Cifrado de extremo a extremo por defecto.",
+          "Tú eliges tu servidor.",
+          "Sin control corporativo central."
+        ],
+        "url": "https://element.io/",
+        "icono": "src/data/logos/element.png"
+      },
+      {
+        "nombre": "Element",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Comunicación segura y descentralizada basada en el protocolo Matrix.",
+        "por_que": [
+          "Cifrado de extremo a extremo por defecto.",
+          "Tú eliges tu servidor.",
+          "Sin control corporativo central."
+        ],
+        "url": "https://element.io/",
+        "icono": "src/data/logos/element.png"
+      }
+    ]
+  },
+  "matterport.com": {
+    "privativo": "Matterport",
+    "alternativas": [
+      {
+        "nombre": "Meshroom",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Linux"
+        ],
+        "descripcion": "Software de fotogrametría 3D basado en el framework AliceVision.",
+        "por_que": [
+          "Crea modelos 3D a partir de fotos simples.",
+          "Potente procesamiento de mallas."
+        ],
+        "url": "https://alicevision.org/#meshroom",
+        "icono": "src/data/logos/meshroom.png"
+      },
+      {
+        "nombre": "Meshroom",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Linux"
+        ],
+        "descripcion": "Software de fotogrametría 3D basado en el framework AliceVision.",
+        "por_que": [
+          "Crea modelos 3D a partir de fotos simples.",
+          "Potente procesamiento de mallas."
+        ],
+        "url": "https://alicevision.org/#meshroom",
+        "icono": "src/data/logos/meshroom.png"
+      }
+    ]
+  },
+  "adobe.com/products/premiere": {
+    "privativo": "Premiere",
+    "alternativas": [
+      {
+        "nombre": "OpenShot",
+        "licencia": "GPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Editor de vídeo increíblemente sencillo y potente.",
+        "por_que": [
+          "Curva de aprendizaje mínima.",
+          "Ideal para montajes rápidos.",
+          "Soporta casi todos los formatos."
+        ],
+        "url": "https://www.openshot.org/",
+        "icono": "src/data/logos/openshot.png"
+      },
+      {
+        "nombre": "Olive",
+        "licencia": "GPLv3",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Editor de vídeo profesional orientado a la velocidad y flujo de trabajo moderno.",
+        "por_que": [
+          "Gestión de color avanzada.",
+          "Alto rendimiento en equipos modestos."
+        ],
+        "url": "https://www.olivevideoeditor.org/",
+        "icono": "src/data/logos/olive.png"
+      }
+    ]
+  },
+  "adobe.com/products/illustrator": {
+    "privativo": "Illustrator",
+    "alternativas": [
+      {
+        "nombre": "sK1",
+        "licencia": "GPLv3",
+        "estrellas": "4.0",
+        "plataformas": [
+          "Linux",
+          "Win"
+        ],
+        "descripcion": "Editor de gráficos vectoriales profesional orientado a la pre-impresión.",
+        "por_que": [
+          "Gestión de color CMYK superior.",
+          "Soporte para archivos de CorelDraw antiguos."
+        ],
+        "url": "https://sk1project.net/",
+        "icono": "src/data/logos/sk1.png"
+      }
+    ]
+  },
+  "figma.com": {
+    "privativo": "Figma",
+    "alternativas": [
+      {
+        "nombre": "Penpot",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "La primera plataforma de diseño y prototipado colaborativo en formato abierto.",
+        "por_que": [
+          "Basado nativamente en SVG y CSS.",
+          "Colaboración en tiempo real sin suscripción corporativa."
+        ],
+        "url": "https://penpot.app/",
+        "icono": "src/data/logos/penpot.png"
+      },
+      {
+        "nombre": "Quant-UX",
+        "licencia": "MIT",
+        "estrellas": "4.3",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Herramienta de prototipado y análisis de experiencia de usuario.",
+        "por_que": [
+          "Genera métricas de uso de tus prototipos.",
+          "Enfocado en el diseño basado en datos."
+        ],
+        "url": "https://quant-ux.com/",
+        "icono": "src/data/logos/quant-ux.png"
+      }
+    ]
+  },
+  "canva.com": {
+    "privativo": "Canva",
+    "alternativas": [
+      {
+        "nombre": "Polotno",
+        "licencia": "MIT (Client)",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "Editor de diseño gráfico para redes sociales y presentaciones.",
+        "por_que": [
+          "Sin registro obligatorio.",
+          "Privacidad superior a Canva."
+        ],
+        "url": "https://polotno.com/",
+        "icono": "src/data/logos/polotno.png"
+      }
+    ]
+  },
+  "autodesk.com/products/revit": {
+    "privativo": "Revit (BIM)",
+    "alternativas": [
+      {
+        "nombre": "BlenderBIM",
+        "licencia": "GPL",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Añade capacidades BIM (Building Information Modeling) a Blender.",
+        "por_que": [
+          "Soporte nativo del estándar abierto IFC.",
+          "Potencia de modelado de Blender aplicada a arquitectura."
+        ],
+        "url": "https://blenderbim.org/",
+        "icono": "src/data/logos/blenderbim.png"
+      }
+    ]
+  },
+  "tableau.com/products/prep": {
+    "privativo": "Tableau Prep",
+    "alternativas": [
+      {
+        "nombre": "KNIME",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Plataforma de análisis de datos e integración (low-code).",
+        "por_que": [
+          "Flujos de datos visuales.",
+          "Miles de nodos para minería de datos y ML."
+        ],
+        "url": "https://www.knime.com/",
+        "icono": "src/data/logos/knime.png"
       }
     ]
   }
