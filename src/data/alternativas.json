@@ -3567,5 +3567,736 @@
         "icono": "src/data/logos/orange.png"
       }
     ]
+  },
+  "atlassian.com/software/confluence": {
+    "privativo": "Confluence",
+    "alternativas": [
+      {
+        "nombre": "BookStack",
+        "licencia": "MIT",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Plataforma para crear documentación y wikis con una interfaz hermosa.",
+        "por_que": [
+          "Organización intuitiva en 'Libros' y 'Capítulos'.",
+          "Búsqueda a texto completo muy rápida."
+        ],
+        "url": "https://www.bookstackapp.com/",
+        "icono": "src/data/logos/bookstack.png"
+      },
+      {
+        "nombre": "Wiki.js",
+        "licencia": "AGPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Self-hosted",
+          "Docker"
+        ],
+        "descripcion": "El software wiki de código abierto más potente y moderno.",
+        "por_que": [
+          "Soporta Markdown nativo.",
+          "Integración con Git para control de versiones de los artículos."
+        ],
+        "url": "https://js.wiki/",
+        "icono": "src/data/logos/wiki.js.png"
+      }
+    ]
+  },
+  "datadoghq.com": {
+    "privativo": "Datadog",
+    "alternativas": [
+      {
+        "nombre": "Prometheus",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Sistema de monitorización de sistemas y alertas de código abierto.",
+        "por_que": [
+          "Estándar de la industria impulsado por la CNCF.",
+          "Base de datos de series temporales altamente escalable."
+        ],
+        "url": "https://prometheus.io/",
+        "icono": "src/data/logos/prometheus.png"
+      },
+      {
+        "nombre": "Zabbix",
+        "licencia": "GPLv2",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Solución de monitorización distribuida de clase empresarial.",
+        "por_que": [
+          "Monitoriza redes, servidores, máquinas virtuales y servicios en la nube.",
+          "Soporte comercial disponible."
+        ],
+        "url": "https://www.zabbix.com/",
+        "icono": "src/data/logos/zabbix.png"
+      }
+    ]
+  },
+  "vmware.com/products/esxi-and-esx": {
+    "privativo": "VMware ESXi",
+    "alternativas": [
+      {
+        "nombre": "Proxmox VE",
+        "licencia": "AGPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Plataforma completa de gestión de virtualización empresarial.",
+        "por_que": [
+          "Integra hipervisor KVM y contenedores LXC.",
+          "Interfaz web potentísima sin coste de licencia."
+        ],
+        "url": "https://www.proxmox.com/",
+        "icono": "src/data/logos/proxmox_ve.png"
+      },
+      {
+        "nombre": "XCP-ng",
+        "licencia": "GPLv2",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Hipervisor de alto rendimiento basado en XenServer.",
+        "por_que": [
+          "Proyecto impulsado por la comunidad.",
+          "Ideal para despliegues de nube pública y privada."
+        ],
+        "url": "https://xcp-ng.org/",
+        "icono": "src/data/logos/xcp-ng.png"
+      }
+    ]
+  },
+  "clickup.com": {
+    "privativo": "ClickUp",
+    "alternativas": [
+      {
+        "nombre": "Plane",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Herramienta de gestión de proyectos de código abierto para equipos ágiles.",
+        "por_que": [
+          "Interfaz limpia y muy rápida.",
+          "Ciclos, módulos y analíticas integradas."
+        ],
+        "url": "https://plane.so/",
+        "icono": "src/data/logos/plane.png"
+      },
+      {
+        "nombre": "Leantime",
+        "licencia": "GPLv2",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Gestión de proyectos estratégicos enfocada en el usuario y el desarrollo.",
+        "por_que": [
+          "Combina Design Thinking, Lean y Agile.",
+          "Perfecto para startups y estudiantes."
+        ],
+        "url": "https://leantime.io/",
+        "icono": "src/data/logos/leantime.png"
+      }
+    ]
+  },
+  "auth0.com": {
+    "privativo": "Auth0",
+    "alternativas": [
+      {
+        "nombre": "Keycloak",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Gestión de identidad y acceso de código abierto (desarrollado por Red Hat).",
+        "por_que": [
+          "Soporta Single-Sign On (SSO) y MFA.",
+          "Compatible con protocolos estándar como SAML 2.0 y OpenID Connect."
+        ],
+        "url": "https://www.keycloak.org/",
+        "icono": "src/data/logos/keycloak.png"
+      },
+      {
+        "nombre": "Authelia",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor",
+          "Docker"
+        ],
+        "descripcion": "Servidor de autenticación y autorización de código abierto.",
+        "por_que": [
+          "Se integra perfectamente con proxies inversos (Traefik, Nginx).",
+          "Autenticación de dos factores nativa."
+        ],
+        "url": "https://www.authelia.com/",
+        "icono": "src/data/logos/authelia.png"
+      }
+    ]
+  },
+  "calendly.com": {
+    "privativo": "Calendly",
+    "alternativas": [
+      {
+        "nombre": "Cal.com",
+        "licencia": "AGPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Infraestructura de programación de citas de código abierto.",
+        "por_que": [
+          "Control total de tus datos.",
+          "Personalización de la marca.",
+          "Integración con Jitsi y Zoom."
+        ],
+        "url": "https://cal.com/",
+        "icono": "src/data/logos/cal.com.png"
+      },
+      {
+        "nombre": "EasyAppointments",
+        "licencia": "GPLv3",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Sistema de reservas de citas altamente personalizable.",
+        "por_que": [
+          "Se instala fácilmente en servidores PHP/MySQL estándar.",
+          "Sincronización con Google Calendar."
+        ],
+        "url": "https://easyappointments.org/",
+        "icono": "src/data/logos/easyappointments.png"
+      }
+    ]
+  },
+  "docusign.com": {
+    "privativo": "DocuSign",
+    "alternativas": [
+      {
+        "nombre": "Documenso",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "La alternativa de firma de documentos de código abierto.",
+        "por_que": [
+          "Enfocado en la confianza y privacidad.",
+          "Fácil integración mediante API para empresas."
+        ],
+        "url": "https://documenso.com/",
+        "icono": "src/data/logos/documenso.png"
+      },
+      {
+        "nombre": "LibreSign",
+        "licencia": "AGPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Nextcloud"
+        ],
+        "descripcion": "Firma electrónica de documentos directamente integrada en Nextcloud.",
+        "por_que": [
+          "Tus documentos firmados nunca abandonan tu nube privada.",
+          "Cumplimiento legal europeo."
+        ],
+        "url": "https://libresign.github.io/",
+        "icono": "src/data/logos/libresign.png"
+      }
+    ]
+  },
+  "typeform.com": {
+    "privativo": "Typeform",
+    "alternativas": [
+      {
+        "nombre": "Yaade",
+        "licencia": "MIT",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Creador de formularios de código abierto centrado en la privacidad.",
+        "por_que": [
+          "Tus datos, tus reglas.",
+          "Soporte multi-usuario y entornos colaborativos."
+        ],
+        "url": "https://yaade.io/",
+        "icono": "src/data/logos/yaade.png"
+      },
+      {
+        "nombre": "OhMyForm",
+        "licencia": "MIT",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Alternativa gratuita y de código abierto para crear formularios y encuestas.",
+        "por_que": [
+          "Permite incrustar formularios en cualquier web.",
+          "Exportación fácil de datos (XLS, JSON, CSV)."
+        ],
+        "url": "https://ohmyform.com/",
+        "icono": "src/data/logos/ohmyform.png"
+      }
+    ]
+  },
+  "hubspot.com": {
+    "privativo": "HubSpot CRM",
+    "alternativas": [
+      {
+        "nombre": "ERPNext",
+        "licencia": "GPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Self-hosted",
+          "Web"
+        ],
+        "descripcion": "ERP completo que incluye un módulo de CRM potentísimo.",
+        "por_que": [
+          "Sin costes por usuario.",
+          "Integra contabilidad, recursos humanos y ventas en un solo lugar."
+        ],
+        "url": "https://erpnext.com/",
+        "icono": "src/data/logos/erpnext.png"
+      },
+      {
+        "nombre": "CiviCRM",
+        "licencia": "AGPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "WordPress",
+          "Drupal"
+        ],
+        "descripcion": "CRM orientado a organizaciones sin ánimo de lucro, ONGs y universidades.",
+        "por_que": [
+          "Gestión de donaciones y eventos.",
+          "Se integra como un plugin dentro de tu CMS."
+        ],
+        "url": "https://civicrm.org/",
+        "icono": "src/data/logos/civicrm.png"
+      }
+    ]
+  },
+  "intuit.com/quickbooks": {
+    "privativo": "QuickBooks",
+    "alternativas": [
+      {
+        "nombre": "Akaunting",
+        "licencia": "GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Software de contabilidad gratuito, de código abierto y online.",
+        "por_que": [
+          "Diseñado para pequeñas empresas y autónomos.",
+          "App store con módulos para extender su uso."
+        ],
+        "url": "https://akaunting.com/",
+        "icono": "src/data/logos/akaunting.png"
+      },
+      {
+        "nombre": "Frappe Accounting",
+        "licencia": "MIT",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Sistema de contabilidad moderno construido sobre el framework Frappe.",
+        "por_que": [
+          "Soporte multicompañía y multidivisa.",
+          "Interfaz extremadamente rápida y moderna."
+        ],
+        "url": "https://frappe.io/accounting",
+        "icono": "src/data/logos/frappe_accounting.png"
+      }
+    ]
+  },
+  "algolia.com": {
+    "privativo": "Algolia",
+    "alternativas": [
+      {
+        "nombre": "Meilisearch",
+        "licencia": "MIT",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Motor de búsqueda ultrarrápido y tolerante a errores tipográficos.",
+        "por_que": [
+          "Resultados en menos de 50ms.",
+          "Extremadamente fácil de implementar en webs y apps."
+        ],
+        "url": "https://www.meilisearch.com/",
+        "icono": "src/data/logos/meilisearch.png"
+      },
+      {
+        "nombre": "Typesense",
+        "licencia": "GPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Motor de búsqueda de código abierto optimizado para el rendimiento.",
+        "por_que": [
+          "Uso eficiente de RAM.",
+          "Alternativa directa y limpia a Elasticsearch/Algolia."
+        ],
+        "url": "https://typesense.org/",
+        "icono": "src/data/logos/typesense.png"
+      }
+    ]
+  },
+  "newrelic.com": {
+    "privativo": "New Relic",
+    "alternativas": [
+      {
+        "nombre": "SigNoz",
+        "licencia": "MIT",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Alternativa open-source a DataDog y New Relic (APM).",
+        "por_que": [
+          "Soporte nativo para OpenTelemetry.",
+          "Métricas, trazas y logs en una sola plataforma."
+        ],
+        "url": "https://signoz.io/",
+        "icono": "src/data/logos/signoz.png"
+      },
+      {
+        "nombre": "Apache SkyWalking",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Sistema de monitorización del rendimiento de aplicaciones (APM) para microservicios.",
+        "por_que": [
+          "Soporta ecosistemas Cloud Native, Kubernetes y Service Mesh.",
+          "Análisis de topología visual."
+        ],
+        "url": "https://skywalking.apache.org/",
+        "icono": "src/data/logos/apache_skywalking.png"
+      }
+    ]
+  },
+  "miro.com": {
+    "privativo": "Miro",
+    "alternativas": [
+      {
+        "nombre": "TLDraw",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "Pizarra virtual infinita, minimalista y colaborativa.",
+        "por_que": [
+          "Funciona sin registro.",
+          "Herramientas de dibujo que se sienten muy naturales y fluidas."
+        ],
+        "url": "https://www.tldraw.com/",
+        "icono": "src/data/logos/tldraw.png"
+      },
+      {
+        "nombre": "AFFiNE",
+        "licencia": "MIT",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Web"
+        ],
+        "descripcion": "Espacio de trabajo unificado que combina Notion y Miro.",
+        "por_que": [
+          "Modo bloque de texto y modo pizarra intercambiables.",
+          "Privacidad local-first."
+        ],
+        "url": "https://affine.pro/",
+        "icono": "src/data/logos/affine.png"
+      }
+    ]
+  },
+  "monday.com": {
+    "privativo": "Monday.com",
+    "alternativas": [
+      {
+        "nombre": "Planka",
+        "licencia": "AGPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Docker",
+          "Self-hosted"
+        ],
+        "descripcion": "Tablero Kanban elegante y en tiempo real para equipos de trabajo.",
+        "por_que": [
+          "Interfaz hermosa y reactiva.",
+          "Soporta fondos personalizados y seguimiento de tiempo."
+        ],
+        "url": "https://planka.app/",
+        "icono": "src/data/logos/planka.png"
+      },
+      {
+        "nombre": "TaskBoard",
+        "licencia": "MIT",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Aplicación inspirada en Kanban para llevar el control de tus tareas.",
+        "por_que": [
+          "Instalación trivial sin dependencias complejas.",
+          "Diseño limpio y funcional."
+        ],
+        "url": "https://taskboard.matthewross.me/",
+        "icono": "src/data/logos/taskboard.png"
+      }
+    ]
+  },
+  "freshdesk.com": {
+    "privativo": "Freshdesk",
+    "alternativas": [
+      {
+        "nombre": "Chatwoot",
+        "licencia": "MIT",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Plataforma de soporte al cliente omnicanal.",
+        "por_que": [
+          "Conecta correos, WhatsApp, Telegram y chat web en un solo panel.",
+          "Bots conversacionales."
+        ],
+        "url": "https://www.chatwoot.com/",
+        "icono": "src/data/logos/chatwoot.png"
+      },
+      {
+        "nombre": "UVdesk",
+        "licencia": "MIT",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Sistema de helpdesk construido sobre el framework Symfony.",
+        "por_que": [
+          "Altamente personalizable para empresas de e-commerce.",
+          "Flujos de trabajo automatizables."
+        ],
+        "url": "https://www.uvdesk.com/",
+        "icono": "src/data/logos/uvdesk.png"
+      }
+    ]
+  },
+  "jetbrains.com/webstorm": {
+    "privativo": "WebStorm",
+    "alternativas": [
+      {
+        "nombre": "VSCodium",
+        "licencia": "MIT",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Versión comunitaria de Visual Studio Code sin telemetría ni rastreo de Microsoft.",
+        "por_que": [
+          "Soporta las mismas extensiones de desarrollo web que VS Code.",
+          "Privacidad garantizada."
+        ],
+        "url": "https://vscodium.com/",
+        "icono": "src/data/logos/vscodium.png"
+      },
+      {
+        "nombre": "Brackets",
+        "licencia": "MIT",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Editor de texto moderno, enfocado en el desarrollo web y diseño visual.",
+        "por_que": [
+          "Extracción de diseño directo desde archivos PSD.",
+          "Live Preview nativo en el navegador."
+        ],
+        "url": "https://brackets.io/",
+        "icono": "src/data/logos/brackets.png"
+      }
+    ]
+  },
+  "cisco.com/c/en/us/products/security/anyconnect": {
+    "privativo": "Cisco AnyConnect",
+    "alternativas": [
+      {
+        "nombre": "OpenConnect",
+        "licencia": "LGPLv2",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Cliente VPN de código abierto compatible con pasarelas comerciales.",
+        "por_que": [
+          "Te permite conectar a redes corporativas de Cisco sin usar su software propietario.",
+          "Ligero."
+        ],
+        "url": "https://www.infradead.org/openconnect/",
+        "icono": "src/data/logos/openconnect.png"
+      },
+      {
+        "nombre": "Pritunl",
+        "licencia": "GPLv2",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor",
+          "Clientes"
+        ],
+        "descripcion": "Servidor VPN empresarial de código abierto basado en OpenVPN/WireGuard.",
+        "por_que": [
+          "Interfaz web de administración excelente.",
+          "Autenticación SSO para empleados."
+        ],
+        "url": "https://pritunl.com/",
+        "icono": "src/data/logos/pritunl.png"
+      }
+    ]
+  },
+  "balsamiq.com": {
+    "privativo": "Balsamiq Wireframes",
+    "alternativas": [
+      {
+        "nombre": "Pencil Project",
+        "licencia": "GPLv2",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Herramienta de prototipado de interfaces (GUI) que genera bocetos rápidamente.",
+        "por_que": [
+          "Plantillas integradas para Android e iOS.",
+          "Funcionamiento 100% offline."
+        ],
+        "url": "https://pencil.evolus.vn/",
+        "icono": "src/data/logos/pencil_project.png"
+      },
+      {
+        "nombre": "Quant-UX",
+        "licencia": "MIT",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Herramienta de diseño y testeo de usabilidad visual.",
+        "por_que": [
+          "No solo dibujas la app, sino que puedes grabar cómo la usa el usuario (Heatmaps).",
+          "Totalmente libre."
+        ],
+        "url": "https://quant-ux.com/",
+        "icono": "src/data/logos/quant-ux.png"
+      }
+    ]
+  },
+  "mathworks.com/products/simulink": {
+    "privativo": "Simulink",
+    "alternativas": [
+      {
+        "nombre": "Xcos (Scilab)",
+        "licencia": "GPL compatible",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Editor gráfico para el modelado y simulación de sistemas dinámicos (parte de Scilab).",
+        "por_que": [
+          "Reemplazo directo para Simulink en ingeniería.",
+          "Gran biblioteca de bloques estándar."
+        ],
+        "url": "https://www.scilab.org/software/xcos",
+        "icono": "src/data/logos/xcos_(scilab).png"
+      },
+      {
+        "nombre": "OpenModelica",
+        "licencia": "OSMC-PL / GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Entorno de modelado y simulación de sistemas físicos complejos.",
+        "por_que": [
+          "Basado en el lenguaje abierto Modelica.",
+          "Excelente para sistemas mecánicos, eléctricos y térmicos cruzados."
+        ],
+        "url": "https://openmodelica.org/",
+        "icono": "src/data/logos/openmodelica.png"
+      }
+    ]
+  },
+  "paloaltonetworks.com": {
+    "privativo": "Palo Alto Networks (Firewall)",
+    "alternativas": [
+      {
+        "nombre": "pfSense",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "FreeBSD"
+        ],
+        "descripcion": "Distribución de red que transforma cualquier PC en un cortafuegos/router empresarial.",
+        "por_que": [
+          "Gestión mediante interfaz web.",
+          "Maneja VPN, QoS e IDS/IPS sin problemas de rendimiento."
+        ],
+        "url": "https://www.pfsense.org/",
+        "icono": "src/data/logos/pfsense.png"
+      },
+      {
+        "nombre": "OPNsense",
+        "licencia": "BSD",
+        "estrellas": "4.8",
+        "plataformas": [
+          "FreeBSD"
+        ],
+        "descripcion": "Fork de pfSense centrado en la seguridad y un código más limpio.",
+        "por_que": [
+          "Actualizaciones de seguridad más regulares.",
+          "Soporte excelente de plugins (Suricata, Squid)."
+        ],
+        "url": "https://opnsense.org/",
+        "icono": "src/data/logos/opnsense.png"
+      }
+    ]
   }
 }
