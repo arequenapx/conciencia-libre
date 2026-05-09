@@ -5774,5 +5774,749 @@
         "icono": "src/data/logos/selenoid.png"
       }
     ]
+  },
+  "jetbrains.com/pycharm": {
+    "privativo": "PyCharm Professional",
+    "alternativas": [
+      {
+        "nombre": "Spyder",
+        "licencia": "MIT",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "El entorno de desarrollo científico interactivo escrito en Python.",
+        "por_que": [
+          "Explorador de variables avanzado integrado.",
+          "Integración nativa con Pandas y NumPy."
+        ],
+        "url": "https://www.spyder-ide.org/",
+        "icono": "src/data/logos/spyder.png"
+      },
+      {
+        "nombre": "JupyterLab",
+        "licencia": "BSD",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Entorno de desarrollo interactivo web para notebooks, código y datos.",
+        "por_que": [
+          "Estándar de facto en Data Science.",
+          "Extensible y permite ejecución por bloques."
+        ],
+        "url": "https://jupyter.org/",
+        "icono": "src/data/logos/jupyterlab.png"
+      }
+    ]
+  },
+  "citrix.com": {
+    "privativo": "Citrix Workspace",
+    "alternativas": [
+      {
+        "nombre": "Apache Guacamole",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor",
+          "Web"
+        ],
+        "descripcion": "Pasarela de escritorio remoto sin cliente nativo (funciona en el navegador).",
+        "por_que": [
+          "Soporta protocolos estándar como VNC, RDP y SSH.",
+          "No requiere instalar nada en el PC del usuario."
+        ],
+        "url": "https://guacamole.apache.org/",
+        "icono": "src/data/logos/apache_guacamole.png"
+      },
+      {
+        "nombre": "X2Go",
+        "licencia": "GPLv2",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Software de escritorio remoto para Linux que usa tecnología NX.",
+        "por_que": [
+          "Rendimiento excelente incluso en conexiones de bajo ancho de banda.",
+          "Audio soportado out-of-the-box."
+        ],
+        "url": "https://wiki.x2go.org/",
+        "icono": "src/data/logos/x2go.png"
+      }
+    ]
+  },
+  "databricks.com": {
+    "privativo": "Databricks",
+    "alternativas": [
+      {
+        "nombre": "Apache Spark",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Motor analítico unificado para el procesamiento de datos a gran escala.",
+        "por_que": [
+          "La tecnología base en la que se inspira Databricks.",
+          "Soporte nativo para SQL, streaming y machine learning."
+        ],
+        "url": "https://spark.apache.org/",
+        "icono": "src/data/logos/apache_spark.png"
+      },
+      {
+        "nombre": "Ray",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Linux",
+          "Mac"
+        ],
+        "descripcion": "Framework unificado para escalar aplicaciones de Inteligencia Artificial y Python.",
+        "por_que": [
+          "Usado por OpenAI para entrenar ChatGPT.",
+          "Escalado de computación distribuida increíblemente simple."
+        ],
+        "url": "https://www.ray.io/",
+        "icono": "src/data/logos/ray.png"
+      }
+    ]
+  },
+  "sas.com": {
+    "privativo": "SAS (Statistical Analysis System)",
+    "alternativas": [
+      {
+        "nombre": "R (R-Project)",
+        "licencia": "GPLv2",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Entorno de software libre para computación estadística y gráficos.",
+        "por_que": [
+          "Inmenso repositorio de paquetes (CRAN).",
+          "El estándar en investigación académica y bioestadística."
+        ],
+        "url": "https://www.r-project.org/",
+        "icono": "src/data/logos/r_(r-project).png"
+      },
+      {
+        "nombre": "JASP",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Programa estadístico con una interfaz amigable (similar a SPSS/SAS).",
+        "por_que": [
+          "Soporte de estadística frecuentista y bayesiana.",
+          "Desarrollado por la Universidad de Ámsterdam."
+        ],
+        "url": "https://jasp-stats.org/",
+        "icono": "src/data/logos/jasp.png"
+      }
+    ]
+  },
+  "confluent.io": {
+    "privativo": "Confluent Platform",
+    "alternativas": [
+      {
+        "nombre": "Apache Kafka",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Plataforma de streaming de eventos distribuidos de código abierto.",
+        "por_que": [
+          "Maneja billones de eventos al día.",
+          "Tolerancia a fallos y escalabilidad extremas."
+        ],
+        "url": "https://kafka.apache.org/",
+        "icono": "src/data/logos/apache_kafka.png"
+      },
+      {
+        "nombre": "Redpanda",
+        "licencia": "BSL / GPL (Redpanda Community)",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Alternativa a Kafka compatible con su API, pero mucho más rápida.",
+        "por_que": [
+          "Escrito en C++, no requiere la Máquina Virtual de Java (JVM) ni ZooKeeper.",
+          "Menor latencia."
+        ],
+        "url": "https://redpanda.com/",
+        "icono": "src/data/logos/redpanda.png"
+      }
+    ]
+  },
+  "snowflake.com": {
+    "privativo": "Snowflake",
+    "alternativas": [
+      {
+        "nombre": "ClickHouse",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Sistema de gestión de bases de datos orientada a columnas ultrarrápido para OLAP.",
+        "por_que": [
+          "Rendimiento de lectura de datos cientos de veces superior a bases de datos tradicionales.",
+          "Consultas SQL analíticas en tiempo real."
+        ],
+        "url": "https://clickhouse.com/",
+        "icono": "src/data/logos/clickhouse.png"
+      },
+      {
+        "nombre": "Apache Doris",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Base de datos analítica en tiempo real basada en MPP.",
+        "por_que": [
+          "Arquitectura extremadamente simple.",
+          "Excelente soporte para consultas de alta concurrencia."
+        ],
+        "url": "https://doris.apache.org/",
+        "icono": "src/data/logos/apache_doris.png"
+      }
+    ]
+  },
+  "mongodb.com": {
+    "privativo": "MongoDB Atlas",
+    "alternativas": [
+      {
+        "nombre": "FerretDB",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor",
+          "Docker"
+        ],
+        "descripcion": "Alternativa verdaderamente open-source a MongoDB, que utiliza PostgreSQL como backend.",
+        "por_que": [
+          "Compatible con los drivers de MongoDB, pero sin su licencia restrictiva (SSPL).",
+          "Aprovecha la robustez de Postgres."
+        ],
+        "url": "https://www.ferretdb.io/",
+        "icono": "src/data/logos/ferretdb.png"
+      },
+      {
+        "nombre": "CouchDB",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Base de datos NoSQL que usa JSON para documentos y HTTP para APIs.",
+        "por_que": [
+          "Sincronización multi-maestro (Offline First) perfecta para apps móviles.",
+          "Totalmente libre."
+        ],
+        "url": "https://couchdb.apache.org/",
+        "icono": "src/data/logos/couchdb.png"
+      }
+    ]
+  },
+  "elastic.co": {
+    "privativo": "Elasticsearch (Comercial)",
+    "alternativas": [
+      {
+        "nombre": "OpenSearch",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Fork de Elasticsearch de código abierto 100% libre, impulsado por AWS.",
+        "por_que": [
+          "Garantiza que siempre será open-source tras el cambio de licencia de Elastic.",
+          "Incluye paneles analíticos (OpenSearch Dashboards)."
+        ],
+        "url": "https://opensearch.org/",
+        "icono": "src/data/logos/opensearch.png"
+      },
+      {
+        "nombre": "Quickwit",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Motor de búsqueda diseñado para Big Data y almacenamiento en objetos (S3).",
+        "por_que": [
+          "Mucho más barato de operar que Elasticsearch.",
+          "Escrito en Rust."
+        ],
+        "url": "https://quickwit.io/",
+        "icono": "src/data/logos/quickwit.png"
+      }
+    ]
+  },
+  "redis.com": {
+    "privativo": "Redis (Reciente cambio a BSL)",
+    "alternativas": [
+      {
+        "nombre": "Valkey",
+        "licencia": "BSD",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Fork de alto rendimiento y código abierto de Redis impulsado por la Linux Foundation.",
+        "por_que": [
+          "Reemplazo directo para evitar las nuevas restricciones comerciales de Redis Inc.",
+          "Soportado por AWS y Google."
+        ],
+        "url": "https://valkey.io/",
+        "icono": "src/data/logos/valkey.png"
+      },
+      {
+        "nombre": "Garnet",
+        "licencia": "MIT",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Caché de datos ultrarrápida desarrollada por Microsoft Research.",
+        "por_que": [
+          "Compatible con el protocolo Redis.",
+          "Escrito en C#, supera en rendimiento a Redis tradicional en ciertas cargas."
+        ],
+        "url": "https://microsoft.github.io/garnet/",
+        "icono": "src/data/logos/garnet.png"
+      }
+    ]
+  },
+  "hashicorp.com/products/terraform": {
+    "privativo": "Terraform (Reciente cambio a BSL)",
+    "alternativas": [
+      {
+        "nombre": "OpenTofu",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "CLI",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Fork directo de Terraform gestionado por la comunidad y la Linux Foundation.",
+        "por_que": [
+          "Reemplazo transparente 'drop-in'.",
+          "Garantía de código abierto a largo plazo tras la privatización de HashiCorp."
+        ],
+        "url": "https://opentofu.org/",
+        "icono": "src/data/logos/opentofu.png"
+      },
+      {
+        "nombre": "Pulumi",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "CLI",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Infraestructura como código usando lenguajes de programación reales (Python, TypeScript, Go).",
+        "por_que": [
+          "No tienes que aprender el lenguaje HCL de HashiCorp.",
+          "Mayor flexibilidad para desarrolladores."
+        ],
+        "url": "https://www.pulumi.com/",
+        "icono": "src/data/logos/pulumi.png"
+      }
+    ]
+  },
+  "hashicorp.com/products/vault": {
+    "privativo": "HashiCorp Vault",
+    "alternativas": [
+      {
+        "nombre": "Infisical",
+        "licencia": "MIT",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor",
+          "CLI"
+        ],
+        "descripcion": "Plataforma de gestión de secretos moderna de código abierto.",
+        "por_que": [
+          "Sincronización de secretos en todos los entornos de desarrollo e infraestructuras.",
+          "Interfaz mucho más amigable."
+        ],
+        "url": "https://infisical.com/",
+        "icono": "src/data/logos/infisical.png"
+      },
+      {
+        "nombre": "SOPS (Secrets OPerationS)",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.7",
+        "plataformas": [
+          "CLI"
+        ],
+        "descripcion": "Editor de archivos cifrados de Mozilla.",
+        "por_que": [
+          "Cifra y descifra archivos de configuración automáticamente integrándose con Git.",
+          "Soporta AWS KMS, GCP KMS y PGP."
+        ],
+        "url": "https://github.com/getsops/sops",
+        "icono": "src/data/logos/sops_(secrets_operations).png"
+      }
+    ]
+  },
+  "docker.com/docker-hub": {
+    "privativo": "Docker Hub (Límites comerciales)",
+    "alternativas": [
+      {
+        "nombre": "Harbor",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Servidor",
+          "Docker"
+        ],
+        "descripcion": "Registro cloud-native de código abierto que asegura los artefactos de contenedores.",
+        "por_que": [
+          "Firma de imágenes y análisis de vulnerabilidades integrado.",
+          "Control de acceso basado en roles (RBAC)."
+        ],
+        "url": "https://goharbor.io/",
+        "icono": "src/data/logos/harbor.png"
+      },
+      {
+        "nombre": "Quay",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Registro de imágenes de contenedores altamente escalable mantenido por Red Hat.",
+        "por_que": [
+          "Construcción automática de imágenes desde repositorios Git.",
+          "Ecosistema empresarial."
+        ],
+        "url": "https://www.projectquay.io/",
+        "icono": "src/data/logos/quay.png"
+      }
+    ]
+  },
+  "oracle.com/erp": {
+    "privativo": "Oracle ERP Cloud / NetSuite",
+    "alternativas": [
+      {
+        "nombre": "Odoo (Community)",
+        "licencia": "LGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Suite de aplicaciones empresariales integradas de código abierto.",
+        "por_que": [
+          "Aplicaciones modulares: instala solo lo que necesitas.",
+          "Comunidad gigante con miles de módulos extra."
+        ],
+        "url": "https://www.odoo.com/",
+        "icono": "src/data/logos/odoo_(community).png"
+      },
+      {
+        "nombre": "ERPNext",
+        "licencia": "GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Sistema de Planificación de Recursos Empresariales (ERP) completo y potente.",
+        "por_que": [
+          "No oculta funcionalidades básicas detrás de muros de pago.",
+          "Interfaz web moderna."
+        ],
+        "url": "https://erpnext.com/",
+        "icono": "src/data/logos/erpnext.png"
+      }
+    ]
+  },
+  "oracle.com/java": {
+    "privativo": "Oracle Java (JDK Comercial)",
+    "alternativas": [
+      {
+        "nombre": "Eclipse Temurin (Adoptium)",
+        "licencia": "GPLv2",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Binarios de OpenJDK de alta calidad, listos para la empresa y multiplataforma.",
+        "por_que": [
+          "Patrocinado por empresas como Google y Microsoft.",
+          "Reemplazo exacto del JDK de Oracle sin problemas de licencias."
+        ],
+        "url": "https://adoptium.net/",
+        "icono": "src/data/logos/eclipse_temurin_(adoptium).png"
+      },
+      {
+        "nombre": "Amazon Corretto",
+        "licencia": "GPLv2",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Distribución gratuita y lista para producción de OpenJDK de Amazon.",
+        "por_que": [
+          "Soporte a largo plazo (LTS) gratuito.",
+          "Incluye parches de rendimiento adicionales."
+        ],
+        "url": "https://aws.amazon.com/corretto/",
+        "icono": "src/data/logos/amazon_corretto.png"
+      }
+    ]
+  },
+  "makemusic.com": {
+    "privativo": "Finale / Sibelius",
+    "alternativas": [
+      {
+        "nombre": "MuseScore",
+        "licencia": "GPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "El software de notación musical más popular del mundo.",
+        "por_que": [
+          "Interfaz intuitiva y resultados de impresión profesionales.",
+          "Recientemente adquirió un motor de sonido muy realista gratuito."
+        ],
+        "url": "https://musescore.org/",
+        "icono": "src/data/logos/musescore.png"
+      },
+      {
+        "nombre": "LilyPond",
+        "licencia": "GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Grabado musical automatizado basado en texto (compilación).",
+        "por_que": [
+          "Salida tipográfica musical de la más alta calidad existente.",
+          "Perfecto para compositores que prefieren el código al ratón."
+        ],
+        "url": "https://lilypond.org/",
+        "icono": "src/data/logos/lilypond.png"
+      }
+    ]
+  },
+  "avid.com/pro-tools": {
+    "privativo": "Avid Pro Tools",
+    "alternativas": [
+      {
+        "nombre": "Zrythm",
+        "licencia": "AGPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Estación de trabajo de audio digital (DAW) automatizable y moderna.",
+        "por_que": [
+          "Motor en C altamente optimizado.",
+          "Enfocado fuertemente en música electrónica y flujos de trabajo eficientes."
+        ],
+        "url": "https://www.zrythm.org/",
+        "icono": "src/data/logos/zrythm.png"
+      },
+      {
+        "nombre": "Qtractor",
+        "licencia": "GPLv2",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Linux"
+        ],
+        "descripcion": "Secuenciador multipista de Audio/MIDI y DAW completo.",
+        "por_que": [
+          "No depende de entornos de escritorio pesados.",
+          "Herramienta clave en estudios de producción libres en Linux."
+        ],
+        "url": "https://qtractor.org/",
+        "icono": "src/data/logos/qtractor.png"
+      }
+    ]
+  },
+  "crowdstrike.com": {
+    "privativo": "CrowdStrike Falcon",
+    "alternativas": [
+      {
+        "nombre": "OSSEC",
+        "licencia": "GPLv2",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Detección de intrusos basada en host (HIDS) líder del mercado.",
+        "por_que": [
+          "Monitoriza el registro, integridad de archivos y rootkits.",
+          "Cumplimiento normativo para servidores de datos."
+        ],
+        "url": "https://www.ossec.net/",
+        "icono": "src/data/logos/ossec.png"
+      },
+      {
+        "nombre": "Zeek (anteriormente Bro)",
+        "licencia": "BSD",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Linux",
+          "Mac"
+        ],
+        "descripcion": "Framework de análisis y monitorización de seguridad de red muy potente.",
+        "por_que": [
+          "No es un IDS tradicional, sino una plataforma que extrae semántica de los paquetes.",
+          "Estandar en la comunidad forense."
+        ],
+        "url": "https://zeek.org/",
+        "icono": "src/data/logos/zeek_(anteriormente_bro).png"
+      }
+    ]
+  },
+  "mural.co": {
+    "privativo": "Mural",
+    "alternativas": [
+      {
+        "nombre": "Spacedeck",
+        "licencia": "AGPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Espacio de trabajo visual web para reuniones y colaboración.",
+        "por_que": [
+          "Pizarra blanca multimedia donde puedes soltar vídeos, audios y documentos.",
+          "Privacidad total."
+        ],
+        "url": "https://spacedeck.com/",
+        "icono": "src/data/logos/spacedeck.png"
+      },
+      {
+        "nombre": "Excalidraw",
+        "licencia": "MIT",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "Herramienta de pizarra virtual con aspecto de dibujo a mano.",
+        "por_que": [
+          "Colaboración instantánea sin crear cuentas.",
+          "Cifrado E2EE por defecto."
+        ],
+        "url": "https://excalidraw.com/",
+        "icono": "src/data/logos/excalidraw.png"
+      }
+    ]
+  },
+  "vmware.com/products/vcenter-server": {
+    "privativo": "VMware vCenter",
+    "alternativas": [
+      {
+        "nombre": "oVirt",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Linux",
+          "Web"
+        ],
+        "descripcion": "Plataforma de gestión de virtualización empresarial basada en KVM.",
+        "por_que": [
+          "Patrocinado por Red Hat, forma la base de Red Hat Virtualization.",
+          "Migración en vivo y alta disponibilidad."
+        ],
+        "url": "https://ovirt.org/",
+        "icono": "src/data/logos/ovirt.png"
+      },
+      {
+        "nombre": "ManageIQ",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Plataforma de gestión Cloud híbrida.",
+        "por_que": [
+          "Te permite gestionar máquinas virtuales, contenedores y nubes públicas desde un solo panel.",
+          "Automatización avanzada."
+        ],
+        "url": "https://www.manageiq.org/",
+        "icono": "src/data/logos/manageiq.png"
+      }
+    ]
+  },
+  "pmi.org": {
+    "privativo": "Oracle Primavera P6 / MS Project",
+    "alternativas": [
+      {
+        "nombre": "ProjectLibre",
+        "licencia": "CPAL",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Reemplazo de código abierto para Microsoft Project, usado en más de 200 países.",
+        "por_que": [
+          "Abre archivos de MS Project y Primavera de forma nativa.",
+          "Gráficos de Gantt, PERT y RBS completos."
+        ],
+        "url": "https://www.projectlibre.com/",
+        "icono": "src/data/logos/projectlibre.png"
+      },
+      {
+        "nombre": "GanttProject",
+        "licencia": "GPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Aplicación de escritorio simple y potente para la planificación de proyectos.",
+        "por_que": [
+          "Interfaz limpia que no abruma al usuario.",
+          "Exportación directa a PDF y PNG para informes."
+        ],
+        "url": "https://www.ganttproject.biz/",
+        "icono": "src/data/logos/ganttproject.png"
+      }
+    ]
   }
 }
