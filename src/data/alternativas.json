@@ -494,6 +494,37 @@
         ],
         "url": "https://www.debian.org/",
         "icono": "src/data/logos/debian.png"
+      },
+      {
+        "nombre": "Fedora Linux",
+        "licencia": "GPL",
+        "estrellas": "4.8",
+        "plataformas": [
+          "PC",
+          "Servidor"
+        ],
+        "descripcion": "Sistema operativo de vanguardia impulsado por Red Hat.",
+        "por_que": [
+          "Tecnología puntera y limpia.",
+          "El estándar para desarrolladores de software libre."
+        ],
+        "url": "https://fedoraproject.org/",
+        "icono": "src/data/logos/fedora_linux.png"
+      },
+      {
+        "nombre": "Pop!_OS",
+        "licencia": "GPL",
+        "estrellas": "4.9",
+        "plataformas": [
+          "PC"
+        ],
+        "descripcion": "Distribución Linux optimizada para creadores y profesionales STEM.",
+        "por_que": [
+          "Gestión de ventanas en mosaico (tiling).",
+          "Soporte nativo excelente para tarjetas gráficas NVIDIA."
+        ],
+        "url": "https://pop.system76.com/",
+        "icono": "src/data/logos/pop!_os.png"
       }
     ]
   },
@@ -561,6 +592,40 @@
         ],
         "url": "https://www.chromium.org/",
         "icono": "src/data/logos/chromium.png"
+      },
+      {
+        "nombre": "Mullvad Browser",
+        "licencia": "MPL",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Navegador enfocado en la privacidad extrema, creado en colaboración con Tor.",
+        "por_que": [
+          "Previene el 'fingerprinting' (huella digital) de forma agresiva.",
+          "Sin telemetría."
+        ],
+        "url": "https://mullvad.net/en/browser",
+        "icono": "src/data/logos/mullvad_browser.png"
+      },
+      {
+        "nombre": "Waterfox",
+        "licencia": "MPL",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Navegador basado en Firefox que prioriza la privacidad y el rendimiento.",
+        "por_que": [
+          "No recopila datos de navegación.",
+          "Soporte para extensiones heredadas."
+        ],
+        "url": "https://www.waterfox.net/",
+        "icono": "src/data/logos/waterfox.png"
       }
     ]
   },
@@ -1055,6 +1120,39 @@
         ],
         "url": "https://about.gitlab.com/install/ce-or-ee/",
         "icono": "src/data/logos/gitlab_ce.png"
+      },
+      {
+        "nombre": "Gitea",
+        "licencia": "MIT",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Servidor",
+          "Docker"
+        ],
+        "descripcion": "Servicio Git autoalojado extremadamente rápido y ligero.",
+        "por_que": [
+          "Puede ejecutarse en hardware muy modesto (Raspberry Pi).",
+          "Interfaz casi idéntica a GitHub para curva de aprendizaje cero."
+        ],
+        "url": "https://gitea.io/",
+        "icono": "src/data/logos/gitea.png"
+      },
+      {
+        "nombre": "Radicle",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Red de colaboración de código descentralizada peer-to-peer.",
+        "por_que": [
+          "No hay servidores centrales que puedan cerrar o censurar tu código.",
+          "Usa criptografía asimétrica e IPFS."
+        ],
+        "url": "https://radicle.xyz/",
+        "icono": "src/data/logos/radicle.png"
       }
     ]
   },
@@ -2068,6 +2166,37 @@
         ],
         "url": "https://odysee.com/",
         "icono": "src/data/logos/lbry_/_odysee.png"
+      },
+      {
+        "nombre": "Invidious",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Interfaz alternativa y privada para YouTube.",
+        "por_que": [
+          "Permite ver YouTube sin anuncios y sin rastreo de Google.",
+          "Reproducción en segundo plano en móviles."
+        ],
+        "url": "https://invidious.io/",
+        "icono": "src/data/logos/invidious.png"
+      },
+      {
+        "nombre": "NewPipe",
+        "licencia": "GPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Android"
+        ],
+        "descripcion": "Cliente ligero de YouTube para Android centrado en la privacidad.",
+        "por_que": [
+          "Descarga de vídeos y audios.",
+          "Reproducción con la pantalla apagada (sin pagar Premium)."
+        ],
+        "url": "https://newpipe.net/",
+        "icono": "src/data/logos/newpipe.png"
       }
     ]
   },
@@ -3205,6 +3334,37 @@
         ],
         "url": "https://www.onlyoffice.com/",
         "icono": "src/data/logos/onlyoffice.png"
+      },
+      {
+        "nombre": "Collabora Online",
+        "licencia": "MPL 2.0",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Suite ofimática colaborativa en la nube basada en LibreOffice.",
+        "por_que": [
+          "Soberanía de datos: móntalo en tu propio servidor.",
+          "Edición en tiempo real entre múltiples usuarios."
+        ],
+        "url": "https://www.collaboraoffice.com/",
+        "icono": "src/data/logos/collabora_online.png"
+      },
+      {
+        "nombre": "CryptPad Docs",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "Editor de textos colaborativo con cifrado de conocimiento cero.",
+        "por_que": [
+          "Nadie (ni el proveedor) puede leer el contenido de tus documentos.",
+          "Privacidad absoluta."
+        ],
+        "url": "https://cryptpad.fr/",
+        "icono": "src/data/logos/cryptpad_docs.png"
       }
     ]
   },
@@ -6781,6 +6941,41 @@
         ],
         "url": "https://getsession.org/",
         "icono": "src/data/logos/session.png"
+      },
+      {
+        "nombre": "Delta Chat",
+        "licencia": "GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Android",
+          "iOS",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Mensajería estilo WhatsApp, pero funciona a través del correo electrónico.",
+        "por_que": [
+          "No requiere número de teléfono.",
+          "Descentralizado por naturaleza (usa servidores de email estándar)."
+        ],
+        "url": "https://delta.chat/",
+        "icono": "src/data/logos/delta_chat.png"
+      },
+      {
+        "nombre": "Briar",
+        "licencia": "GPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Android",
+          "Linux"
+        ],
+        "descripcion": "Mensajería peer-to-peer diseñada para activistas y periodistas.",
+        "por_que": [
+          "Funciona sin internet mediante Bluetooth o Wi-Fi local.",
+          "Usa la red Tor nativamente para ocultar IPs."
+        ],
+        "url": "https://briarproject.org/",
+        "icono": "src/data/logos/briar.png"
       }
     ]
   },
@@ -7267,6 +7462,377 @@
         ],
         "url": "https://joinplu.me/",
         "icono": "src/data/logos/plume.png"
+      }
+    ]
+  },
+  "tiktok.com": {
+    "privativo": "TikTok",
+    "alternativas": [
+      {
+        "nombre": "ProxiTok",
+        "licencia": "AGPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Interfaz alternativa y privada para TikTok.",
+        "por_que": [
+          "Evita el rastreo agresivo y la huella digital de ByteDance.",
+          "Visualización sin cuenta obligatoria."
+        ],
+        "url": "https://proxitok.pabloferreiro.es/",
+        "icono": "src/data/logos/proxitok.png"
+      },
+      {
+        "nombre": "FreeTube",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Reproductor de vídeo local diseñado para privacidad (útil también para YT Shorts).",
+        "por_que": [
+          "Cero rastreo corporativo.",
+          "Tus suscripciones se guardan localmente."
+        ],
+        "url": "https://freetubeapp.io/",
+        "icono": "src/data/logos/freetube.png"
+      }
+    ]
+  },
+  "instagram.com": {
+    "privativo": "Instagram",
+    "alternativas": [
+      {
+        "nombre": "Pixelfed",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Federada"
+        ],
+        "descripcion": "Plataforma para compartir fotos descentralizada, parte del Fediverso.",
+        "por_que": [
+          "Interfaz casi idéntica a Instagram pero sin publicidad.",
+          "No hay algoritmos manipuladores de feed."
+        ],
+        "url": "https://pixelfed.org/",
+        "icono": "src/data/logos/pixelfed.png"
+      },
+      {
+        "nombre": "Barinsta",
+        "licencia": "GPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Android"
+        ],
+        "descripcion": "Cliente alternativo de código abierto para leer Instagram.",
+        "por_que": [
+          "Permite ver posts y stories de forma anónima.",
+          "Elimina anuncios y contenido sugerido."
+        ],
+        "url": "https://f-droid.org/packages/me.austinhuang.instagrabber/",
+        "icono": "src/data/logos/barinsta.png"
+      }
+    ]
+  },
+  "mendeley.com": {
+    "privativo": "Mendeley",
+    "alternativas": [
+      {
+        "nombre": "Zotero",
+        "licencia": "AGPLv3",
+        "estrellas": "5.0",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "La herramienta indispensable para investigadores para recopilar y organizar citas.",
+        "por_que": [
+          "Completamente libre de Elsevier (propietarios de Mendeley).",
+          "Inmensa base de estilos de citación."
+        ],
+        "url": "https://www.zotero.org/",
+        "icono": "src/data/logos/zotero.png"
+      },
+      {
+        "nombre": "JabRef",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Gestor de referencias bibliográficas nativo de formato BibTeX.",
+        "por_que": [
+          "Integración perfecta con LaTeX y editores científicos.",
+          "Búsqueda avanzada de metadatos."
+        ],
+        "url": "https://www.jabref.org/",
+        "icono": "src/data/logos/jabref.png"
+      }
+    ]
+  },
+  "ccleaner.com": {
+    "privativo": "CCleaner",
+    "alternativas": [
+      {
+        "nombre": "BleachBit",
+        "licencia": "GPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Win",
+          "Linux"
+        ],
+        "descripcion": "Limpiador de espacio en disco y borrado seguro para proteger la privacidad.",
+        "por_que": [
+          "Destruye archivos para ocultar rastros (usado por Bruce Schneier).",
+          "Sin adware ni instaladores engañosos."
+        ],
+        "url": "https://www.bleachbit.org/",
+        "icono": "src/data/logos/bleachbit.png"
+      },
+      {
+        "nombre": "Stacer",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Linux"
+        ],
+        "descripcion": "Optimizador de sistema y monitorización para Linux.",
+        "por_que": [
+          "Interfaz visual moderna tipo panel de control.",
+          "Limpia cachés, gestiona servicios de arranque."
+        ],
+        "url": "https://github.com/oguzhaninan/Stacer",
+        "icono": "src/data/logos/stacer.png"
+      }
+    ]
+  },
+  "skype.com": {
+    "privativo": "Skype",
+    "alternativas": [
+      {
+        "nombre": "Tox",
+        "licencia": "GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Móvil"
+        ],
+        "descripcion": "Sistema de videollamadas y chat peer-to-peer seguro.",
+        "por_que": [
+          "Sin servidores centrales: imposible de interceptar.",
+          "Videollamadas cifradas de extremo a extremo."
+        ],
+        "url": "https://tox.chat/",
+        "icono": "src/data/logos/tox.png"
+      },
+      {
+        "nombre": "Wire",
+        "licencia": "GPLv3 (Cliente)",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Móvil"
+        ],
+        "descripcion": "Mensajería, voz y vídeo seguras diseñadas para el entorno laboral.",
+        "por_que": [
+          "Auditado de forma independiente.",
+          "Alta calidad de audio."
+        ],
+        "url": "https://wire.com/",
+        "icono": "src/data/logos/wire.png"
+      }
+    ]
+  },
+  "intercom.com": {
+    "privativo": "Intercom / Drift",
+    "alternativas": [
+      {
+        "nombre": "Papercups",
+        "licencia": "MIT",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Widget de chat de soporte para clientes en vivo de código abierto.",
+        "por_que": [
+          "Escrito en Elixir/React, muy personalizable.",
+          "Permite integrarlo en tu web sin cuotas mensuales."
+        ],
+        "url": "https://papercups.io/",
+        "icono": "src/data/logos/papercups.png"
+      },
+      {
+        "nombre": "Chatwoot",
+        "licencia": "MIT",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Plataforma omnicanal de soporte y live chat.",
+        "por_que": [
+          "Bandeja de entrada unificada para todos los canales de tu empresa.",
+          "Alternativa madura y estable."
+        ],
+        "url": "https://www.chatwoot.com/",
+        "icono": "src/data/logos/chatwoot.png"
+      }
+    ]
+  },
+  "hotjar.com": {
+    "privativo": "Hotjar",
+    "alternativas": [
+      {
+        "nombre": "PostHog",
+        "licencia": "MIT",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Servidor",
+          "Web"
+        ],
+        "descripcion": "Plataforma de análisis de producto todo en uno.",
+        "por_que": [
+          "Mapas de calor (Heatmaps) y grabación de sesiones.",
+          "Eres el dueño de los datos de comportamiento de tus usuarios."
+        ],
+        "url": "https://posthog.com/",
+        "icono": "src/data/logos/posthog.png"
+      },
+      {
+        "nombre": "OpenReplay",
+        "licencia": "Elastic / AGPL",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Herramienta de repetición de sesiones (session replay) orientada a desarrolladores.",
+        "por_que": [
+          "Permite ver exactamente qué error de JavaScript tuvo el usuario mientras navegaba.",
+          "Foco en depuración de UX."
+        ],
+        "url": "https://openreplay.com/",
+        "icono": "src/data/logos/openreplay.png"
+      }
+    ]
+  },
+  "vercel.com": {
+    "privativo": "Vercel / Netlify",
+    "alternativas": [
+      {
+        "nombre": "Coolify",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "La alternativa open-source y auto-alojable a Vercel.",
+        "por_que": [
+          "Despliega bases de datos, APIs y webs estáticas con un clic.",
+          "Ahorra miles de euros en facturas cloud."
+        ],
+        "url": "https://coolify.io/",
+        "icono": "src/data/logos/coolify.png"
+      },
+      {
+        "nombre": "CapRover",
+        "licencia": "MIT",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Servidor",
+          "Docker"
+        ],
+        "descripcion": "Plataforma PaaS que funciona sobre Docker Swarm.",
+        "por_que": [
+          "Curva de aprendizaje bajísima.",
+          "Despliegues automáticos desde repositorios de Git."
+        ],
+        "url": "https://caprover.com/",
+        "icono": "src/data/logos/caprover.png"
+      }
+    ]
+  },
+  "prezi.com": {
+    "privativo": "Prezi",
+    "alternativas": [
+      {
+        "nombre": "Sozi",
+        "licencia": "GPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Herramienta basada en el zoom para crear presentaciones dinámicas y animadas.",
+        "por_que": [
+          "Usa gráficos vectoriales SVG como lienzo infinito.",
+          "Alternativa visual directa a Prezi."
+        ],
+        "url": "https://sozi.baierouge.fr/",
+        "icono": "src/data/logos/sozi.png"
+      },
+      {
+        "nombre": "Impress.js",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "Framework de presentaciones basado en la potencia de CSS3 3D transforms.",
+        "por_que": [
+          "Presentaciones en espacio 3D que se ejecutan en cualquier navegador.",
+          "Solo requiere HTML/CSS."
+        ],
+        "url": "https://impress.js.org/",
+        "icono": "src/data/logos/impress.js.png"
+      }
+    ]
+  },
+  "shutterstock.com": {
+    "privativo": "Shutterstock / Getty Images",
+    "alternativas": [
+      {
+        "nombre": "Unsplash",
+        "licencia": "Unsplash License",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "Banco masivo de fotografías de alta resolución cedidas gratuitamente por creadores.",
+        "por_que": [
+          "Puedes usarlas libremente con fines comerciales.",
+          "Calidad artística excepcional."
+        ],
+        "url": "https://unsplash.com/",
+        "icono": "src/data/logos/unsplash.png"
+      },
+      {
+        "nombre": "Wikimedia Commons",
+        "licencia": "CC BY-SA / Dominio Público",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "El repositorio multimedia del movimiento Wikimedia.",
+        "por_que": [
+          "Más de 100 millones de imágenes, sonidos y vídeos de dominio público y licencias libres.",
+          "Totalmente auditable."
+        ],
+        "url": "https://commons.wikimedia.org/",
+        "icono": "src/data/logos/wikimedia_commons.png"
       }
     ]
   }
