@@ -4068,5 +4068,707 @@
         "url": "https://opnsense.org/"
       }
     ]
+  },
+  "aws.amazon.com": {
+    "privativo": "Amazon Web Services (AWS)",
+    "alternativas": [
+      {
+        "nombre": "OpenStack",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Plataforma de software libre para construir nubes públicas y privadas.",
+        "por_que": [
+          "Evita el bloqueo de proveedor (vendor lock-in) de Amazon.",
+          "Control total sobre tu hardware y datos."
+        ],
+        "url": "https://www.openstack.org/"
+      },
+      {
+        "nombre": "LocalStack",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Docker"
+        ],
+        "descripcion": "Emulador de la nube de AWS que se ejecuta en tu ordenador local.",
+        "por_que": [
+          "Desarrollo offline sin costes de AWS.",
+          "Pruebas de infraestructura rápidas."
+        ],
+        "url": "https://localstack.cloud/"
+      }
+    ]
+  },
+  "heroku.com": {
+    "privativo": "Heroku",
+    "alternativas": [
+      {
+        "nombre": "Dokku",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Linux"
+        ],
+        "descripcion": "Un PaaS (Platform as a Service) compatible con Heroku alojado en tu propio servidor.",
+        "por_que": [
+          "Usa los mismos buildpacks que Heroku.",
+          "Despliegues mágicos con un simple 'git push'."
+        ],
+        "url": "https://dokku.com/"
+      },
+      {
+        "nombre": "CapRover",
+        "licencia": "MIT",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Linux",
+          "Docker"
+        ],
+        "descripcion": "Plataforma de despliegue de aplicaciones extremadamente fácil de usar.",
+        "por_que": [
+          "Interfaz web intuitiva.",
+          "Despliegue de bases de datos y apps en 1 clic."
+        ],
+        "url": "https://caprover.com/"
+      }
+    ]
+  },
+  "wix.com": {
+    "privativo": "Wix / Squarespace",
+    "alternativas": [
+      {
+        "nombre": "WordPress.org",
+        "licencia": "GPLv2",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "El sistema de gestión de contenidos que impulsa más del 40% de internet.",
+        "por_que": [
+          "Miles de plugins y temas libres.",
+          "Eres el dueño absoluto de tu página web y tus textos."
+        ],
+        "url": "https://wordpress.org/"
+      },
+      {
+        "nombre": "Ghost",
+        "licencia": "MIT",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Plataforma de publicación moderna, ultrarrápida y orientada a creadores.",
+        "por_que": [
+          "Construido en Node.js (muy rápido).",
+          "Suscripciones de pago y newsletters integradas sin comisiones."
+        ],
+        "url": "https://ghost.org/"
+      }
+    ]
+  },
+  "powerbi.microsoft.com": {
+    "privativo": "Microsoft Power BI",
+    "alternativas": [
+      {
+        "nombre": "Redash",
+        "licencia": "BSD",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Servidor",
+          "Docker"
+        ],
+        "descripcion": "Conecta y consulta tus bases de datos, crea paneles visuales y compártelos.",
+        "por_que": [
+          "Excelente soporte para consultas SQL directas.",
+          "Soporta decenas de orígenes de datos."
+        ],
+        "url": "https://redash.io/"
+      },
+      {
+        "nombre": "Lightdash",
+        "licencia": "MIT",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Servidor"
+        ],
+        "descripcion": "Alternativa moderna construida nativamente sobre dbt (Data Build Tool).",
+        "por_que": [
+          "Convierte tus proyectos dbt en paneles interactivos.",
+          "Todo el panel de BI se guarda como código."
+        ],
+        "url": "https://www.lightdash.com/"
+      }
+    ]
+  },
+  "translate.google.com": {
+    "privativo": "Google Translate",
+    "alternativas": [
+      {
+        "nombre": "Apertium",
+        "licencia": "GPLv2",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Web",
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Plataforma de traducción automática basada en reglas y software libre.",
+        "por_que": [
+          "Especialmente bueno para lenguas minoritarias (ej. catalán, euskera, gallego).",
+          "Privacidad total."
+        ],
+        "url": "https://www.apertium.org/"
+      },
+      {
+        "nombre": "LibreTranslate",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "API de traducción automática de código abierto impulsada por IA (Argos Translate).",
+        "por_que": [
+          "No depende de Google ni Microsoft.",
+          "Puedes alojarlo tú mismo y traducir offline."
+        ],
+        "url": "https://libretranslate.com/"
+      }
+    ]
+  },
+  "google.com/maps": {
+    "privativo": "Google Maps",
+    "alternativas": [
+      {
+        "nombre": "OpenStreetMap (OSM)",
+        "licencia": "ODbL",
+        "estrellas": "5.0",
+        "plataformas": [
+          "Web",
+          "Móvil"
+        ],
+        "descripcion": "El mapa del mundo libre y editable, construido por la comunidad.",
+        "por_que": [
+          "Datos geográficos libres para cualquier uso.",
+          "Más detallado que Google Maps en muchas rutas rurales."
+        ],
+        "url": "https://www.openstreetmap.org/"
+      },
+      {
+        "nombre": "Organic Maps",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Android",
+          "iOS"
+        ],
+        "descripcion": "Aplicación de mapas offline rápida y detallada para viajeros.",
+        "por_que": [
+          "Sin rastreo, sin anuncios y no requiere conexión a internet.",
+          "Utiliza los datos de OpenStreetMap."
+        ],
+        "url": "https://organicmaps.app/"
+      }
+    ]
+  },
+  "microsoft.com/edge": {
+    "privativo": "Microsoft Edge",
+    "alternativas": [
+      {
+        "nombre": "Brave Browser",
+        "licencia": "MPL",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Navegador web rápido y seguro que bloquea anuncios y rastreadores por defecto.",
+        "por_que": [
+          "Basado en Chromium pero desvinculado de Google.",
+          "Recompensas opcionales en criptomonedas."
+        ],
+        "url": "https://brave.com/"
+      },
+      {
+        "nombre": "Ungoogled Chromium",
+        "licencia": "BSD",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "El navegador Chromium puro, despojado de toda dependencia de los servicios web de Google.",
+        "por_que": [
+          "La experiencia más limpia y privada posible con el motor Blink.",
+          "Sin telemetría oculta."
+        ],
+        "url": "https://github.com/ungoogled-software/ungoogled-chromium"
+      }
+    ]
+  },
+  "mcafee.com": {
+    "privativo": "McAfee / Norton Antivirus",
+    "alternativas": [
+      {
+        "nombre": "ClamAV",
+        "licencia": "GPLv2",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Motor antivirus de código abierto diseñado para la detección de troyanos y malware.",
+        "por_que": [
+          "Estándar en servidores de correo para escanear adjuntos.",
+          "Ligero y auditable."
+        ],
+        "url": "https://www.clamav.net/"
+      },
+      {
+        "nombre": "Wazuh",
+        "licencia": "GPLv2",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Servidor",
+          "Agentes"
+        ],
+        "descripcion": "Plataforma de seguridad XDR y SIEM de código abierto.",
+        "por_que": [
+          "Protección avanzada de endpoints empresariales.",
+          "Detección de intrusos y vulnerabilidades en tiempo real."
+        ],
+        "url": "https://wazuh.com/"
+      }
+    ]
+  },
+  "roamresearch.com": {
+    "privativo": "Roam Research",
+    "alternativas": [
+      {
+        "nombre": "Logseq",
+        "licencia": "AGPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Móvil"
+        ],
+        "descripcion": "Base de conocimiento local basada en nodos y enfocada en la privacidad.",
+        "por_que": [
+          "Tus notas son archivos Markdown locales.",
+          "Gráfico de conocimiento interactivo."
+        ],
+        "url": "https://logseq.com/"
+      },
+      {
+        "nombre": "Trilium Notes",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux",
+          "Self-hosted"
+        ],
+        "descripcion": "Aplicación jerárquica para la construcción de bases de conocimiento personales grandes.",
+        "por_que": [
+          "Sistema de notas profundamente anidables.",
+          "Cifrado potente y scripts de automatización integrados."
+        ],
+        "url": "https://github.com/zadam/trilium"
+      }
+    ]
+  },
+  "soundcloud.com": {
+    "privativo": "SoundCloud",
+    "alternativas": [
+      {
+        "nombre": "Funkwhale",
+        "licencia": "AGPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Web",
+          "Federada"
+        ],
+        "descripcion": "Plataforma de alojamiento y descubrimiento de audio descentralizada.",
+        "por_que": [
+          "Parte del Fediverso (interconectable con Mastodon).",
+          "Cero publicidad y control total de tus audios."
+        ],
+        "url": "https://funkwhale.audio/"
+      },
+      {
+        "nombre": "Koel",
+        "licencia": "MIT",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Servidor de streaming de audio personal escrito en Vue y Laravel.",
+        "por_que": [
+          "Convierte tu servidor en un Spotify personal.",
+          "Interfaz web moderna y limpia."
+        ],
+        "url": "https://koel.dev/"
+      }
+    ]
+  },
+  "goodreads.com": {
+    "privativo": "Goodreads",
+    "alternativas": [
+      {
+        "nombre": "BookWyrm",
+        "licencia": "Anti-Capitalist Software License",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Federada"
+        ],
+        "descripcion": "Red social para el seguimiento y revisión de libros de forma federada.",
+        "por_que": [
+          "Sin algoritmos impulsados por ventas de Amazon.",
+          "Importación fácil desde Goodreads."
+        ],
+        "url": "https://joinbookwyrm.com/"
+      },
+      {
+        "nombre": "Inventaire",
+        "licencia": "AGPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Web"
+        ],
+        "descripcion": "Plataforma para hacer inventario de tus libros y compartirlos con amigos.",
+        "por_que": [
+          "Mapea libros físicos para préstamo entre comunidades locales.",
+          "Datos bibliográficos abiertos."
+        ],
+        "url": "https://inventaire.io/"
+      }
+    ]
+  },
+  "forms.google.com": {
+    "privativo": "Google Forms",
+    "alternativas": [
+      {
+        "nombre": "CryptPad Forms",
+        "licencia": "AGPLv3",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Creador de encuestas y formularios con cifrado de extremo a extremo.",
+        "por_que": [
+          "Nadie, ni el servidor, puede leer las respuestas de tus encuestados.",
+          "Seguridad máxima."
+        ],
+        "url": "https://cryptpad.fr/"
+      },
+      {
+        "nombre": "KoBoToolbox",
+        "licencia": "GPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Web",
+          "Self-hosted"
+        ],
+        "descripcion": "Plataforma de recolección de datos robusta, usada por organizaciones humanitarias.",
+        "por_que": [
+          "Permite recolección de datos offline en zonas sin internet.",
+          "Lógica condicional compleja."
+        ],
+        "url": "https://www.kobotoolbox.org/"
+      }
+    ]
+  },
+  "microsoft.com/en-us/microsoft-365/outlook": {
+    "privativo": "Microsoft Outlook",
+    "alternativas": [
+      {
+        "nombre": "Thunderbird",
+        "licencia": "MPL",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Cliente de correo electrónico potente, seguro y altamente personalizable de Mozilla.",
+        "por_que": [
+          "Soporte PGP integrado.",
+          "Calendario, tareas y chat en la misma aplicación."
+        ],
+        "url": "https://www.thunderbird.net/"
+      },
+      {
+        "nombre": "Mailspring",
+        "licencia": "GPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Cliente de correo rápido y bonito con soporte unificado de bandejas de entrada.",
+        "por_que": [
+          "Interfaz muy moderna.",
+          "Soporta cuentas de Mac, Gmail, Office 365."
+        ],
+        "url": "https://getmailspring.com/"
+      }
+    ]
+  },
+  "photos.google.com": {
+    "privativo": "Google Photos",
+    "alternativas": [
+      {
+        "nombre": "Immich",
+        "licencia": "AGPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Self-hosted",
+          "iOS",
+          "Android"
+        ],
+        "descripcion": "Solución de respaldo de fotos autohospedada de altísimo rendimiento.",
+        "por_que": [
+          "Experiencia móvil casi idéntica a Google Photos.",
+          "IA integrada localmente para reconocimiento facial."
+        ],
+        "url": "https://immich.app/"
+      },
+      {
+        "nombre": "PhotoPrism",
+        "licencia": "AGPLv3",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "App de gestión de fotos basada en IA que se ejecuta en tu propio servidor.",
+        "por_que": [
+          "Clasifica fotos por colores, lugares y rostros sin enviar datos a la nube.",
+          "Compatible con WebDAV."
+        ],
+        "url": "https://photoprism.app/"
+      }
+    ]
+  },
+  "visualstudio.microsoft.com": {
+    "privativo": "Visual Studio (IDE)",
+    "alternativas": [
+      {
+        "nombre": "KDevelop",
+        "licencia": "GPLv2",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Entorno de desarrollo integrado potente para C, C++, Python y PHP.",
+        "por_que": [
+          "Análisis semántico de código profundo.",
+          "Excelente para proyectos muy grandes."
+        ],
+        "url": "https://www.kdevelop.org/"
+      },
+      {
+        "nombre": "Geany",
+        "licencia": "GPLv2",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Win",
+          "Mac",
+          "Linux"
+        ],
+        "descripcion": "Editor de texto avanzado con características básicas de un IDE.",
+        "por_que": [
+          "Extremadamente ligero y rápido.",
+          "Soporta decenas de lenguajes sin configuración pesada."
+        ],
+        "url": "https://www.geany.org/"
+      }
+    ]
+  },
+  "microsoft.com/en-us/microsoft-teams": {
+    "privativo": "Microsoft Teams",
+    "alternativas": [
+      {
+        "nombre": "Element / Matrix",
+        "licencia": "Apache 2.0",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "App de mensajería cifrada construida sobre la red abierta Matrix.",
+        "por_que": [
+          "Comunicaciones seguras y auditables.",
+          "Alternativa de nivel gubernamental a Teams y Slack."
+        ],
+        "url": "https://element.io/"
+      },
+      {
+        "nombre": "Jami",
+        "licencia": "GPLv3",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Plataforma de comunicación de audio, vídeo y chat verdaderamente peer-to-peer.",
+        "por_que": [
+          "No requiere servidores centrales, conecta dispositivos directamente.",
+          "Privacidad total."
+        ],
+        "url": "https://jami.net/"
+      }
+    ]
+  },
+  "dashlane.com": {
+    "privativo": "Dashlane",
+    "alternativas": [
+      {
+        "nombre": "Vaultwarden",
+        "licencia": "GPLv3",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Self-hosted",
+          "Docker"
+        ],
+        "descripcion": "Servidor compatible con Bitwarden, escrito en Rust para ser ultraligero.",
+        "por_que": [
+          "Permite tener tu propio servidor de contraseñas premium gratis.",
+          "Perfecto para NAS y Raspberry Pi."
+        ],
+        "url": "https://github.com/dani-garcia/vaultwarden"
+      },
+      {
+        "nombre": "Padloc",
+        "licencia": "AGPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Gestor de contraseñas muy visual y limpio, ideal para familias o equipos.",
+        "por_que": [
+          "Auditoría de seguridad transparente.",
+          "Diseño excepcionalmente intuitivo."
+        ],
+        "url": "https://padloc.app/"
+      }
+    ]
+  },
+  "netflix.com": {
+    "privativo": "Netflix / Amazon Prime",
+    "alternativas": [
+      {
+        "nombre": "Jellyfin",
+        "licencia": "GPLv2",
+        "estrellas": "4.9",
+        "plataformas": [
+          "Self-hosted",
+          "Todas"
+        ],
+        "descripcion": "El sistema multimedia voluntario y de código abierto sin agendas ocultas.",
+        "por_que": [
+          "Construye tu propio Netflix con tus películas.",
+          "Cero telemetría y sin funciones de pago."
+        ],
+        "url": "https://jellyfin.org/"
+      },
+      {
+        "nombre": "Kodi",
+        "licencia": "GPLv2",
+        "estrellas": "4.8",
+        "plataformas": [
+          "Todas"
+        ],
+        "descripcion": "Centro multimedia definitivo de código abierto para televisores y PCs.",
+        "por_que": [
+          "Soporte inmenso de add-ons.",
+          "Decodifica prácticamente cualquier formato de vídeo existente."
+        ],
+        "url": "https://kodi.tv/"
+      }
+    ]
+  },
+  "apple.com/icloud": {
+    "privativo": "Apple iCloud",
+    "alternativas": [
+      {
+        "nombre": "ownCloud",
+        "licencia": "AGPLv3",
+        "estrellas": "4.6",
+        "plataformas": [
+          "Self-hosted",
+          "Todas"
+        ],
+        "descripcion": "Software para alojar servicios de sincronización de archivos personales y empresariales.",
+        "por_que": [
+          "Altamente escalable.",
+          "Integración sólida con sistemas corporativos e identidad central."
+        ],
+        "url": "https://owncloud.com/"
+      },
+      {
+        "nombre": "Pydio Cells",
+        "licencia": "AGPLv3",
+        "estrellas": "4.5",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Sincronización de documentos moderna escrita en Go.",
+        "por_que": [
+          "Rendimiento extremo para el manejo de archivos enormes.",
+          "Gestión granular de permisos de usuario."
+        ],
+        "url": "https://pydio.com/"
+      }
+    ]
+  },
+  "sentry.io": {
+    "privativo": "Sentry (SaaS)",
+    "alternativas": [
+      {
+        "nombre": "GlitchTip",
+        "licencia": "MIT",
+        "estrellas": "4.7",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Seguimiento de errores de código abierto compatible con los SDK de Sentry.",
+        "por_que": [
+          "Recoge logs de errores de tu app gratis en tu servidor.",
+          "Ligero y enfocado."
+        ],
+        "url": "https://glitchtip.com/"
+      },
+      {
+        "nombre": "Errbit",
+        "licencia": "MIT",
+        "estrellas": "4.4",
+        "plataformas": [
+          "Self-hosted"
+        ],
+        "descripcion": "Atrapador de excepciones de código abierto compatible con la API de Airbrake.",
+        "por_que": [
+          "Mantén los datos de errores y excepciones críticos dentro de la empresa.",
+          "Comunidad activa."
+        ],
+        "url": "https://errbit.com/"
+      }
+    ]
   }
 }
