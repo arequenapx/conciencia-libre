@@ -13,7 +13,11 @@
           "Mac",
           "Linux"
         ],
-        "icono": "src/data/logos/gimp.png"
+        "icono": "src/data/logos/gimp.png",
+        "por_que": [
+          "Sin suscripciones mensuales abusivas (Adobe Creative Cloud).",
+          "Altamente personalizable mediante scripts y extensiones libres."
+        ]
       },
       {
         "nombre": "Krita",
@@ -26,7 +30,11 @@
           "Mac",
           "Linux"
         ],
-        "icono": "src/data/logos/krita.png"
+        "icono": "src/data/logos/krita.png",
+        "por_que": [
+          "Diseñado específicamente por y para ilustradores y artistas conceptuales.",
+          "Motor de pinceles avanzado sin requerir hardware restrictivo."
+        ]
       },
       {
         "nombre": "PhotoFlow",
