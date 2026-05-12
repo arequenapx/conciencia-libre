@@ -45,6 +45,7 @@ async function inyectarInterfaz(datos) {
                     ${datos.alternativas.map(alt => {
                         let dominio = "";
                         try { dominio = new URL(alt.url).hostname; } catch(e) {}
+                        
                         const imgSrc = alt.icono ? chrome.runtime.getURL(alt.icono) : '';
                         const fallbackImg = `https://www.google.com/s2/favicons?domain=${dominio}&sz=128`;
                         const imgHtml = `<img src="${imgSrc || fallbackImg}" style="width: 36px; height: 36px; border-radius: 8px; object-fit: contain; background: white; padding: 3px; margin-right: 12px;" onerror="this.onerror=null; this.src='${fallbackImg}';">`;
@@ -60,6 +61,11 @@ async function inyectarInterfaz(datos) {
                             </div>
                             <div style="font-size:12px; color:#94a3b8; margin-top: 8px;">⭐ ${alt.estrellas || 'N/A'} | 💻 ${(alt.plataformas || []).join(', ')}</div>
                             <p style="font-size:14px; color:#cbd5e1; margin-top: 12px; line-height: 1.4;">${alt.descripcion}</p>
+                            
+                            <ul class="cl-check-list">
+                                ${(alt.por_que || []).map(p => `<li>✓ ${p}</li>`).join('')}
+                            </ul>
+
                             <a href="${alt.url}" target="_blank" class="cl-btn-primario">Visitar Web Oficial</a>
                         </div>`;
                     }).join('')}
@@ -87,10 +93,20 @@ async function inyectarInterfaz(datos) {
 async function motor() {
     const state = await chrome.storage.local.get('enabled');
     if (state.enabled === false) return;
+    
     try {
-        const url = chrome.runtime.getURL('src/data/alternativas.json');
-        const res = await fetch(url);
-        const db = await res.json();
+        let db = null;
+        const storageData = await chrome.storage.local.get('db_remota');
+        
+        // 1. Prioriza la base de datos descargada de GitHub (si existe)
+        if (storageData.db_remota) {
+            db = storageData.db_remota;
+        } else {
+            // 2. Si no hay datos cacheados, lee el JSON local de la extensión
+            const url = chrome.runtime.getURL('src/data/alternativas.json');
+            const res = await fetch(url);
+            db = await res.json();
+        }
 
         const currentUrl = window.location.href.toLowerCase();
         for (const key in db) {
@@ -99,6 +115,8 @@ async function motor() {
                 break;
             }
         }
-    } catch (e) { console.error("CL Error:", e); }
+    } catch (e) { 
+        console.error("Conciencia Libre Error:", e); 
+    }
 }
 motor();
