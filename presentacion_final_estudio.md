@@ -137,7 +137,7 @@ El script `generar_bd.py` es el corazón de la base de conocimiento:
 ¿Preguntas sobre la implementación o la ética del proyecto?
 
 - **Autor:** Antonio José Requena Baena
-- **UCO:** [Software Libre y Compromiso Social](https://www.uco.es/softwarelibre)
+
 - **Código:** [Repositorio GitHub](https://github.com/arequenapx/conciencia-libre)
 
-![w:80](image_49ad05.png) ![w:80](logo.svg)
+![w:120](image_49ad05.png) ![w:80](logo.svg)

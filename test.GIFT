@@ -21,84 +21,86 @@
 //
 // - A continuación puedes ver un ejemplo de cuestionario de trabajo sobre GIT  
 
-$CATEGORY: $course$/Valor por defecto para Software Libre y Compromiso Social/GIT-PerezGarcia
+
+$CATEGORY: $course$/Valor por defecto para Software Libre y Compromiso Social/ConcienciaLibre-RequenaBaena
 
 // 1
-¿A qué se denomina Control de Versiones?{
-~%-50%A un software que permite hacer copias de respaldo (backups).
-=Es un aplicación o sistema que permite gestionar los cambios en documentos, programas o en cualquier otro repositorio de información.
-~%-50%Un sistema informático que alerta si una aplicación no está actualizada a su última versión.
-~%-50%Un demonio del sistema operativo que asegura que una aplicación usará la versión de la librería que necesita para funcionar.
+¿Cuál es el archivo fundamental que actúa como "pasaporte" de una extensión de navegador, definiendo su versión, permisos y los scripts que debe cargar?{
+~%-50%El archivo background.js.
+~%-50%El archivo index.html.
+=El Archivo manifest.json.
+~%-50%El archivo content.js.
 }
 
 // 2
-Que tipo de Arquitectura utiliza Git para almacenar el código:{
-~%-50%Local
-~%-50%Centralizada
-=Distribuida
-~%-50%Todas son correctas.
+En la arquitectura de una extensión web, ¿cuál es la función principal de los "Content Scripts" (como content.js)?{
+~%-50%Ejecutar tareas pesadas en segundo plano aunque el navegador esté cerrado.
+=Inyectarse y Ejecutarse directamente dentro de la página web que está visitando el usuario para interactuar con ella.
+~%-50%Controlar exclusivamente los permisos de descarga de archivos del navegador.
+~%-50%Almacenar la base de datos de contraseñas de forma cifrada.
 }
 
 // 3
-¿Cuál de las siguientes secciones es un componente de Git?{
-~%-50%Espacio de trabajo (working directory).
-~%-50%Área de preparación (staging area).
-~%-50%Directorio git o repositorio (repository).
-=Todas son correctas.
+Durante la creación de la extensión, ¿qué lenguaje se utilizó para desarrollar los scripts de automatización (auditoría de URLs, descarga de logos y deduplicación) y cuál es su licencia?{
+~%-50%Bash (Licencia MIT).
+~%-50%JavaScript (Licencia Apache 2.0).
+~%-50%C++ (Licencia BSD).
+=Python (Licencia PSF - Compatible con GPL).
 }
 
 // 4
-En Git, para separar el desarrollo estable de un proyecto del desarrollo de nuevas funcionalidades, necesitamos crear un o una:{
-=Rama o branch.
-~%-50%Etiqueta o tag.
-~%-50%Bifurcación o fork.
-~%-50%Ninguna es correcta.
+La extensión "Conciencia Libre" se ha licenciado bajo GPLv3. ¿Qué implicación directa tiene el concepto de "Copyleft Fuerte" de esta licencia?{
+=Garantiza que Cualquier modificación u obra derivada del código original deba distribuirse obligatoriamente bajo esa misma licencia libre.
+~%-50%Permite que una empresa tome el código, lo modifique y lo venda como software cerrado sin publicar los cambios.
+~%-50%Prohíbe estrictamente que la extensión sea utilizada en entornos corporativos o empresas.
+~%-50%Obliga a que el creador original reciba una compensación económica por cada descarga.
 }
 
 // 5
-¿Cómo se denomina en Git el acto de unir los cambios de una rama con otra?{
-=Fusión o merging.
-~%-50%Confirmación o commit.
-~%-50%Despliegue o checkout.
-~%-50%Ninguna es correcta.
+¿Por qué se eligió específicamente la versión 3 de la licencia GPL (GPLv3) en lugar de versiones anteriores para este proyecto?{
+~%-50%Porque es la única licencia que permite subir extensiones a la tienda de Mozilla Firefox.
+~%-50%Porque permite integrar código privativo dentro de la extensión sin problemas legales.
+=Porque Incluye protección explícita para los desarrolladores y usuarios frente a litigios y amenazas por patentes de software.
+~%-50%Porque reduce el tamaño de los archivos JavaScript al empaquetarlos.
 }
 
 // 6
-En Git, si queremos crear referencias a puntos concretos de la historia del proyecto, por ejemplo para numerar versiones, necesitamos crear un o una:{
-~%-50%Rama o branch.
-=Etiqueta o tag.
-~%-50%Bifurcación o fork.
-~%-50%Ninguna es correcta.
+En las fases de elaboración de la extensión, ¿cuál fue el propósito principal de la fase de "Arquitectura de Datos"?{
+=Crear un archivo JSON unificado y un sistema de actualización asíncrona desde GitHub para no obligar al usuario a reinstalar la extensión.
+~%-50%Comprimir las imágenes SVG para que ocupasen menos espacio en disco.
+~%-50%Traducir la interfaz de la extensión a múltiples idiomas.
+~%-50%Diseñar el logotipo principal de la herramienta usando gráficos vectoriales.
 }
 
 // 7
-¿Qué es Github?{
-~%-50%Es un cliente gráfico para administrar un repositorio Git que funciona bajo Gnome.
-=Una forja para proyectos controlados con Git.
-~%-50%Es un parámetro de git que se usa para fusionar ramas.
-~%-50%Es un dispositivo que permite centralizar el cableado de una red .
+¿Qué hace el "Background Script" (o Service Worker) en la extensión "Conciencia Libre"?{
+~%-50%Dibuja el banner visual y la lista de alternativas por encima de la página web del usuario.
+~%-50%Bloquea el acceso a las páginas web de software privativo cortando la conexión a internet.
+=Ejecuta tareas en segundo plano, como descargar y sincronizar la base de datos actualizada remotamente sin interrumpir la navegación.
+~%-50%Registra el historial de navegación del usuario y lo envía a un servidor central para generar estadísticas.
 }
 
 // 8
-Si vemos un proyecto en Github con el cual queremos colaborar necesitaremos hacer primero un o una:{
-~%-50%Rama o branch.
-~%-50%Etiqueta o tag.
-=Bifurcación o fork.
-~%-50%Ninguna es correcta.
+Para empaquetar la extensión y prepararla para su publicación, aislando dependencias y limpiando archivos innecesarios, se utilizaron scripts `.sh`. ¿En qué lenguaje o intérprete están basados?{
+~%-50%Ruby.
+=Bash / Shell Script.
+~%-50%PowerShell.
+~%-50%PHP.
 }
 
 // 9
-¿Cómo se llama el lenguaje de marcado más usado en Github para escribir documentación en un proyecto?{
-~%-50%XML
-~%-50%YAML
-~%-50%OpenDocument
-=Markdown
+¿Cómo gestiona la extensión el problema de la privacidad del usuario al detectar en qué página web está navegando?{
+~%-50%Envía la URL actual a un servidor privado mediante una conexión SSL para que el servidor compruebe si es privativa.
+~%-50%Guarda las URLs en un archivo de texto plano en el disco duro del usuario para ser auditadas posteriormente.
+=Toda la comprobación se realiza localmente en el navegador del usuario comparando la URL con la base de datos JSON descargada previamente.
+~%-50%Utiliza las cookies de terceros de Google para identificar el software privativo.
 }
 
 // 10
-Si queremos mandar un parche a un proyecto de Software Libre qué es lo que no debemos hacer:{
-~%-50%Abrir una nueva incidencia sin comprobar si ya hay una abierta hablando de lo mismo.
-~%-50%Escribir el código sin comprobar el estilo usado para escribir los nombres de las funciones, clases, etc.
-~%-50%Mandar el código sin informar de qué error se quiere corregir y qué hace el código.
-=Todas las anteriores son malas prácticas y debemos evitarlas.
+Durante la fase de automatización y enriquecimiento de datos, ¿qué medida de resiliencia se programó para asegurar que siempre se mostrara una imagen representativa en las alternativas libres?{
+~%-50%Se incluyeron todas las imágenes convertidas a texto en formato Base64 dentro del código fuente.
+=Se implementó una consulta dinámica hacia una API externa (Google Favicons) por si la imagen local no se encontraba.
+~%-50%Se obligó al usuario a subir manualmente el logo si este faltaba.
+~%-50%Si fallaba la descarga de la imagen, la alternativa libre se borraba automáticamente de la base de datos.
 }
+

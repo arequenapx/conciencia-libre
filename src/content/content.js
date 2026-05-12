@@ -43,8 +43,12 @@ async function inyectarInterfaz(datos) {
                 </div>
                 <div style="padding:20px; max-height: 80vh; overflow-y: auto;">
                     ${datos.alternativas.map(alt => {
+                        let dominio = "";
+                        try { dominio = new URL(alt.url).hostname; } catch(e) {}
                         const imgSrc = alt.icono ? chrome.runtime.getURL(alt.icono) : '';
-                        const imgHtml = alt.icono ? `<img src="${imgSrc}" style="width: 36px; height: 36px; border-radius: 8px; object-fit: contain; background: white; padding: 3px; margin-right: 12px;" onerror="this.style.display='none'">` : '';
+                        const fallbackImg = `https://www.google.com/s2/favicons?domain=${dominio}&sz=128`;
+                        const imgHtml = `<img src="${imgSrc || fallbackImg}" style="width: 36px; height: 36px; border-radius: 8px; object-fit: contain; background: white; padding: 3px; margin-right: 12px;" onerror="this.onerror=null; this.src='${fallbackImg}';">`;
+
                         return `
                         <div class="cl-card-alt">
                             <div style="display:flex; justify-content:space-between; align-items:center;">
@@ -52,13 +56,10 @@ async function inyectarInterfaz(datos) {
                                     ${imgHtml}
                                     <strong style="font-size:18px; color:#f8fafc;">${alt.nombre}</strong>
                                 </div>
-                                <span class="cl-badge">${alt.licencia}</span>
+                                <span class="cl-badge">${alt.licencia || 'Libre'}</span>
                             </div>
-                            <div style="font-size:12px; color:#94a3b8; margin-top: 8px;">⭐ ${alt.estrellas} | 💻 ${alt.plataformas.join(', ')}</div>
+                            <div style="font-size:12px; color:#94a3b8; margin-top: 8px;">⭐ ${alt.estrellas || 'N/A'} | 💻 ${(alt.plataformas || []).join(', ')}</div>
                             <p style="font-size:14px; color:#cbd5e1; margin-top: 12px; line-height: 1.4;">${alt.descripcion}</p>
-                            <ul class="cl-check-list">
-                                ${alt.por_que.map(p => `<li>✓ ${p}</li>`).join('')}
-                            </ul>
                             <a href="${alt.url}" target="_blank" class="cl-btn-primario">Visitar Web Oficial</a>
                         </div>`;
                     }).join('')}
@@ -67,7 +68,6 @@ async function inyectarInterfaz(datos) {
         </div>
     `;
 
-    // 🛡️ FIX PARA MOZILLA: Transformamos el HTML seguro usando DOMParser en lugar de innerHTML
     const parser = new DOMParser();
     const doc = parser.parseFromString(htmlString, 'text/html');
     const contenedor = document.createElement('div');
@@ -91,6 +91,7 @@ async function motor() {
         const url = chrome.runtime.getURL('src/data/alternativas.json');
         const res = await fetch(url);
         const db = await res.json();
+
         const currentUrl = window.location.href.toLowerCase();
         for (const key in db) {
             if (currentUrl.includes(key)) {

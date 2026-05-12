@@ -1,29 +1,73 @@
-# 🐧 Conciencia Libre
+# Conciencia Libre  
 
-> **"Tu libertad termina donde empieza el código que no puedes auditar."**
+**Conciencia Libre** es una extensión de navegador (Manifest V3) diseñada para fomentar la **soberanía tecnológica**. Su objetivo es informar a los usuarios sobre la presencia de software privativo durante su navegación y sugerir alternativas de **Software Libre y Código Abierto (FOSS)** de manera ética y no intrusiva.
 
-## 🎯 Objetivo de la Práctica
-Este proyecto nace en la **UCO (Universidad de Córdoba)** como una iniciativa práctica de **Divulgación y Promoción del Software Libre**. 
+> Este proyecto ha sido desarrollado como parte de las prácticas de **Software Libre y Compromiso Social** en la **Universidad de Córdoba (UCO)**.
 
-El objetivo fundamental es combatir el monopolio tecnológico y la inercia de los usuarios al consumir software privativo. En lugar de ser un simple repositorio o wiki pasiva, **Conciencia Libre actúa proactivamente en el momento de la decisión**: cuando un usuario navega por las páginas oficiales de programas propietarios (como Adobe, Microsoft o Autodesk), la extensión interviene de forma educada para mostrar alternativas de Código Abierto (FLOSS) viables, éticas y gratuitas.
+---
 
-## 🚀 Cómo Funciona (El Motor)
-La extensión opera bajo un estricto enfoque de **"Privacidad por Diseño" (Privacy by Design)**:
-1. **Detección Local:** Escucha la URL actual del navegador sin enviar tu historial a ningún servidor externo.
-2. **Inyección de Shadow DOM:** Si detecta la presencia de software privativo, inyecta una interfaz visual completamente aislada de la página anfitriona, garantizando que el diseño y CSS de la extensión nunca sea bloqueado ni corrompido por la web.
-3. **Base de Conocimiento Local:** Carga una base de datos pre-empaquetada y optimizada con las mejores alternativas libres, detallando sus licencias, plataformas compatibles y argumentos persuasivos de soberanía tecnológica.
+## Características Principales
 
-## 🛠️ Tecnologías Utilizadas
-Para mantener la coherencia con la filosofía del software libre, se ha evitado el uso de frameworks pesados o tecnologías propietarias:
-- **JavaScript Vanilla (ES6+):** Lógica rápida y ligera, cero dependencias.
-- **Manifest V3:** El estándar más moderno y seguro para extensiones de navegador.
-- **Shadow DOM API:** Aislamiento absoluto de componentes web.
-- **Python 3 (Bot Generador de Base de Datos):** Un script independiente de automatización que gestiona la base de conocimiento, extrae resoluciones, consume APIs de Favicons (Clearbit/Google) y descarga los logos para que la extensión funcione 100% offline.
-- **Bash Scripting:** Automatización integral del despliegue local y control de versiones.
+-  **Detección en Tiempo Real:** Identifica más de **201 plataformas y programas privativos** mientras navegas.
+-  **Alternativas Éticas:** Sugiere más de **422 alternativas libres** validadas.
+-  **Privacidad Primero:** La detección se realiza 100% en local. Tu historial de navegación nunca sale de tu ordenador.
+-  **Interfaz Resiliente:** Utiliza *Shadow DOM* para garantizar que el banner informativo se vea perfecto en cualquier sitio web sin interferir con el diseño original.
+-  **Base de Datos Dinámica:** Sincronización asíncrona con el repositorio central para recibir actualizaciones de software sin necesidad de reinstalar la extensión.
 
-## ⚖️ Licencia
-Este proyecto se distribuye bajo la licencia **GNU GPLv3**. 
-Eres libre de usar, estudiar, modificar y compartir este código. Cualquier trabajo derivado debe heredar esta misma libertad y mantenerse abierto.
+---
 
-## 🤝 Contribuir
-La base de conocimiento puede expandirse. Si conoces más software privativo y quieres aportar alternativas libres, eres bienvenido a modificar el archivo `scripts/generar_bd.py` y proponer un _Pull Request_ a este repositorio.
+## Tecnologías y Arquitectura
+
+El proyecto se apoya en tecnologías abiertas y procesos de automatización:
+
+- **Core de la Extensión:** JavaScript (ES6+), HTML5 y CSS3 bajo el estándar **Manifest V3**.
+- **Automatización (Scripts):** - **Python:** Auditoría de integridad de URLs, descarga de activos y gestión de la base de conocimiento.
+  - **Bash:** Automatización de flujos de trabajo, limpieza de repositorio y empaquetado.
+- **Infraestructura:** Git para control de versiones y GitHub como "backend" para la sincronización de datos.
+
+---
+
+##  Licencia
+
+Este proyecto está bajo la licencia **GNU General Public License v3.0 (GPLv3)**. 
+
+Elegimos GPLv3 porque:
+1.  Garantiza que el software siempre será libre (Copyleft).
+2.  Obliga a que cualquier mejora o derivado sea también compartido con la comunidad.
+3.  Protege a los usuarios y desarrolladores frente a amenazas de patentes de software.
+
+---
+
+##  Instalación para Desarrolladores
+
+Si deseas probar la extensión o colaborar en su desarrollo:
+
+1. **Clona el repositorio:**
+
+   git clone [https://github.com/arequenapx/conciencia-libre.git](https://github.com/arequenapx/conciencia-libre.git)
+
+Carga la extensión en el navegador:
+
+Abre Brave o Chrome y ve a brave://extensions/ o chrome://extensions/.
+
+Activa el Modo de desarrollador (esquina superior derecha).
+
+Haz clic en Cargar descomprimida (Load unpacked) y selecciona la carpeta del proyecto.
+
+En Firefox:
+
+Ve a about:debugging#/runtime/this-firefox.
+
+Haz clic en Cargar complemento temporalmente y selecciona el archivo manifest.json.
+
+📂 Estructura del Repositorio
+/src: Código fuente de la extensión (lógica, estilos y datos).
+
+/scripts: Herramientas en Python y Bash para el mantenimiento de la base de datos.
+
+/icons: Identidad visual de la extensión.
+
+fuente_datos.json: Base de conocimiento maestra del proyecto.
+
+👤 Autor
+Antonio José Requena Baena Ingeniería Informática - Universidad de Córdoba (UCO)
